@@ -20,7 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            "pub_node = first_py_pkg.pub_node:main",
+            "pub_node = first_py_pkg.ros2_simple_pub:main",
         ],
     },
 )

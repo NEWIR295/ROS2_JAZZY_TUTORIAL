@@ -8,7 +8,7 @@ from std_msgs.msg import String
 class publisher_node(Node):
     def __init__(self):
         #call Node Class Constructor
-        super().__init__('my 1st Publisher') #node name: my 1st Publisher  
+        super().__init__('my_1st_Publisher') #node name: my 1st Publisher  
         self.get_logger().info(' publisher node started')
         #create publisher with string type topic with queue = 10 (a buffer for every msg sent)
         self.node_pub = self.create_publisher(String, '/pub_topic',10)
