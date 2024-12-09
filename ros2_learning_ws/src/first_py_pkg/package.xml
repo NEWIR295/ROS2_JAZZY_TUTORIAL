@@ -3,9 +3,9 @@
 <package format="3">
   <name>first_py_pkg</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
-  <maintainer email="newir295@gmail.com">newir529</maintainer>
-  <license>TODO: License declaration</license>
+  <description>ROS2 Learning Phase</description>
+  <maintainer email="mohamed.mohamed0123@eng-st.cu.edu.eg">NEWIR</maintainer>
+  <license>BSD</license>
 
   <depend>rclpy</depend>
   <depend>std_msgs</depend>

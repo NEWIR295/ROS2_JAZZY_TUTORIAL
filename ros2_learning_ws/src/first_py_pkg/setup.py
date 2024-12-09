@@ -13,13 +13,14 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='newir529',
-    maintainer_email='newir295@gmail.com',
-    description='TODO: Package description',
-    license='TODO: License declaration',
+    maintainer='Newir',
+    maintainer_email='mohamed.mohamed0123@eng-st.cu.edu.eg',
+    description='ROS2 Learning Phase',
+    license='BSD',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            "pub_node = first_py_pkg.pub_node:main",
         ],
     },
 )
