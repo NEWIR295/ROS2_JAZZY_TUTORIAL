@@ -1,0 +1,11 @@
+package.xml
+setup.cfg
+setup.py
+first_py_pkg/__init__.py
+first_py_pkg.egg-info/PKG-INFO
+first_py_pkg.egg-info/SOURCES.txt
+first_py_pkg.egg-info/dependency_links.txt
+first_py_pkg.egg-info/requires.txt
+first_py_pkg.egg-info/top_level.txt
+first_py_pkg.egg-info/zip-safe
+resource/first_py_pkg
