@@ -1,0 +1,20 @@
+running develop
+running egg_info
+creating turtlesim_manipulation.egg-info
+writing turtlesim_manipulation.egg-info/PKG-INFO
+writing dependency_links to turtlesim_manipulation.egg-info/dependency_links.txt
+writing requirements to turtlesim_manipulation.egg-info/requires.txt
+writing top-level names to turtlesim_manipulation.egg-info/top_level.txt
+writing manifest file 'turtlesim_manipulation.egg-info/SOURCES.txt'
+reading manifest file 'turtlesim_manipulation.egg-info/SOURCES.txt'
+writing manifest file 'turtlesim_manipulation.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/turtlesim_manipulation/lib/python3.12/site-packages/turtlesim-manipulation.egg-link (link to .)
+
+Installed /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/turtlesim_manipulation
+running symlink_data
+creating /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/turtlesim_manipulation/share/ament_index
+creating /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/turtlesim_manipulation/share/ament_index/resource_index
+creating /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/turtlesim_manipulation/share/ament_index/resource_index/packages
+symbolically linking /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/turtlesim_manipulation/resource/turtlesim_manipulation -> /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/turtlesim_manipulation/share/ament_index/resource_index/packages
+symbolically linking /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/turtlesim_manipulation/package.xml -> /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/turtlesim_manipulation/share/turtlesim_manipulation

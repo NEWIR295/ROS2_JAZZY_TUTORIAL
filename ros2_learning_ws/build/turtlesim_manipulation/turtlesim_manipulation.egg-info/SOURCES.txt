@@ -1,0 +1,11 @@
+package.xml
+setup.cfg
+setup.py
+resource/turtlesim_manipulation
+turtlesim_manipulation/__init__.py
+turtlesim_manipulation.egg-info/PKG-INFO
+turtlesim_manipulation.egg-info/SOURCES.txt
+turtlesim_manipulation.egg-info/dependency_links.txt
+turtlesim_manipulation.egg-info/requires.txt
+turtlesim_manipulation.egg-info/top_level.txt
+turtlesim_manipulation.egg-info/zip-safe
