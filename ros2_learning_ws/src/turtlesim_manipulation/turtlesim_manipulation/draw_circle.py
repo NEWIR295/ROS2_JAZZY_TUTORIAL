@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 
-# Author: Mohamed Newir
-# File name: draw_circle.py
-# Project Description: Publisher node send Twist velocity over /turtle1/cmd_vel topic
-#                      to draw circles in Turtlesim
-
+"""
+Author: Mohamed Newir
+File name: draw_circle.py
+Project Description: Publisher node send Twist velocity over /turtle1/cmd_vel topic
+                      to draw circles in Turtlesim
+"""
 # used libraries
 import rclpy
 from rclpy.node import Node
@@ -31,7 +32,11 @@ class drawCircles(Node):
         msg.angular.z = 1.0
         self.cmd_vel_pub_.publish(msg) #publish msg data
     
-    #su
+    #subscriber callback
+    def pose_cb(self, pose_msg : Pose):
+        # view turtle location
+        self.get_logger().info(f"postion X: {pose_msg.x}, Y: {pose_msg.y}, theta: {pose_msg.theta}")
+    
     
         
 #main function
