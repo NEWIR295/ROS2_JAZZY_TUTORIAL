@@ -4,7 +4,8 @@
 Author: Mohamed Newir
 File name: draw_circle.py
 Project Description: Publisher node send Twist velocity over /turtle1/cmd_vel topic
-                      to draw circles in Turtlesim
+                      to draw circles in Turtlesim and subscribe to /turtle1/pose topic 
+                      to get turtle pose
 """
 # used libraries
 import rclpy

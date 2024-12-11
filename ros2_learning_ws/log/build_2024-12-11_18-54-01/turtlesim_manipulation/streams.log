@@ -1,0 +1,18 @@
+[2.236s] Invoking command in '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/turtlesim_manipulation': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/turtlesim_manipulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/turtlesim_manipulation/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/turtlesim_manipulation/build --no-deps symlink_data
+[2.886s] running develop
+[3.354s] running egg_info
+[3.374s] writing turtlesim_manipulation.egg-info/PKG-INFO
+[3.375s] writing dependency_links to turtlesim_manipulation.egg-info/dependency_links.txt
+[3.375s] writing entry points to turtlesim_manipulation.egg-info/entry_points.txt
+[3.375s] writing requirements to turtlesim_manipulation.egg-info/requires.txt
+[3.375s] writing top-level names to turtlesim_manipulation.egg-info/top_level.txt
+[3.484s] reading manifest file 'turtlesim_manipulation.egg-info/SOURCES.txt'
+[3.484s] writing manifest file 'turtlesim_manipulation.egg-info/SOURCES.txt'
+[3.511s] running build_ext
+[3.511s] Creating /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/turtlesim_manipulation/lib/python3.12/site-packages/turtlesim-manipulation.egg-link (link to .)
+[3.513s] Installing draw_circle script to /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/turtlesim_manipulation/lib/turtlesim_manipulation
+[3.513s] Installing traveler_turtle script to /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/turtlesim_manipulation/lib/turtlesim_manipulation
+[3.513s] 
+[3.513s] Installed /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/turtlesim_manipulation
+[3.513s] running symlink_data
+[3.608s] Invoked command in '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/turtlesim_manipulation' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/turtlesim_manipulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/turtlesim_manipulation/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/turtlesim_manipulation/build --no-deps symlink_data

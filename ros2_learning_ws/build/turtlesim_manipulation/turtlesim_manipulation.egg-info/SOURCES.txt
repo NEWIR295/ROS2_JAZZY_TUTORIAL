@@ -4,6 +4,7 @@ setup.py
 resource/turtlesim_manipulation
 turtlesim_manipulation/__init__.py
 turtlesim_manipulation/draw_circle.py
+turtlesim_manipulation/traveler_turtle.py
 turtlesim_manipulation.egg-info/PKG-INFO
 turtlesim_manipulation.egg-info/SOURCES.txt
 turtlesim_manipulation.egg-info/dependency_links.txt
