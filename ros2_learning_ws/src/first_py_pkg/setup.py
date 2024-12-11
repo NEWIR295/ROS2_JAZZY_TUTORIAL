@@ -22,6 +22,7 @@ setup(
         'console_scripts': [
             "pub_node = first_py_pkg.ros2_simple_pub:main",
             "sub_node = first_py_pkg.ros2_simple_sub:main",
+            "camera = first_py_pkg.camera:main",
 
         ],
     },
