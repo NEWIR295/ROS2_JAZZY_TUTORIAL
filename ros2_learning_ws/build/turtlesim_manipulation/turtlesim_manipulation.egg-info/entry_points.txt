@@ -1,0 +1,2 @@
+[console_scripts]
+draw_circle = turtlesim_manipulation.draw_circle:main

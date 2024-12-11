@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'draw_circle = turtlesim_manipulation.draw_circle:main'
         ],
     },
 )
