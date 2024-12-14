@@ -1,0 +1,47 @@
+[0.045s] Invoking command in '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/myFirst_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/turtlesim_manipulation:/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/first_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/myFirst_cpp_pkg -- -j8 -l8
+[0.084s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.513s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.565s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.584s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.607s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.631s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.735s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.742s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.823s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.982s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.037s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.169s] WARNING: Package name "myFirst_cpp_pkg" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[1.191s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.191s] -- Configured cppcheck include dirs: 
+[1.191s] -- Configured cppcheck exclude dirs and/or files: 
+[1.192s] -- Added test 'lint_cmake' to check CMake code style
+[1.193s] -- Added test 'uncrustify' to check C / C++ code style
+[1.193s] -- Configured uncrustify additional arguments: 
+[1.194s] -- Added test 'xmllint' to check XML markup files
+[1.196s] -- Configuring done (1.1s)
+[1.240s] -- Generating done (0.0s)
+[1.262s] -- Build files have been written to: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/myFirst_cpp_pkg
+[1.392s] [ 50%] [32mBuilding CXX object CMakeFiles/number_pub.dir/src/number_pub.cpp.o[0m
+[9.054s] [100%] [32m[1mLinking CXX executable number_pub[0m
+[9.464s] [100%] Built target number_pub
+[9.508s] Invoked command in '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/myFirst_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/turtlesim_manipulation:/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/first_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/myFirst_cpp_pkg -- -j8 -l8
+[9.545s] Invoking command in '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/myFirst_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/turtlesim_manipulation:/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/first_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/myFirst_cpp_pkg
+[9.575s] -- Install configuration: ""
+[9.576s] -- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/myFirst_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/myFirst_cpp_pkg
+[9.577s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/myFirst_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/myFirst_cpp_pkg
+[9.577s] -- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/myFirst_cpp_pkg/share/myFirst_cpp_pkg/environment/ament_prefix_path.sh
+[9.578s] -- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/myFirst_cpp_pkg/share/myFirst_cpp_pkg/environment/ament_prefix_path.dsv
+[9.578s] -- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/myFirst_cpp_pkg/share/myFirst_cpp_pkg/environment/path.sh
+[9.578s] -- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/myFirst_cpp_pkg/share/myFirst_cpp_pkg/environment/path.dsv
+[9.579s] -- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/myFirst_cpp_pkg/share/myFirst_cpp_pkg/local_setup.bash
+[9.579s] -- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/myFirst_cpp_pkg/share/myFirst_cpp_pkg/local_setup.sh
+[9.579s] -- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/myFirst_cpp_pkg/share/myFirst_cpp_pkg/local_setup.zsh
+[9.580s] -- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/myFirst_cpp_pkg/share/myFirst_cpp_pkg/local_setup.dsv
+[9.580s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/myFirst_cpp_pkg/share/myFirst_cpp_pkg/package.dsv
+[9.580s] -- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/myFirst_cpp_pkg/share/ament_index/resource_index/packages/myFirst_cpp_pkg
+[9.581s] -- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/myFirst_cpp_pkg/share/myFirst_cpp_pkg/cmake/myFirst_cpp_pkgConfig.cmake
+[9.581s] -- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/myFirst_cpp_pkg/share/myFirst_cpp_pkg/cmake/myFirst_cpp_pkgConfig-version.cmake
+[9.581s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/myFirst_cpp_pkg/share/myFirst_cpp_pkg/package.xml
+[9.581s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/myFirst_cpp_pkg/lib/myFirst_cpp_pkg/number_pub
+[9.584s] -- Set non-toolchain portion of runtime path of "/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/myFirst_cpp_pkg/lib/myFirst_cpp_pkg/number_pub" to ""
+[9.590s] Invoked command in '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/myFirst_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/turtlesim_manipulation:/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/first_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/myFirst_cpp_pkg

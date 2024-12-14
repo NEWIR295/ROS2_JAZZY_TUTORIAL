@@ -1,6 +1,6 @@
 set(_AMENT_PACKAGE_NAME "myFirst_cpp_pkg")
 set(myFirst_cpp_pkg_VERSION "0.0.0")
-set(myFirst_cpp_pkg_MAINTAINER "newir529 <newir295@gmail.com>")
+set(myFirst_cpp_pkg_MAINTAINER "Newir <mohamed.mohamed0123@eng-st.cu.edu.eg>")
 set(myFirst_cpp_pkg_BUILD_DEPENDS "rclcpp" "std_msgs")
 set(myFirst_cpp_pkg_BUILDTOOL_DEPENDS "ament_cmake")
 set(myFirst_cpp_pkg_BUILD_EXPORT_DEPENDS "rclcpp" "std_msgs")

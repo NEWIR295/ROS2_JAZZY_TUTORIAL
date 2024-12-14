@@ -23,3 +23,11 @@ if(BUILD_TESTING)
 endif()
 
 ament_package()
+
+add_executable(number_pub src/number_pub.cpp)
+ament_target_dependencies(number_pub rclcpp std_msgs)
+
+install(TARGETS
+  number_pub
+  DESTINATION lib/${PROJECT_NAME}
+)

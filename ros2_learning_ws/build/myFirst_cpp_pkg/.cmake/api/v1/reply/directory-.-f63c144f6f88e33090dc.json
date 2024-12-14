@@ -212,6 +212,12 @@
 				"file" : 3,
 				"line" : 157,
 				"parent" : 29
+			},
+			{
+				"command" : 0,
+				"file" : 4,
+				"line" : 30,
+				"parent" : 0
 			}
 		]
 	},
@@ -357,6 +363,29 @@
 				"package.xml"
 			],
 			"type" : "file"
+		},
+		{
+			"backtrace" : 32,
+			"component" : "Unspecified",
+			"destination" : "lib/myFirst_cpp_pkg",
+			"paths" : 
+			[
+				"number_pub"
+			],
+			"targetId" : "number_pub::@6890427a1f51a3e7e1df",
+			"targetIndex" : 1,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 32,
+			"component" : "Unspecified",
+			"cxxModuleBmiTarget" : 
+			{
+				"id" : "number_pub::@6890427a1f51a3e7e1df",
+				"index" : 1
+			},
+			"destination" : "lib/myFirst_cpp_pkg",
+			"type" : "cxxModuleBmi"
 		}
 	],
 	"paths" : 

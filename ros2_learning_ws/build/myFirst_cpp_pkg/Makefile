@@ -197,6 +197,43 @@ myFirst_cpp_pkg_uninstall/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/myFirst_cpp_pkg_uninstall.dir/build.make CMakeFiles/myFirst_cpp_pkg_uninstall.dir/build
 .PHONY : myFirst_cpp_pkg_uninstall/fast
 
+#=============================================================================
+# Target rules for targets named number_pub
+
+# Build rule for target.
+number_pub: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 number_pub
+.PHONY : number_pub
+
+# fast build rule for target.
+number_pub/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/number_pub.dir/build.make CMakeFiles/number_pub.dir/build
+.PHONY : number_pub/fast
+
+src/number_pub.o: src/number_pub.cpp.o
+.PHONY : src/number_pub.o
+
+# target to build an object file
+src/number_pub.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/number_pub.dir/build.make CMakeFiles/number_pub.dir/src/number_pub.cpp.o
+.PHONY : src/number_pub.cpp.o
+
+src/number_pub.i: src/number_pub.cpp.i
+.PHONY : src/number_pub.i
+
+# target to preprocess a source file
+src/number_pub.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/number_pub.dir/build.make CMakeFiles/number_pub.dir/src/number_pub.cpp.i
+.PHONY : src/number_pub.cpp.i
+
+src/number_pub.s: src/number_pub.cpp.s
+.PHONY : src/number_pub.s
+
+# target to generate assembly for a file
+src/number_pub.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/number_pub.dir/build.make CMakeFiles/number_pub.dir/src/number_pub.cpp.s
+.PHONY : src/number_pub.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -212,6 +249,10 @@ help:
 	@echo "... test"
 	@echo "... myFirst_cpp_pkg_uninstall"
 	@echo "... uninstall"
+	@echo "... number_pub"
+	@echo "... src/number_pub.o"
+	@echo "... src/number_pub.i"
+	@echo "... src/number_pub.s"
 .PHONY : help
 
 
