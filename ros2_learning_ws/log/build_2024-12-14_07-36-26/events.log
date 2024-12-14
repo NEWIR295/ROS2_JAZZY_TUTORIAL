@@ -1,0 +1,125 @@
+[0.000000] (-) TimerEvent: {}
+[0.000216] (-) JobUnselected: {'identifier': 'first_py_pkg'}
+[0.000339] (-) JobUnselected: {'identifier': 'turtlesim_manipulation'}
+[0.000392] (myFirst_cpp_pkg) JobQueued: {'identifier': 'myFirst_cpp_pkg', 'dependencies': OrderedDict()}
+[0.000439] (myFirst_cpp_pkg) JobStarted: {'identifier': 'myFirst_cpp_pkg'}
+[0.013138] (myFirst_cpp_pkg) JobProgress: {'identifier': 'myFirst_cpp_pkg', 'progress': 'cmake'}
+[0.014345] (myFirst_cpp_pkg) JobProgress: {'identifier': 'myFirst_cpp_pkg', 'progress': 'build'}
+[0.014377] (myFirst_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/myFirst_cpp_pkg', '--', '-j8', '-l8'], 'cwd': '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/myFirst_cpp_pkg', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'newir529', 'LC_TIME': 'ar_EG.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/newir529', 'OLDPWD': '/home/newir529/ROS2_JAZZY_TUTORIAL', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ar_EG.UTF-8', 'MANAGERPID': '2823', 'SYSTEMD_EXEC_PID': '3391', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '150531', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'newir529', 'JOURNAL_STREAM': '8:20962', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'newir529', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/newir529:@/tmp/.ICE-unix/3214,unix/newir529:/tmp/.ICE-unix/3214', 'INVOCATION_ID': '1193820710e742b49207799a6087392d', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ar_EG.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ar_EG.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/turtlesim_manipulation:/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/myFirst_cpp_pkg:/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/first_py_pkg:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'ar_EG.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:79db3421-b535-4fb9-8a77-feb38c8984be', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ar_EG.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'ar_EG.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/myFirst_cpp_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/turtlesim_manipulation:/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/turtlesim_manipulation/lib/python3.12/site-packages:/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/first_py_pkg:/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/first_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'ar_EG.UTF-8', 'LC_PAPER': 'ar_EG.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/myFirst_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/turtlesim_manipulation:/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/first_py_pkg:/opt/ros/jazzy'}), 'shell': False}
+[0.099056] (-) TimerEvent: {}
+[0.138963] (myFirst_cpp_pkg) StdoutLine: {'line': b'[ 50%] Built target number_pub\n'}
+[0.146379] (myFirst_cpp_pkg) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/number_sub.dir/src/number_sub.cpp.o\x1b[0m\n'}
+[0.199236] (-) TimerEvent: {}
+[0.299995] (-) TimerEvent: {}
+[0.400898] (-) TimerEvent: {}
+[0.501748] (-) TimerEvent: {}
+[0.602548] (-) TimerEvent: {}
+[0.703134] (-) TimerEvent: {}
+[0.803422] (-) TimerEvent: {}
+[0.903829] (-) TimerEvent: {}
+[1.004399] (-) TimerEvent: {}
+[1.105075] (-) TimerEvent: {}
+[1.205301] (-) TimerEvent: {}
+[1.305753] (-) TimerEvent: {}
+[1.406216] (-) TimerEvent: {}
+[1.506459] (-) TimerEvent: {}
+[1.606836] (-) TimerEvent: {}
+[1.707437] (-) TimerEvent: {}
+[1.807704] (-) TimerEvent: {}
+[1.908060] (-) TimerEvent: {}
+[2.008576] (-) TimerEvent: {}
+[2.108957] (-) TimerEvent: {}
+[2.209429] (-) TimerEvent: {}
+[2.309706] (-) TimerEvent: {}
+[2.410107] (-) TimerEvent: {}
+[2.510625] (-) TimerEvent: {}
+[2.610867] (-) TimerEvent: {}
+[2.711228] (-) TimerEvent: {}
+[2.811839] (-) TimerEvent: {}
+[2.912314] (-) TimerEvent: {}
+[3.012665] (-) TimerEvent: {}
+[3.113255] (-) TimerEvent: {}
+[3.213562] (-) TimerEvent: {}
+[3.313876] (-) TimerEvent: {}
+[3.414183] (-) TimerEvent: {}
+[3.514778] (-) TimerEvent: {}
+[3.615044] (-) TimerEvent: {}
+[3.715316] (-) TimerEvent: {}
+[3.815582] (-) TimerEvent: {}
+[3.915875] (-) TimerEvent: {}
+[4.016244] (-) TimerEvent: {}
+[4.116629] (-) TimerEvent: {}
+[4.217103] (-) TimerEvent: {}
+[4.317629] (-) TimerEvent: {}
+[4.417893] (-) TimerEvent: {}
+[4.518281] (-) TimerEvent: {}
+[4.618669] (-) TimerEvent: {}
+[4.719262] (-) TimerEvent: {}
+[4.819570] (-) TimerEvent: {}
+[4.920000] (-) TimerEvent: {}
+[5.020512] (-) TimerEvent: {}
+[5.120762] (-) TimerEvent: {}
+[5.221187] (-) TimerEvent: {}
+[5.321881] (-) TimerEvent: {}
+[5.422129] (-) TimerEvent: {}
+[5.522402] (-) TimerEvent: {}
+[5.622767] (-) TimerEvent: {}
+[5.723183] (-) TimerEvent: {}
+[5.823713] (-) TimerEvent: {}
+[5.924020] (-) TimerEvent: {}
+[6.024607] (-) TimerEvent: {}
+[6.125229] (-) TimerEvent: {}
+[6.225830] (-) TimerEvent: {}
+[6.326388] (-) TimerEvent: {}
+[6.427058] (-) TimerEvent: {}
+[6.527691] (-) TimerEvent: {}
+[6.628430] (-) TimerEvent: {}
+[6.729045] (-) TimerEvent: {}
+[6.829660] (-) TimerEvent: {}
+[6.930310] (-) TimerEvent: {}
+[7.030835] (-) TimerEvent: {}
+[7.131465] (-) TimerEvent: {}
+[7.232055] (-) TimerEvent: {}
+[7.332654] (-) TimerEvent: {}
+[7.433325] (-) TimerEvent: {}
+[7.533936] (-) TimerEvent: {}
+[7.634524] (-) TimerEvent: {}
+[7.735131] (-) TimerEvent: {}
+[7.835760] (-) TimerEvent: {}
+[7.936342] (-) TimerEvent: {}
+[8.036974] (-) TimerEvent: {}
+[8.137574] (-) TimerEvent: {}
+[8.238208] (-) TimerEvent: {}
+[8.338816] (-) TimerEvent: {}
+[8.439419] (-) TimerEvent: {}
+[8.540054] (-) TimerEvent: {}
+[8.640643] (-) TimerEvent: {}
+[8.741384] (-) TimerEvent: {}
+[8.841999] (-) TimerEvent: {}
+[8.942594] (-) TimerEvent: {}
+[9.043198] (-) TimerEvent: {}
+[9.143814] (-) TimerEvent: {}
+[9.244422] (-) TimerEvent: {}
+[9.345012] (-) TimerEvent: {}
+[9.445604] (-) TimerEvent: {}
+[9.546216] (-) TimerEvent: {}
+[9.646885] (-) TimerEvent: {}
+[9.699799] (myFirst_cpp_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable number_sub\x1b[0m\n'}
+[9.747046] (-) TimerEvent: {}
+[9.847657] (-) TimerEvent: {}
+[9.948283] (-) TimerEvent: {}
+[10.048908] (-) TimerEvent: {}
+[10.149625] (-) TimerEvent: {}
+[10.250450] (-) TimerEvent: {}
+[10.351204] (-) TimerEvent: {}
+[10.431840] (myFirst_cpp_pkg) StderrLine: {'line': b"/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n"}
+[10.432871] (myFirst_cpp_pkg) StderrLine: {'line': b"(.text+0x1b): undefined reference to `main'\n"}
+[10.454841] (-) TimerEvent: {}
+[10.473189] (myFirst_cpp_pkg) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[10.489530] (myFirst_cpp_pkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/number_sub.dir/build.make:171: number_sub] Error 1\n'}
+[10.496890] (myFirst_cpp_pkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/number_sub.dir/all] Error 2\n'}
+[10.503844] (myFirst_cpp_pkg) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[10.529188] (myFirst_cpp_pkg) CommandEnded: {'returncode': 2}
+[10.555214] (-) TimerEvent: {}
+[10.622131] (myFirst_cpp_pkg) JobEnded: {'identifier': 'myFirst_cpp_pkg', 'rc': 2}
+[10.637844] (-) EventReactorShutdown: {}

@@ -210,6 +210,19 @@ number_pub/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/number_pub.dir/build.make CMakeFiles/number_pub.dir/build
 .PHONY : number_pub/fast
 
+#=============================================================================
+# Target rules for targets named number_sub
+
+# Build rule for target.
+number_sub: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 number_sub
+.PHONY : number_sub
+
+# fast build rule for target.
+number_sub/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/number_sub.dir/build.make CMakeFiles/number_sub.dir/build
+.PHONY : number_sub/fast
+
 src/number_pub.o: src/number_pub.cpp.o
 .PHONY : src/number_pub.o
 
@@ -234,6 +247,30 @@ src/number_pub.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/number_pub.dir/build.make CMakeFiles/number_pub.dir/src/number_pub.cpp.s
 .PHONY : src/number_pub.cpp.s
 
+src/number_sub.o: src/number_sub.cpp.o
+.PHONY : src/number_sub.o
+
+# target to build an object file
+src/number_sub.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/number_sub.dir/build.make CMakeFiles/number_sub.dir/src/number_sub.cpp.o
+.PHONY : src/number_sub.cpp.o
+
+src/number_sub.i: src/number_sub.cpp.i
+.PHONY : src/number_sub.i
+
+# target to preprocess a source file
+src/number_sub.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/number_sub.dir/build.make CMakeFiles/number_sub.dir/src/number_sub.cpp.i
+.PHONY : src/number_sub.cpp.i
+
+src/number_sub.s: src/number_sub.cpp.s
+.PHONY : src/number_sub.s
+
+# target to generate assembly for a file
+src/number_sub.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/number_sub.dir/build.make CMakeFiles/number_sub.dir/src/number_sub.cpp.s
+.PHONY : src/number_sub.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -250,9 +287,13 @@ help:
 	@echo "... myFirst_cpp_pkg_uninstall"
 	@echo "... uninstall"
 	@echo "... number_pub"
+	@echo "... number_sub"
 	@echo "... src/number_pub.o"
 	@echo "... src/number_pub.i"
 	@echo "... src/number_pub.s"
+	@echo "... src/number_sub.o"
+	@echo "... src/number_sub.i"
+	@echo "... src/number_sub.s"
 .PHONY : help
 
 

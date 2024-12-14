@@ -1,0 +1,3 @@
+[ 50%] Built target number_pub
+[ 75%] [32mBuilding CXX object CMakeFiles/number_sub.dir/src/number_sub.cpp.o[0m
+[100%] [32m[1mLinking CXX executable number_sub[0m

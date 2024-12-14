@@ -1,0 +1,7 @@
+[01m[K/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/src/myFirst_cpp_pkg/src/number_sub.cpp:12:10:[m[K [01;31m[Kfatal error: [m[Kexample_interfaces/srv/set_bool.hpp: No such file or directory
+   12 | #include [01;31m[K"example_interfaces/srv/set_bool.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/number_sub.dir/build.make:76: CMakeFiles/number_sub.dir/src/number_sub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/number_sub.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

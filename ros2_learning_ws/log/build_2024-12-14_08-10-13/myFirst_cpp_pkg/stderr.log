@@ -1,0 +1,16 @@
+WARNING: Package name "myFirst_cpp_pkg" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/src/myFirst_cpp_pkg/src/number_sub.cpp:10[m[K:
+[01m[K/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/src/myFirst_cpp_pkg/src/number_sub.cpp:[m[K In member function ‘[01m[Kvoid number_sub::[01;32m[Ksub_cb[m[K(std_msgs::msg::Int64_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/src/myFirst_cpp_pkg/src/number_sub.cpp:25:35:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%lld[m[K’ expects argument of type ‘[01m[Klong long int[m[K’, but argument 5 has type ‘[01m[Kstd_msgs::msg::Int64[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int64_<std::allocator<void> >[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   25 |         RCLCPP_INFO(get_logger(), [01;35m[K"%lld"[m[K, [32m[Kthis->counter_[m[K);
+      |                                   [01;35m[K^~~~~~[m[K  [32m[K~~~~~~~~~~~~~~[m[K
+      |                                                 [32m[K|[m[K
+      |                                                 [32m[Kstd_msgs::msg::Int64 {aka std_msgs::msg::Int64_<std::allocator<void> >}[m[K
+[01m[K/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/src/myFirst_cpp_pkg/src/number_sub.cpp:25:39:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   25 |         RCLCPP_INFO(get_logger(), "[01;36m[K%lld[m[K", this->counter_);
+      |                                    [01;36m[K~~~^[m[K
+      |                                       [01;36m[K|[m[K
+      |                                       [01;36m[Klong long int[m[K
