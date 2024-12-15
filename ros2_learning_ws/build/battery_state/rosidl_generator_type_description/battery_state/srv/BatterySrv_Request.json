@@ -4,17 +4,7 @@
       "type_name": "battery_state/srv/BatterySrv_Request",
       "fields": [
         {
-          "name": "led_number",
-          "type": {
-            "type_id": 6,
-            "capacity": 0,
-            "string_capacity": 0,
-            "nested_type_name": ""
-          },
-          "default_value": ""
-        },
-        {
-          "name": "state",
+          "name": "led_state",
           "type": {
             "type_id": 6,
             "capacity": 0,
@@ -30,7 +20,7 @@
   "type_hashes": [
     {
       "type_name": "battery_state/srv/BatterySrv_Request",
-      "hash_string": "RIHS01_ff714d1db06cc48be3beb7162cf0ca407e6f893cc4e1c91f02cb4a27c68f2a60"
+      "hash_string": "RIHS01_f0df029df35c087100f207149071174e0c34620f7bdb6df52d1b18fbbf5be6cb"
     }
   ]
 }

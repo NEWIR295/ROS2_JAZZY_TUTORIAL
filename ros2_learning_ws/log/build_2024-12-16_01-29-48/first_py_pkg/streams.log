@@ -1,0 +1,45 @@
+[1.979s] Invoking command in '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/src/first_py_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/first_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/first_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/first_py_pkg build --build-base /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/first_py_pkg/build install --record /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/first_py_pkg/install.log --single-version-externally-managed install_data
+[2.445s] running egg_info
+[2.446s] creating ../../build/first_py_pkg/first_py_pkg.egg-info
+[2.480s] writing ../../build/first_py_pkg/first_py_pkg.egg-info/PKG-INFO
+[2.481s] writing dependency_links to ../../build/first_py_pkg/first_py_pkg.egg-info/dependency_links.txt
+[2.481s] writing entry points to ../../build/first_py_pkg/first_py_pkg.egg-info/entry_points.txt
+[2.481s] writing requirements to ../../build/first_py_pkg/first_py_pkg.egg-info/requires.txt
+[2.482s] writing top-level names to ../../build/first_py_pkg/first_py_pkg.egg-info/top_level.txt
+[2.482s] writing manifest file '../../build/first_py_pkg/first_py_pkg.egg-info/SOURCES.txt'
+[2.561s] reading manifest file '../../build/first_py_pkg/first_py_pkg.egg-info/SOURCES.txt'
+[2.562s] writing manifest file '../../build/first_py_pkg/first_py_pkg.egg-info/SOURCES.txt'
+[2.562s] running build
+[2.562s] running build_py
+[2.563s] creating /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/first_py_pkg/build
+[2.563s] creating /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/first_py_pkg/build/lib
+[2.563s] creating /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/first_py_pkg/build/lib/first_py_pkg
+[2.563s] copying first_py_pkg/ros2_simple_pub.py -> /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/first_py_pkg/build/lib/first_py_pkg
+[2.564s] copying first_py_pkg/ros2_simple_sub.py -> /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/first_py_pkg/build/lib/first_py_pkg
+[2.564s] copying first_py_pkg/__init__.py -> /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/first_py_pkg/build/lib/first_py_pkg
+[2.564s] copying first_py_pkg/camera.py -> /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/first_py_pkg/build/lib/first_py_pkg
+[2.564s] running install
+[2.573s] running install_lib
+[2.618s] creating /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/first_py_pkg/lib/python3.12/site-packages/first_py_pkg
+[2.618s] copying /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/first_py_pkg/build/lib/first_py_pkg/ros2_simple_pub.py -> /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/first_py_pkg/lib/python3.12/site-packages/first_py_pkg
+[2.621s] copying /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/first_py_pkg/build/lib/first_py_pkg/ros2_simple_sub.py -> /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/first_py_pkg/lib/python3.12/site-packages/first_py_pkg
+[2.622s] copying /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/first_py_pkg/build/lib/first_py_pkg/__init__.py -> /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/first_py_pkg/lib/python3.12/site-packages/first_py_pkg
+[2.622s] copying /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/first_py_pkg/build/lib/first_py_pkg/camera.py -> /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/first_py_pkg/lib/python3.12/site-packages/first_py_pkg
+[2.622s] byte-compiling /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/first_py_pkg/lib/python3.12/site-packages/first_py_pkg/ros2_simple_pub.py to ros2_simple_pub.cpython-312.pyc
+[2.623s] byte-compiling /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/first_py_pkg/lib/python3.12/site-packages/first_py_pkg/ros2_simple_sub.py to ros2_simple_sub.cpython-312.pyc
+[2.623s] byte-compiling /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/first_py_pkg/lib/python3.12/site-packages/first_py_pkg/__init__.py to __init__.cpython-312.pyc
+[2.623s] byte-compiling /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/first_py_pkg/lib/python3.12/site-packages/first_py_pkg/camera.py to camera.cpython-312.pyc
+[2.624s] running install_data
+[2.625s] creating /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/first_py_pkg/share/ament_index
+[2.625s] creating /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/first_py_pkg/share/ament_index/resource_index
+[2.626s] creating /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/first_py_pkg/share/ament_index/resource_index/packages
+[2.626s] copying resource/first_py_pkg -> /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/first_py_pkg/share/ament_index/resource_index/packages
+[2.626s] copying package.xml -> /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/first_py_pkg/share/first_py_pkg
+[2.627s] running install_egg_info
+[2.674s] Copying ../../build/first_py_pkg/first_py_pkg.egg-info to /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/first_py_pkg/lib/python3.12/site-packages/first_py_pkg-0.0.0-py3.12.egg-info
+[2.676s] running install_scripts
+[2.925s] Installing camera script to /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/first_py_pkg/lib/first_py_pkg
+[2.926s] Installing pub_node script to /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/first_py_pkg/lib/first_py_pkg
+[2.926s] Installing sub_node script to /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/first_py_pkg/lib/first_py_pkg
+[2.927s] writing list of installed files to '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/first_py_pkg/install.log'
+[2.986s] Invoked command in '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/src/first_py_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/first_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/first_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/first_py_pkg build --build-base /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/first_py_pkg/build install --record /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/first_py_pkg/install.log --single-version-externally-managed install_data

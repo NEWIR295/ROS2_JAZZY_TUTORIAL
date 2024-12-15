@@ -31,9 +31,9 @@ void battery_state__srv__BatterySrv_Request__rosidl_typesupport_introspection_c_
   battery_state__srv__BatterySrv_Request__fini(message_memory);
 }
 
-static rosidl_typesupport_introspection_c__MessageMember battery_state__srv__BatterySrv_Request__rosidl_typesupport_introspection_c__BatterySrv_Request_message_member_array[2] = {
+static rosidl_typesupport_introspection_c__MessageMember battery_state__srv__BatterySrv_Request__rosidl_typesupport_introspection_c__BatterySrv_Request_message_member_array[1] = {
   {
-    "led_number",  // name
+    "led_state",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_INT32,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
@@ -41,25 +41,7 @@ static rosidl_typesupport_introspection_c__MessageMember battery_state__srv__Bat
     false,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(battery_state__srv__BatterySrv_Request, led_number),  // bytes offset in struct
-    NULL,  // default value
-    NULL,  // size() function pointer
-    NULL,  // get_const(index) function pointer
-    NULL,  // get(index) function pointer
-    NULL,  // fetch(index, &value) function pointer
-    NULL,  // assign(index, value) function pointer
-    NULL  // resize(index) function pointer
-  },
-  {
-    "state",  // name
-    rosidl_typesupport_introspection_c__ROS_TYPE_INT32,  // type
-    0,  // upper bound of string
-    NULL,  // members of sub message
-    false,  // is key
-    false,  // is array
-    0,  // array size
-    false,  // is upper bound
-    offsetof(battery_state__srv__BatterySrv_Request, state),  // bytes offset in struct
+    offsetof(battery_state__srv__BatterySrv_Request, led_state),  // bytes offset in struct
     NULL,  // default value
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer
@@ -73,7 +55,7 @@ static rosidl_typesupport_introspection_c__MessageMember battery_state__srv__Bat
 static const rosidl_typesupport_introspection_c__MessageMembers battery_state__srv__BatterySrv_Request__rosidl_typesupport_introspection_c__BatterySrv_Request_message_members = {
   "battery_state__srv",  // message namespace
   "BatterySrv_Request",  // message name
-  2,  // number of fields
+  1,  // number of fields
   sizeof(battery_state__srv__BatterySrv_Request),
   false,  // has_any_key_member_
   battery_state__srv__BatterySrv_Request__rosidl_typesupport_introspection_c__BatterySrv_Request_message_member_array,  // message members
@@ -123,6 +105,10 @@ ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspecti
 // #include "battery_state/srv/detail/battery_srv__struct.h"
 
 
+// Include directives for member types
+// Member `state`
+#include "rosidl_runtime_c/string_functions.h"
+
 #ifdef __cplusplus
 extern "C"
 {
@@ -144,15 +130,15 @@ void battery_state__srv__BatterySrv_Response__rosidl_typesupport_introspection_c
 
 static rosidl_typesupport_introspection_c__MessageMember battery_state__srv__BatterySrv_Response__rosidl_typesupport_introspection_c__BatterySrv_Response_message_member_array[1] = {
   {
-    "success",  // name
-    rosidl_typesupport_introspection_c__ROS_TYPE_BOOLEAN,  // type
+    "state",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_STRING,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
     false,  // is key
     false,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(battery_state__srv__BatterySrv_Response, success),  // bytes offset in struct
+    offsetof(battery_state__srv__BatterySrv_Response, state),  // bytes offset in struct
     NULL,  // default value
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer

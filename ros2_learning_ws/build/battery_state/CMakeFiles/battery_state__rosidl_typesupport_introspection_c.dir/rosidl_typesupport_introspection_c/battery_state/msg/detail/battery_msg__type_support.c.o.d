@@ -73,5 +73,4 @@ CMakeFiles/battery_state__rosidl_typesupport_introspection_c.dir/rosidl_typesupp
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
  /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/battery_state/rosidl_generator_c/battery_state/msg/rosidl_generator_c__visibility_control.h \
- /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/battery_state/rosidl_generator_c/battery_state/msg/detail/battery_msg__struct.h \
- /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence_functions.h
+ /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/battery_state/rosidl_generator_c/battery_state/msg/detail/battery_msg__struct.h

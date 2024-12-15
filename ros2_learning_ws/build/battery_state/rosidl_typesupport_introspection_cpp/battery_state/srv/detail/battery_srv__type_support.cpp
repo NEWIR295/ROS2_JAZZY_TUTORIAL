@@ -38,9 +38,9 @@ void BatterySrv_Request_fini_function(void * message_memory)
   typed_message->~BatterySrv_Request();
 }
 
-static const ::rosidl_typesupport_introspection_cpp::MessageMember BatterySrv_Request_message_member_array[2] = {
+static const ::rosidl_typesupport_introspection_cpp::MessageMember BatterySrv_Request_message_member_array[1] = {
   {
-    "led_number",  // name
+    "led_state",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_INT32,  // type
     0,  // upper bound of string
     nullptr,  // members of sub message
@@ -48,25 +48,7 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember BatterySrv_Re
     false,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(battery_state::srv::BatterySrv_Request, led_number),  // bytes offset in struct
-    nullptr,  // default value
-    nullptr,  // size() function pointer
-    nullptr,  // get_const(index) function pointer
-    nullptr,  // get(index) function pointer
-    nullptr,  // fetch(index, &value) function pointer
-    nullptr,  // assign(index, value) function pointer
-    nullptr  // resize(index) function pointer
-  },
-  {
-    "state",  // name
-    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_INT32,  // type
-    0,  // upper bound of string
-    nullptr,  // members of sub message
-    false,  // is key
-    false,  // is array
-    0,  // array size
-    false,  // is upper bound
-    offsetof(battery_state::srv::BatterySrv_Request, state),  // bytes offset in struct
+    offsetof(battery_state::srv::BatterySrv_Request, led_state),  // bytes offset in struct
     nullptr,  // default value
     nullptr,  // size() function pointer
     nullptr,  // get_const(index) function pointer
@@ -80,7 +62,7 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember BatterySrv_Re
 static const ::rosidl_typesupport_introspection_cpp::MessageMembers BatterySrv_Request_message_members = {
   "battery_state::srv",  // message namespace
   "BatterySrv_Request",  // message name
-  2,  // number of fields
+  1,  // number of fields
   sizeof(battery_state::srv::BatterySrv_Request),
   false,  // has_any_key_member_
   BatterySrv_Request_message_member_array,  // message members
@@ -184,15 +166,15 @@ void BatterySrv_Response_fini_function(void * message_memory)
 
 static const ::rosidl_typesupport_introspection_cpp::MessageMember BatterySrv_Response_message_member_array[1] = {
   {
-    "success",  // name
-    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_BOOLEAN,  // type
+    "state",  // name
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_STRING,  // type
     0,  // upper bound of string
     nullptr,  // members of sub message
     false,  // is key
     false,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(battery_state::srv::BatterySrv_Response, success),  // bytes offset in struct
+    offsetof(battery_state::srv::BatterySrv_Response, state),  // bytes offset in struct
     nullptr,  // default value
     nullptr,  // size() function pointer
     nullptr,  // get_const(index) function pointer

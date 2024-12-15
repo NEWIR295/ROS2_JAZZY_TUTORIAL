@@ -36,10 +36,8 @@ cdr_serialize(
   const battery_state::msg::BatteryMsg & ros_message,
   eprosima::fastcdr::Cdr & cdr)
 {
-  // Member: led_states
-  {
-    cdr << ros_message.led_states;
-  }
+  // Member: leds_on
+  cdr << ros_message.leds_on;
 
   return true;
 }
@@ -50,10 +48,8 @@ cdr_deserialize(
   eprosima::fastcdr::Cdr & cdr,
   battery_state::msg::BatteryMsg & ros_message)
 {
-  // Member: led_states
-  {
-    cdr >> ros_message.led_states;
-  }
+  // Member: leds_on
+  cdr >> ros_message.leds_on;
 
   return true;
 }
@@ -72,13 +68,10 @@ get_serialized_size(
   (void)padding;
   (void)wchar_size;
 
-  // Member: led_states
+  // Member: leds_on
   {
-    size_t array_size = ros_message.led_states.size();
-    current_alignment += padding +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
-    size_t item_size = sizeof(ros_message.led_states[0]);
-    current_alignment += array_size * item_size +
+    size_t item_size = sizeof(ros_message.leds_on);
+    current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
 
@@ -105,13 +98,9 @@ max_serialized_size_BatteryMsg(
   full_bounded = true;
   is_plain = true;
 
-  // Member: led_states
+  // Member: leds_on
   {
-    size_t array_size = 0;
-    full_bounded = false;
-    is_plain = false;
-    current_alignment += padding +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
+    size_t array_size = 1;
     last_member_size = array_size * sizeof(uint32_t);
     current_alignment += array_size * sizeof(uint32_t) +
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
@@ -125,7 +114,7 @@ max_serialized_size_BatteryMsg(
     using DataType = battery_state::msg::BatteryMsg;
     is_plain =
       (
-      offsetof(DataType, led_states) +
+      offsetof(DataType, leds_on) +
       last_member_size
       ) == ret_val;
   }
@@ -139,10 +128,8 @@ cdr_serialize_key(
   const battery_state::msg::BatteryMsg & ros_message,
   eprosima::fastcdr::Cdr & cdr)
 {
-  // Member: led_states
-  {
-    cdr << ros_message.led_states;
-  }
+  // Member: leds_on
+  cdr << ros_message.leds_on;
 
   return true;
 }
@@ -160,13 +147,10 @@ get_serialized_size_key(
   (void)padding;
   (void)wchar_size;
 
-  // Member: led_states
+  // Member: leds_on
   {
-    size_t array_size = ros_message.led_states.size();
-    current_alignment += padding +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
-    size_t item_size = sizeof(ros_message.led_states[0]);
-    current_alignment += array_size * item_size +
+    size_t item_size = sizeof(ros_message.leds_on);
+    current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
 
@@ -192,13 +176,9 @@ max_serialized_size_key_BatteryMsg(
   full_bounded = true;
   is_plain = true;
 
-  // Member: led_states
+  // Member: leds_on
   {
-    size_t array_size = 0;
-    full_bounded = false;
-    is_plain = false;
-    current_alignment += padding +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
+    size_t array_size = 1;
     last_member_size = array_size * sizeof(uint32_t);
     current_alignment += array_size * sizeof(uint32_t) +
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
@@ -212,7 +192,7 @@ max_serialized_size_key_BatteryMsg(
     using DataType = battery_state::msg::BatteryMsg;
     is_plain =
       (
-      offsetof(DataType, led_states) +
+      offsetof(DataType, leds_on) +
       last_member_size
       ) == ret_val;
   }

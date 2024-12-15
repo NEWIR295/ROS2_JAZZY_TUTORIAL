@@ -19,14 +19,10 @@ extern "C"
 
 // Constants defined in the message
 
-// Include directives for member types
-// Member 'led_states'
-#include "rosidl_runtime_c/primitives_sequence.h"
-
 /// Struct defined in msg/BatteryMsg in the package battery_state.
 typedef struct battery_state__msg__BatteryMsg
 {
-  rosidl_runtime_c__int32__Sequence led_states;
+  int32_t leds_on;
 } battery_state__msg__BatteryMsg;
 
 // Struct for a sequence of battery_state__msg__BatteryMsg.

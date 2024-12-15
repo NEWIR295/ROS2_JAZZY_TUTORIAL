@@ -76,6 +76,7 @@ CMakeFiles/battery_state__rosidl_typesupport_introspection_c.dir/rosidl_typesupp
  /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/battery_state/rosidl_generator_c/battery_state/srv/detail/battery_srv__struct.h \
  /opt/ros/jazzy/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.h \
  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
+ /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/string_functions.h \
  /opt/ros/jazzy/include/service_msgs/service_msgs/msg/service_event_info.h \
  /opt/ros/jazzy/include/service_msgs/service_msgs/msg/detail/service_event_info__functions.h \
  /opt/ros/jazzy/include/service_msgs/service_msgs/msg/rosidl_generator_c__visibility_control.h \

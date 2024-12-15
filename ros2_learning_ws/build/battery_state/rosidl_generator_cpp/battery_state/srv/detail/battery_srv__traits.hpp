@@ -28,17 +28,10 @@ inline void to_flow_style_yaml(
   std::ostream & out)
 {
   out << "{";
-  // member: led_number
+  // member: led_state
   {
-    out << "led_number: ";
-    rosidl_generator_traits::value_to_yaml(msg.led_number, out);
-    out << ", ";
-  }
-
-  // member: state
-  {
-    out << "state: ";
-    rosidl_generator_traits::value_to_yaml(msg.state, out);
+    out << "led_state: ";
+    rosidl_generator_traits::value_to_yaml(msg.led_state, out);
   }
   out << "}";
 }  // NOLINT(readability/fn_size)
@@ -47,23 +40,13 @@ inline void to_block_style_yaml(
   const BatterySrv_Request & msg,
   std::ostream & out, size_t indentation = 0)
 {
-  // member: led_number
+  // member: led_state
   {
     if (indentation > 0) {
       out << std::string(indentation, ' ');
     }
-    out << "led_number: ";
-    rosidl_generator_traits::value_to_yaml(msg.led_number, out);
-    out << "\n";
-  }
-
-  // member: state
-  {
-    if (indentation > 0) {
-      out << std::string(indentation, ' ');
-    }
-    out << "state: ";
-    rosidl_generator_traits::value_to_yaml(msg.state, out);
+    out << "led_state: ";
+    rosidl_generator_traits::value_to_yaml(msg.led_state, out);
     out << "\n";
   }
 }  // NOLINT(readability/fn_size)
@@ -137,10 +120,10 @@ inline void to_flow_style_yaml(
   std::ostream & out)
 {
   out << "{";
-  // member: success
+  // member: state
   {
-    out << "success: ";
-    rosidl_generator_traits::value_to_yaml(msg.success, out);
+    out << "state: ";
+    rosidl_generator_traits::value_to_yaml(msg.state, out);
   }
   out << "}";
 }  // NOLINT(readability/fn_size)
@@ -149,13 +132,13 @@ inline void to_block_style_yaml(
   const BatterySrv_Response & msg,
   std::ostream & out, size_t indentation = 0)
 {
-  // member: success
+  // member: state
   {
     if (indentation > 0) {
       out << std::string(indentation, ' ');
     }
-    out << "success: ";
-    rosidl_generator_traits::value_to_yaml(msg.success, out);
+    out << "state: ";
+    rosidl_generator_traits::value_to_yaml(msg.state, out);
     out << "\n";
   }
 }  // NOLINT(readability/fn_size)
@@ -206,11 +189,11 @@ inline const char * name<battery_state::srv::BatterySrv_Response>()
 
 template<>
 struct has_fixed_size<battery_state::srv::BatterySrv_Response>
-  : std::integral_constant<bool, true> {};
+  : std::integral_constant<bool, false> {};
 
 template<>
 struct has_bounded_size<battery_state::srv::BatterySrv_Response>
-  : std::integral_constant<bool, true> {};
+  : std::integral_constant<bool, false> {};
 
 template<>
 struct is_message<battery_state::srv::BatterySrv_Response>

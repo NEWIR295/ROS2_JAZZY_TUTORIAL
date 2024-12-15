@@ -222,6 +222,8 @@ CMakeFiles/battery_state__rosidl_generator_py.dir/rosidl_generator_py/battery_st
  /usr/lib/python3/dist-packages/numpy/core/include/numpy/__multiarray_api.h \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
  /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/battery_state/rosidl_generator_c/battery_state/srv/detail/battery_srv__struct.h \
+ /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
+ /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
  /opt/ros/jazzy/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.h \
  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
  /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/battery_state/rosidl_generator_c/battery_state/srv/detail/battery_srv__functions.h \
@@ -229,8 +231,6 @@ CMakeFiles/battery_state__rosidl_generator_py.dir/rosidl_generator_py/battery_st
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/type_description__struct.h \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/individual_type_description__struct.h \
- /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
- /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/field__struct.h \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/field_type__struct.h \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/type_source__struct.h \
@@ -244,4 +244,5 @@ CMakeFiles/battery_state__rosidl_generator_py.dir/rosidl_generator_py/battery_st
  /opt/ros/jazzy/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
  /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/battery_state/rosidl_generator_c/battery_state/msg/rosidl_generator_c__visibility_control.h \
+ /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/string_functions.h \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence_functions.h

@@ -6,7 +6,7 @@
 module battery_state {
   module msg {
     struct BatteryMsg {
-      sequence<int32> led_states;
+      int32 leds_on;
     };
   };
 };

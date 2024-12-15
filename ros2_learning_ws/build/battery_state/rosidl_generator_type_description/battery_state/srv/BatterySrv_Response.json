@@ -4,9 +4,9 @@
       "type_name": "battery_state/srv/BatterySrv_Response",
       "fields": [
         {
-          "name": "success",
+          "name": "state",
           "type": {
-            "type_id": 15,
+            "type_id": 17,
             "capacity": 0,
             "string_capacity": 0,
             "nested_type_name": ""
@@ -20,7 +20,7 @@
   "type_hashes": [
     {
       "type_name": "battery_state/srv/BatterySrv_Response",
-      "hash_string": "RIHS01_bdff57119289e331ff109a2cbbea1c225f92c81e8b1023f2ed6c4fc9c8be533b"
+      "hash_string": "RIHS01_8cea8c9742cc57f0f086434411e1daf960609c9def8a51ded7eb2375fb255124"
     }
   ]
 }

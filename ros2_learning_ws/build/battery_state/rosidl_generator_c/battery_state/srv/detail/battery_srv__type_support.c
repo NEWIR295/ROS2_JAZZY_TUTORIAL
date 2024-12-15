@@ -4,9 +4,9 @@
 
 #include <string.h>
 
-#include "rosidl_typesupport_interface/macros.h"
-#include "battery_state/srv/detail/battery_srv__functions.h"
 #include "battery_state/srv/detail/battery_srv__type_support.h"
+#include "battery_state/srv/detail/battery_srv__functions.h"
+#include "rosidl_typesupport_interface/macros.h"
 #include "battery_state/srv/detail/battery_srv__struct.h"
 
 #ifdef __cplusplus

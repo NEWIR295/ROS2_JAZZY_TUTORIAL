@@ -24,32 +24,16 @@ namespace srv
 namespace builder
 {
 
-class Init_BatterySrv_Request_state
+class Init_BatterySrv_Request_led_state
 {
 public:
-  explicit Init_BatterySrv_Request_state(::battery_state::srv::BatterySrv_Request & msg)
-  : msg_(msg)
-  {}
-  ::battery_state::srv::BatterySrv_Request state(::battery_state::srv::BatterySrv_Request::_state_type arg)
-  {
-    msg_.state = std::move(arg);
-    return std::move(msg_);
-  }
-
-private:
-  ::battery_state::srv::BatterySrv_Request msg_;
-};
-
-class Init_BatterySrv_Request_led_number
-{
-public:
-  Init_BatterySrv_Request_led_number()
+  Init_BatterySrv_Request_led_state()
   : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
   {}
-  Init_BatterySrv_Request_state led_number(::battery_state::srv::BatterySrv_Request::_led_number_type arg)
+  ::battery_state::srv::BatterySrv_Request led_state(::battery_state::srv::BatterySrv_Request::_led_state_type arg)
   {
-    msg_.led_number = std::move(arg);
-    return Init_BatterySrv_Request_state(msg_);
+    msg_.led_state = std::move(arg);
+    return std::move(msg_);
   }
 
 private:
@@ -67,7 +51,7 @@ template<>
 inline
 auto build<::battery_state::srv::BatterySrv_Request>()
 {
-  return battery_state::srv::builder::Init_BatterySrv_Request_led_number();
+  return battery_state::srv::builder::Init_BatterySrv_Request_led_state();
 }
 
 }  // namespace battery_state
@@ -82,15 +66,15 @@ namespace srv
 namespace builder
 {
 
-class Init_BatterySrv_Response_success
+class Init_BatterySrv_Response_state
 {
 public:
-  Init_BatterySrv_Response_success()
+  Init_BatterySrv_Response_state()
   : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
   {}
-  ::battery_state::srv::BatterySrv_Response success(::battery_state::srv::BatterySrv_Response::_success_type arg)
+  ::battery_state::srv::BatterySrv_Response state(::battery_state::srv::BatterySrv_Response::_state_type arg)
   {
-    msg_.success = std::move(arg);
+    msg_.state = std::move(arg);
     return std::move(msg_);
   }
 
@@ -109,7 +93,7 @@ template<>
 inline
 auto build<::battery_state::srv::BatterySrv_Response>()
 {
-  return battery_state::srv::builder::Init_BatterySrv_Response_success();
+  return battery_state::srv::builder::Init_BatterySrv_Response_state();
 }
 
 }  // namespace battery_state

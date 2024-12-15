@@ -36,11 +36,8 @@ cdr_serialize(
   const battery_state::srv::BatterySrv_Request & ros_message,
   eprosima::fastcdr::Cdr & cdr)
 {
-  // Member: led_number
-  cdr << ros_message.led_number;
-
-  // Member: state
-  cdr << ros_message.state;
+  // Member: led_state
+  cdr << ros_message.led_state;
 
   return true;
 }
@@ -51,11 +48,8 @@ cdr_deserialize(
   eprosima::fastcdr::Cdr & cdr,
   battery_state::srv::BatterySrv_Request & ros_message)
 {
-  // Member: led_number
-  cdr >> ros_message.led_number;
-
-  // Member: state
-  cdr >> ros_message.state;
+  // Member: led_state
+  cdr >> ros_message.led_state;
 
   return true;
 }
@@ -74,16 +68,9 @@ get_serialized_size(
   (void)padding;
   (void)wchar_size;
 
-  // Member: led_number
+  // Member: led_state
   {
-    size_t item_size = sizeof(ros_message.led_number);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-
-  // Member: state
-  {
-    size_t item_size = sizeof(ros_message.state);
+    size_t item_size = sizeof(ros_message.led_state);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -111,14 +98,7 @@ max_serialized_size_BatterySrv_Request(
   full_bounded = true;
   is_plain = true;
 
-  // Member: led_number
-  {
-    size_t array_size = 1;
-    last_member_size = array_size * sizeof(uint32_t);
-    current_alignment += array_size * sizeof(uint32_t) +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
-  }
-  // Member: state
+  // Member: led_state
   {
     size_t array_size = 1;
     last_member_size = array_size * sizeof(uint32_t);
@@ -134,7 +114,7 @@ max_serialized_size_BatterySrv_Request(
     using DataType = battery_state::srv::BatterySrv_Request;
     is_plain =
       (
-      offsetof(DataType, state) +
+      offsetof(DataType, led_state) +
       last_member_size
       ) == ret_val;
   }
@@ -148,11 +128,8 @@ cdr_serialize_key(
   const battery_state::srv::BatterySrv_Request & ros_message,
   eprosima::fastcdr::Cdr & cdr)
 {
-  // Member: led_number
-  cdr << ros_message.led_number;
-
-  // Member: state
-  cdr << ros_message.state;
+  // Member: led_state
+  cdr << ros_message.led_state;
 
   return true;
 }
@@ -170,16 +147,9 @@ get_serialized_size_key(
   (void)padding;
   (void)wchar_size;
 
-  // Member: led_number
+  // Member: led_state
   {
-    size_t item_size = sizeof(ros_message.led_number);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-
-  // Member: state
-  {
-    size_t item_size = sizeof(ros_message.state);
+    size_t item_size = sizeof(ros_message.led_state);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -206,15 +176,7 @@ max_serialized_size_key_BatterySrv_Request(
   full_bounded = true;
   is_plain = true;
 
-  // Member: led_number
-  {
-    size_t array_size = 1;
-    last_member_size = array_size * sizeof(uint32_t);
-    current_alignment += array_size * sizeof(uint32_t) +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
-  }
-
-  // Member: state
+  // Member: led_state
   {
     size_t array_size = 1;
     last_member_size = array_size * sizeof(uint32_t);
@@ -230,7 +192,7 @@ max_serialized_size_key_BatterySrv_Request(
     using DataType = battery_state::srv::BatterySrv_Request;
     is_plain =
       (
-      offsetof(DataType, state) +
+      offsetof(DataType, led_state) +
       last_member_size
       ) == ret_val;
   }
@@ -376,8 +338,8 @@ cdr_serialize(
   const battery_state::srv::BatterySrv_Response & ros_message,
   eprosima::fastcdr::Cdr & cdr)
 {
-  // Member: success
-  cdr << (ros_message.success ? true : false);
+  // Member: state
+  cdr << ros_message.state;
 
   return true;
 }
@@ -388,12 +350,8 @@ cdr_deserialize(
   eprosima::fastcdr::Cdr & cdr,
   battery_state::srv::BatterySrv_Response & ros_message)
 {
-  // Member: success
-  {
-    uint8_t tmp;
-    cdr >> tmp;
-    ros_message.success = tmp ? true : false;
-  }
+  // Member: state
+  cdr >> ros_message.state;
 
   return true;
 }
@@ -412,12 +370,10 @@ get_serialized_size(
   (void)padding;
   (void)wchar_size;
 
-  // Member: success
-  {
-    size_t item_size = sizeof(ros_message.success);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
+  // Member: state
+  current_alignment += padding +
+    eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+    (ros_message.state.size() + 1);
 
   return current_alignment - initial_alignment;
 }
@@ -442,11 +398,16 @@ max_serialized_size_BatterySrv_Response(
   full_bounded = true;
   is_plain = true;
 
-  // Member: success
+  // Member: state
   {
     size_t array_size = 1;
-    last_member_size = array_size * sizeof(uint8_t);
-    current_alignment += array_size * sizeof(uint8_t);
+    full_bounded = false;
+    is_plain = false;
+    for (size_t index = 0; index < array_size; ++index) {
+      current_alignment += padding +
+        eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+        1;
+    }
   }
 
   size_t ret_val = current_alignment - initial_alignment;
@@ -457,7 +418,7 @@ max_serialized_size_BatterySrv_Response(
     using DataType = battery_state::srv::BatterySrv_Response;
     is_plain =
       (
-      offsetof(DataType, success) +
+      offsetof(DataType, state) +
       last_member_size
       ) == ret_val;
   }
@@ -471,8 +432,8 @@ cdr_serialize_key(
   const battery_state::srv::BatterySrv_Response & ros_message,
   eprosima::fastcdr::Cdr & cdr)
 {
-  // Member: success
-  cdr << (ros_message.success ? true : false);
+  // Member: state
+  cdr << ros_message.state;
 
   return true;
 }
@@ -490,12 +451,10 @@ get_serialized_size_key(
   (void)padding;
   (void)wchar_size;
 
-  // Member: success
-  {
-    size_t item_size = sizeof(ros_message.success);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
+  // Member: state
+  current_alignment += padding +
+    eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+    (ros_message.state.size() + 1);
 
   return current_alignment - initial_alignment;
 }
@@ -519,11 +478,16 @@ max_serialized_size_key_BatterySrv_Response(
   full_bounded = true;
   is_plain = true;
 
-  // Member: success
+  // Member: state
   {
     size_t array_size = 1;
-    last_member_size = array_size * sizeof(uint8_t);
-    current_alignment += array_size * sizeof(uint8_t);
+    full_bounded = false;
+    is_plain = false;
+    for (size_t index = 0; index < array_size; ++index) {
+      current_alignment += padding +
+        eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+        1;
+    }
   }
 
   size_t ret_val = current_alignment - initial_alignment;
@@ -534,7 +498,7 @@ max_serialized_size_key_BatterySrv_Response(
     using DataType = battery_state::srv::BatterySrv_Response;
     is_plain =
       (
-      offsetof(DataType, success) +
+      offsetof(DataType, state) +
       last_member_size
       ) == ret_val;
   }

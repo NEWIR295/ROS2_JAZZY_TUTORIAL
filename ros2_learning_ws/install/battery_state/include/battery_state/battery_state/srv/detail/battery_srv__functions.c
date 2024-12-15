@@ -16,8 +16,7 @@ battery_state__srv__BatterySrv_Request__init(battery_state__srv__BatterySrv_Requ
   if (!msg) {
     return false;
   }
-  // led_number
-  // state
+  // led_state
   return true;
 }
 
@@ -27,8 +26,7 @@ battery_state__srv__BatterySrv_Request__fini(battery_state__srv__BatterySrv_Requ
   if (!msg) {
     return;
   }
-  // led_number
-  // state
+  // led_state
 }
 
 bool
@@ -37,12 +35,8 @@ battery_state__srv__BatterySrv_Request__are_equal(const battery_state__srv__Batt
   if (!lhs || !rhs) {
     return false;
   }
-  // led_number
-  if (lhs->led_number != rhs->led_number) {
-    return false;
-  }
-  // state
-  if (lhs->state != rhs->state) {
+  // led_state
+  if (lhs->led_state != rhs->led_state) {
     return false;
   }
   return true;
@@ -56,10 +50,8 @@ battery_state__srv__BatterySrv_Request__copy(
   if (!input || !output) {
     return false;
   }
-  // led_number
-  output->led_number = input->led_number;
-  // state
-  output->state = input->state;
+  // led_state
+  output->led_state = input->led_state;
   return true;
 }
 
@@ -243,13 +235,21 @@ battery_state__srv__BatterySrv_Request__Sequence__copy(
 }
 
 
+// Include directives for member types
+// Member `state`
+#include "rosidl_runtime_c/string_functions.h"
+
 bool
 battery_state__srv__BatterySrv_Response__init(battery_state__srv__BatterySrv_Response * msg)
 {
   if (!msg) {
     return false;
   }
-  // success
+  // state
+  if (!rosidl_runtime_c__String__init(&msg->state)) {
+    battery_state__srv__BatterySrv_Response__fini(msg);
+    return false;
+  }
   return true;
 }
 
@@ -259,7 +259,8 @@ battery_state__srv__BatterySrv_Response__fini(battery_state__srv__BatterySrv_Res
   if (!msg) {
     return;
   }
-  // success
+  // state
+  rosidl_runtime_c__String__fini(&msg->state);
 }
 
 bool
@@ -268,8 +269,10 @@ battery_state__srv__BatterySrv_Response__are_equal(const battery_state__srv__Bat
   if (!lhs || !rhs) {
     return false;
   }
-  // success
-  if (lhs->success != rhs->success) {
+  // state
+  if (!rosidl_runtime_c__String__are_equal(
+      &(lhs->state), &(rhs->state)))
+  {
     return false;
   }
   return true;
@@ -283,8 +286,12 @@ battery_state__srv__BatterySrv_Response__copy(
   if (!input || !output) {
     return false;
   }
-  // success
-  output->success = input->success;
+  // state
+  if (!rosidl_runtime_c__String__copy(
+      &(input->state), &(output->state)))
+  {
+    return false;
+  }
   return true;
 }
 

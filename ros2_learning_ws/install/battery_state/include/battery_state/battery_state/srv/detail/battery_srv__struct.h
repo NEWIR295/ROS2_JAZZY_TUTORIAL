@@ -23,8 +23,7 @@ extern "C"
 /// Struct defined in srv/BatterySrv in the package battery_state.
 typedef struct battery_state__srv__BatterySrv_Request
 {
-  int32_t led_number;
-  int32_t state;
+  int32_t led_state;
 } battery_state__srv__BatterySrv_Request;
 
 // Struct for a sequence of battery_state__srv__BatterySrv_Request.
@@ -39,10 +38,14 @@ typedef struct battery_state__srv__BatterySrv_Request__Sequence
 
 // Constants defined in the message
 
+// Include directives for member types
+// Member 'state'
+#include "rosidl_runtime_c/string.h"
+
 /// Struct defined in srv/BatterySrv in the package battery_state.
 typedef struct battery_state__srv__BatterySrv_Response
 {
-  bool success;
+  rosidl_runtime_c__String state;
 } battery_state__srv__BatterySrv_Response;
 
 // Struct for a sequence of battery_state__srv__BatterySrv_Response.

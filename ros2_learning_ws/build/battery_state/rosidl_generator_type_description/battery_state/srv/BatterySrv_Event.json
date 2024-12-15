@@ -40,17 +40,7 @@
         "type_name": "battery_state/srv/BatterySrv_Request",
         "fields": [
           {
-            "name": "led_number",
-            "type": {
-              "type_id": 6,
-              "capacity": 0,
-              "string_capacity": 0,
-              "nested_type_name": ""
-            },
-            "default_value": ""
-          },
-          {
-            "name": "state",
+            "name": "led_state",
             "type": {
               "type_id": 6,
               "capacity": 0,
@@ -65,9 +55,9 @@
         "type_name": "battery_state/srv/BatterySrv_Response",
         "fields": [
           {
-            "name": "success",
+            "name": "state",
             "type": {
-              "type_id": 15,
+              "type_id": 17,
               "capacity": 0,
               "string_capacity": 0,
               "nested_type_name": ""
@@ -151,15 +141,15 @@
   "type_hashes": [
     {
       "type_name": "battery_state/srv/BatterySrv_Event",
-      "hash_string": "RIHS01_c80e558475f7be7176e3f6d5492e06326fbb557a16247532e187bac10dab078c"
+      "hash_string": "RIHS01_f327de8e8ebb1ce8994063906f81a412b1117b6333b4d9b908782de9a0a2ea77"
     },
     {
       "type_name": "battery_state/srv/BatterySrv_Request",
-      "hash_string": "RIHS01_ff714d1db06cc48be3beb7162cf0ca407e6f893cc4e1c91f02cb4a27c68f2a60"
+      "hash_string": "RIHS01_f0df029df35c087100f207149071174e0c34620f7bdb6df52d1b18fbbf5be6cb"
     },
     {
       "type_name": "battery_state/srv/BatterySrv_Response",
-      "hash_string": "RIHS01_bdff57119289e331ff109a2cbbea1c225f92c81e8b1023f2ed6c4fc9c8be533b"
+      "hash_string": "RIHS01_8cea8c9742cc57f0f086434411e1daf960609c9def8a51ded7eb2375fb255124"
     },
     {
       "type_name": "builtin_interfaces/msg/Time",

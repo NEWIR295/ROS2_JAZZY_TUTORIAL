@@ -6,12 +6,10 @@
 module battery_state {
   module srv {
     struct BatterySrv_Request {
-      int32 led_number;
-
-      int32 state;
+      int32 led_state;
     };
     struct BatterySrv_Response {
-      boolean success;
+      string state;
     };
   };
 };

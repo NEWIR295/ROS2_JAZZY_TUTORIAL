@@ -11,10 +11,10 @@ battery_state__msg__BatteryMsg__get_type_hash(
 {
   (void)type_support;
   static rosidl_type_hash_t hash = {1, {
-      0x09, 0xd2, 0x25, 0xe0, 0x93, 0x61, 0x8b, 0x49,
-      0x3a, 0xc7, 0xf6, 0xcf, 0xe2, 0xac, 0x0d, 0xdd,
-      0x01, 0xd3, 0x36, 0xb1, 0x69, 0xe7, 0xed, 0x3b,
-      0xff, 0xce, 0xfc, 0x4b, 0x2e, 0x9f, 0xbf, 0xca,
+      0x66, 0xfa, 0x7f, 0x68, 0xab, 0x5e, 0x33, 0x59,
+      0x84, 0xc8, 0x17, 0x57, 0x8a, 0xd4, 0xa5, 0x6f,
+      0xf3, 0x28, 0xb6, 0xd2, 0xf0, 0xda, 0x7f, 0xce,
+      0x58, 0x48, 0xbe, 0x2a, 0xdf, 0xe5, 0x37, 0x37,
     }};
   return &hash;
 }
@@ -31,13 +31,13 @@ battery_state__msg__BatteryMsg__get_type_hash(
 static char battery_state__msg__BatteryMsg__TYPE_NAME[] = "battery_state/msg/BatteryMsg";
 
 // Define type names, field names, and default values
-static char battery_state__msg__BatteryMsg__FIELD_NAME__led_states[] = "led_states";
+static char battery_state__msg__BatteryMsg__FIELD_NAME__leds_on[] = "leds_on";
 
 static rosidl_runtime_c__type_description__Field battery_state__msg__BatteryMsg__FIELDS[] = {
   {
-    {battery_state__msg__BatteryMsg__FIELD_NAME__led_states, 10, 10},
+    {battery_state__msg__BatteryMsg__FIELD_NAME__leds_on, 7, 7},
     {
-      rosidl_runtime_c__type_description__FieldType__FIELD_TYPE_INT32_UNBOUNDED_SEQUENCE,
+      rosidl_runtime_c__type_description__FieldType__FIELD_TYPE_INT32,
       0,
       0,
       {NULL, 0, 0},
@@ -66,7 +66,7 @@ battery_state__msg__BatteryMsg__get_type_description(
 }
 
 static char toplevel_type_raw_source[] =
-  "int32[] led_states";
+  "int32 leds_on";
 
 static char msg_encoding[] = "msg";
 
@@ -80,7 +80,7 @@ battery_state__msg__BatteryMsg__get_individual_type_description_source(
   static const rosidl_runtime_c__type_description__TypeSource source = {
     {battery_state__msg__BatteryMsg__TYPE_NAME, 28, 28},
     {msg_encoding, 3, 3},
-    {toplevel_type_raw_source, 18, 18},
+    {toplevel_type_raw_source, 13, 13},
   };
   return &source;
 }

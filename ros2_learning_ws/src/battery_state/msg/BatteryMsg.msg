@@ -1,1 +1,1 @@
-int32[] led_states
+int32 leds_on

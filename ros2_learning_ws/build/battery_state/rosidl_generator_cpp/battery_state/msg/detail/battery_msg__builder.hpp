@@ -24,15 +24,15 @@ namespace msg
 namespace builder
 {
 
-class Init_BatteryMsg_led_states
+class Init_BatteryMsg_leds_on
 {
 public:
-  Init_BatteryMsg_led_states()
+  Init_BatteryMsg_leds_on()
   : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
   {}
-  ::battery_state::msg::BatteryMsg led_states(::battery_state::msg::BatteryMsg::_led_states_type arg)
+  ::battery_state::msg::BatteryMsg leds_on(::battery_state::msg::BatteryMsg::_leds_on_type arg)
   {
-    msg_.led_states = std::move(arg);
+    msg_.leds_on = std::move(arg);
     return std::move(msg_);
   }
 
@@ -51,7 +51,7 @@ template<>
 inline
 auto build<::battery_state::msg::BatteryMsg>()
 {
-  return battery_state::msg::builder::Init_BatteryMsg_led_states();
+  return battery_state::msg::builder::Init_BatteryMsg_leds_on();
 }
 
 }  // namespace battery_state

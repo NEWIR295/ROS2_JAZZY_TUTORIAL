@@ -4,3 +4,7 @@ battery_state.egg-info/PKG-INFO
 battery_state.egg-info/SOURCES.txt
 battery_state.egg-info/dependency_links.txt
 battery_state.egg-info/top_level.txt
+battery_state/msg/__init__.py
+battery_state/msg/_battery_msg.py
+battery_state/srv/__init__.py
+battery_state/srv/_battery_srv.py

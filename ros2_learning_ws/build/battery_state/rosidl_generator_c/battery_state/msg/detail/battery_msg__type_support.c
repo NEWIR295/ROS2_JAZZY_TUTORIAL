@@ -5,9 +5,9 @@
 #include <string.h>
 
 #include "battery_state/msg/detail/battery_msg__functions.h"
-#include "rosidl_typesupport_interface/macros.h"
 #include "battery_state/msg/detail/battery_msg__type_support.h"
 #include "battery_state/msg/detail/battery_msg__struct.h"
+#include "rosidl_typesupport_interface/macros.h"
 
 #ifdef __cplusplus
 extern "C"

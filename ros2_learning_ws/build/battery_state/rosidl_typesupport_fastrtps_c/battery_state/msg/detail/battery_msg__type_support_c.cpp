@@ -36,8 +36,6 @@ extern "C"
 {
 #endif
 
-#include "rosidl_runtime_c/primitives_sequence.h"  // led_states
-#include "rosidl_runtime_c/primitives_sequence_functions.h"  // led_states
 
 // forward declare type support functions
 
@@ -50,12 +48,9 @@ bool cdr_serialize_battery_state__msg__BatteryMsg(
   const battery_state__msg__BatteryMsg * ros_message,
   eprosima::fastcdr::Cdr & cdr)
 {
-  // Field name: led_states
+  // Field name: leds_on
   {
-    size_t size = ros_message->led_states.size;
-    auto array_ptr = ros_message->led_states.data;
-    cdr << static_cast<uint32_t>(size);
-    cdr.serialize_array(array_ptr, size);
+    cdr << ros_message->leds_on;
   }
 
   return true;
@@ -66,20 +61,9 @@ bool cdr_deserialize_battery_state__msg__BatteryMsg(
   eprosima::fastcdr::Cdr & cdr,
   battery_state__msg__BatteryMsg * ros_message)
 {
-  // Field name: led_states
+  // Field name: leds_on
   {
-    uint32_t cdrSize;
-    cdr >> cdrSize;
-    size_t size = static_cast<size_t>(cdrSize);
-    if (ros_message->led_states.data) {
-      rosidl_runtime_c__int32__Sequence__fini(&ros_message->led_states);
-    }
-    if (!rosidl_runtime_c__int32__Sequence__init(&ros_message->led_states, size)) {
-      fprintf(stderr, "failed to create array for field 'led_states'");
-      return false;
-    }
-    auto array_ptr = ros_message->led_states.data;
-    cdr.deserialize_array(array_ptr, size);
+    cdr >> ros_message->leds_on;
   }
 
   return true;
@@ -100,15 +84,10 @@ size_t get_serialized_size_battery_state__msg__BatteryMsg(
   (void)padding;
   (void)wchar_size;
 
-  // Field name: led_states
+  // Field name: leds_on
   {
-    size_t array_size = ros_message->led_states.size;
-    auto array_ptr = ros_message->led_states.data;
-    current_alignment += padding +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
-    (void)array_ptr;
-    size_t item_size = sizeof(array_ptr[0]);
-    current_alignment += array_size * item_size +
+    size_t item_size = sizeof(ros_message->leds_on);
+    current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
 
@@ -134,13 +113,9 @@ size_t max_serialized_size_battery_state__msg__BatteryMsg(
   full_bounded = true;
   is_plain = true;
 
-  // Field name: led_states
+  // Field name: leds_on
   {
-    size_t array_size = 0;
-    full_bounded = false;
-    is_plain = false;
-    current_alignment += padding +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
+    size_t array_size = 1;
     last_member_size = array_size * sizeof(uint32_t);
     current_alignment += array_size * sizeof(uint32_t) +
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
@@ -155,7 +130,7 @@ size_t max_serialized_size_battery_state__msg__BatteryMsg(
     using DataType = battery_state__msg__BatteryMsg;
     is_plain =
       (
-      offsetof(DataType, led_states) +
+      offsetof(DataType, leds_on) +
       last_member_size
       ) == ret_val;
   }
@@ -167,12 +142,9 @@ bool cdr_serialize_key_battery_state__msg__BatteryMsg(
   const battery_state__msg__BatteryMsg * ros_message,
   eprosima::fastcdr::Cdr & cdr)
 {
-  // Field name: led_states
+  // Field name: leds_on
   {
-    size_t size = ros_message->led_states.size;
-    auto array_ptr = ros_message->led_states.data;
-    cdr << static_cast<uint32_t>(size);
-    cdr.serialize_array(array_ptr, size);
+    cdr << ros_message->leds_on;
   }
 
   return true;
@@ -193,15 +165,10 @@ size_t get_serialized_size_key_battery_state__msg__BatteryMsg(
   (void)padding;
   (void)wchar_size;
 
-  // Field name: led_states
+  // Field name: leds_on
   {
-    size_t array_size = ros_message->led_states.size;
-    auto array_ptr = ros_message->led_states.data;
-    current_alignment += padding +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
-    (void)array_ptr;
-    size_t item_size = sizeof(array_ptr[0]);
-    current_alignment += array_size * item_size +
+    size_t item_size = sizeof(ros_message->leds_on);
+    current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
 
@@ -225,13 +192,9 @@ size_t max_serialized_size_key_battery_state__msg__BatteryMsg(
 
   full_bounded = true;
   is_plain = true;
-  // Field name: led_states
+  // Field name: leds_on
   {
-    size_t array_size = 0;
-    full_bounded = false;
-    is_plain = false;
-    current_alignment += padding +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
+    size_t array_size = 1;
     last_member_size = array_size * sizeof(uint32_t);
     current_alignment += array_size * sizeof(uint32_t) +
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
@@ -245,7 +208,7 @@ size_t max_serialized_size_key_battery_state__msg__BatteryMsg(
     using DataType = battery_state__msg__BatteryMsg;
     is_plain =
       (
-      offsetof(DataType, led_states) +
+      offsetof(DataType, leds_on) +
       last_member_size
       ) == ret_val;
   }

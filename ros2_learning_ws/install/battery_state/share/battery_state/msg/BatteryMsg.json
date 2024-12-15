@@ -4,9 +4,9 @@
       "type_name": "battery_state/msg/BatteryMsg",
       "fields": [
         {
-          "name": "led_states",
+          "name": "leds_on",
           "type": {
-            "type_id": 150,
+            "type_id": 6,
             "capacity": 0,
             "string_capacity": 0,
             "nested_type_name": ""
@@ -20,7 +20,7 @@
   "type_hashes": [
     {
       "type_name": "battery_state/msg/BatteryMsg",
-      "hash_string": "RIHS01_09d225e093618b493ac7f6cfe2ac0ddd01d336b169e7ed3bffcefc4b2e9fbfca"
+      "hash_string": "RIHS01_66fa7f68ab5e335984c817578ad4a56ff328b6d2f0da7fce5848be2adfe53737"
     }
   ]
 }

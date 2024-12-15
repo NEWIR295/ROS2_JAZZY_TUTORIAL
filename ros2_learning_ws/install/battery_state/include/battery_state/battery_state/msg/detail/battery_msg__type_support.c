@@ -12,10 +12,6 @@
 #include "battery_state/msg/detail/battery_msg__struct.h"
 
 
-// Include directives for member types
-// Member `led_states`
-#include "rosidl_runtime_c/primitives_sequence_functions.h"
-
 #ifdef __cplusplus
 extern "C"
 {
@@ -35,79 +31,24 @@ void battery_state__msg__BatteryMsg__rosidl_typesupport_introspection_c__Battery
   battery_state__msg__BatteryMsg__fini(message_memory);
 }
 
-size_t battery_state__msg__BatteryMsg__rosidl_typesupport_introspection_c__size_function__BatteryMsg__led_states(
-  const void * untyped_member)
-{
-  const rosidl_runtime_c__int32__Sequence * member =
-    (const rosidl_runtime_c__int32__Sequence *)(untyped_member);
-  return member->size;
-}
-
-const void * battery_state__msg__BatteryMsg__rosidl_typesupport_introspection_c__get_const_function__BatteryMsg__led_states(
-  const void * untyped_member, size_t index)
-{
-  const rosidl_runtime_c__int32__Sequence * member =
-    (const rosidl_runtime_c__int32__Sequence *)(untyped_member);
-  return &member->data[index];
-}
-
-void * battery_state__msg__BatteryMsg__rosidl_typesupport_introspection_c__get_function__BatteryMsg__led_states(
-  void * untyped_member, size_t index)
-{
-  rosidl_runtime_c__int32__Sequence * member =
-    (rosidl_runtime_c__int32__Sequence *)(untyped_member);
-  return &member->data[index];
-}
-
-void battery_state__msg__BatteryMsg__rosidl_typesupport_introspection_c__fetch_function__BatteryMsg__led_states(
-  const void * untyped_member, size_t index, void * untyped_value)
-{
-  const int32_t * item =
-    ((const int32_t *)
-    battery_state__msg__BatteryMsg__rosidl_typesupport_introspection_c__get_const_function__BatteryMsg__led_states(untyped_member, index));
-  int32_t * value =
-    (int32_t *)(untyped_value);
-  *value = *item;
-}
-
-void battery_state__msg__BatteryMsg__rosidl_typesupport_introspection_c__assign_function__BatteryMsg__led_states(
-  void * untyped_member, size_t index, const void * untyped_value)
-{
-  int32_t * item =
-    ((int32_t *)
-    battery_state__msg__BatteryMsg__rosidl_typesupport_introspection_c__get_function__BatteryMsg__led_states(untyped_member, index));
-  const int32_t * value =
-    (const int32_t *)(untyped_value);
-  *item = *value;
-}
-
-bool battery_state__msg__BatteryMsg__rosidl_typesupport_introspection_c__resize_function__BatteryMsg__led_states(
-  void * untyped_member, size_t size)
-{
-  rosidl_runtime_c__int32__Sequence * member =
-    (rosidl_runtime_c__int32__Sequence *)(untyped_member);
-  rosidl_runtime_c__int32__Sequence__fini(member);
-  return rosidl_runtime_c__int32__Sequence__init(member, size);
-}
-
 static rosidl_typesupport_introspection_c__MessageMember battery_state__msg__BatteryMsg__rosidl_typesupport_introspection_c__BatteryMsg_message_member_array[1] = {
   {
-    "led_states",  // name
+    "leds_on",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_INT32,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
     false,  // is key
-    true,  // is array
+    false,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(battery_state__msg__BatteryMsg, led_states),  // bytes offset in struct
+    offsetof(battery_state__msg__BatteryMsg, leds_on),  // bytes offset in struct
     NULL,  // default value
-    battery_state__msg__BatteryMsg__rosidl_typesupport_introspection_c__size_function__BatteryMsg__led_states,  // size() function pointer
-    battery_state__msg__BatteryMsg__rosidl_typesupport_introspection_c__get_const_function__BatteryMsg__led_states,  // get_const(index) function pointer
-    battery_state__msg__BatteryMsg__rosidl_typesupport_introspection_c__get_function__BatteryMsg__led_states,  // get(index) function pointer
-    battery_state__msg__BatteryMsg__rosidl_typesupport_introspection_c__fetch_function__BatteryMsg__led_states,  // fetch(index, &value) function pointer
-    battery_state__msg__BatteryMsg__rosidl_typesupport_introspection_c__assign_function__BatteryMsg__led_states,  // assign(index, value) function pointer
-    battery_state__msg__BatteryMsg__rosidl_typesupport_introspection_c__resize_function__BatteryMsg__led_states  // resize(index) function pointer
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
+    NULL  // resize(index) function pointer
   }
 };
 

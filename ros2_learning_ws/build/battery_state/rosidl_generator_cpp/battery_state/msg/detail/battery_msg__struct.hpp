@@ -38,25 +38,33 @@ struct BatteryMsg_
 
   explicit BatteryMsg_(rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
   {
-    (void)_init;
+    if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
+      rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
+    {
+      this->leds_on = 0l;
+    }
   }
 
   explicit BatteryMsg_(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
   {
-    (void)_init;
     (void)_alloc;
+    if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
+      rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
+    {
+      this->leds_on = 0l;
+    }
   }
 
   // field types and members
-  using _led_states_type =
-    std::vector<int32_t, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<int32_t>>;
-  _led_states_type led_states;
+  using _leds_on_type =
+    int32_t;
+  _leds_on_type leds_on;
 
   // setters for named parameter idiom
-  Type & set__led_states(
-    const std::vector<int32_t, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<int32_t>> & _arg)
+  Type & set__leds_on(
+    const int32_t & _arg)
   {
-    this->led_states = _arg;
+    this->leds_on = _arg;
     return *this;
   }
 
@@ -102,7 +110,7 @@ struct BatteryMsg_
   // comparison operators
   bool operator==(const BatteryMsg_ & other) const
   {
-    if (this->led_states != other.led_states) {
+    if (this->leds_on != other.leds_on) {
       return false;
     }
     return true;

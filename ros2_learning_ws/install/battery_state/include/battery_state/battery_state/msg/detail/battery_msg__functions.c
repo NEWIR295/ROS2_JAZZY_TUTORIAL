@@ -11,21 +11,13 @@
 #include "rcutils/allocator.h"
 
 
-// Include directives for member types
-// Member `led_states`
-#include "rosidl_runtime_c/primitives_sequence_functions.h"
-
 bool
 battery_state__msg__BatteryMsg__init(battery_state__msg__BatteryMsg * msg)
 {
   if (!msg) {
     return false;
   }
-  // led_states
-  if (!rosidl_runtime_c__int32__Sequence__init(&msg->led_states, 0)) {
-    battery_state__msg__BatteryMsg__fini(msg);
-    return false;
-  }
+  // leds_on
   return true;
 }
 
@@ -35,8 +27,7 @@ battery_state__msg__BatteryMsg__fini(battery_state__msg__BatteryMsg * msg)
   if (!msg) {
     return;
   }
-  // led_states
-  rosidl_runtime_c__int32__Sequence__fini(&msg->led_states);
+  // leds_on
 }
 
 bool
@@ -45,10 +36,8 @@ battery_state__msg__BatteryMsg__are_equal(const battery_state__msg__BatteryMsg *
   if (!lhs || !rhs) {
     return false;
   }
-  // led_states
-  if (!rosidl_runtime_c__int32__Sequence__are_equal(
-      &(lhs->led_states), &(rhs->led_states)))
-  {
+  // leds_on
+  if (lhs->leds_on != rhs->leds_on) {
     return false;
   }
   return true;
@@ -62,12 +51,8 @@ battery_state__msg__BatteryMsg__copy(
   if (!input || !output) {
     return false;
   }
-  // led_states
-  if (!rosidl_runtime_c__int32__Sequence__copy(
-      &(input->led_states), &(output->led_states)))
-  {
-    return false;
-  }
+  // leds_on
+  output->leds_on = input->leds_on;
   return true;
 }
 

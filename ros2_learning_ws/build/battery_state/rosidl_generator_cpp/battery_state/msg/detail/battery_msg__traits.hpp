@@ -28,21 +28,10 @@ inline void to_flow_style_yaml(
   std::ostream & out)
 {
   out << "{";
-  // member: led_states
+  // member: leds_on
   {
-    if (msg.led_states.size() == 0) {
-      out << "led_states: []";
-    } else {
-      out << "led_states: [";
-      size_t pending_items = msg.led_states.size();
-      for (auto item : msg.led_states) {
-        rosidl_generator_traits::value_to_yaml(item, out);
-        if (--pending_items > 0) {
-          out << ", ";
-        }
-      }
-      out << "]";
-    }
+    out << "leds_on: ";
+    rosidl_generator_traits::value_to_yaml(msg.leds_on, out);
   }
   out << "}";
 }  // NOLINT(readability/fn_size)
@@ -51,24 +40,14 @@ inline void to_block_style_yaml(
   const BatteryMsg & msg,
   std::ostream & out, size_t indentation = 0)
 {
-  // member: led_states
+  // member: leds_on
   {
     if (indentation > 0) {
       out << std::string(indentation, ' ');
     }
-    if (msg.led_states.size() == 0) {
-      out << "led_states: []\n";
-    } else {
-      out << "led_states:\n";
-      for (auto item : msg.led_states) {
-        if (indentation > 0) {
-          out << std::string(indentation, ' ');
-        }
-        out << "- ";
-        rosidl_generator_traits::value_to_yaml(item, out);
-        out << "\n";
-      }
-    }
+    out << "leds_on: ";
+    rosidl_generator_traits::value_to_yaml(msg.leds_on, out);
+    out << "\n";
   }
 }  // NOLINT(readability/fn_size)
 
@@ -118,11 +97,11 @@ inline const char * name<battery_state::msg::BatteryMsg>()
 
 template<>
 struct has_fixed_size<battery_state::msg::BatteryMsg>
-  : std::integral_constant<bool, false> {};
+  : std::integral_constant<bool, true> {};
 
 template<>
 struct has_bounded_size<battery_state::msg::BatteryMsg>
-  : std::integral_constant<bool, false> {};
+  : std::integral_constant<bool, true> {};
 
 template<>
 struct is_message<battery_state::msg::BatteryMsg>

@@ -11,10 +11,10 @@ battery_state__srv__BatterySrv__get_type_hash(
 {
   (void)type_support;
   static rosidl_type_hash_t hash = {1, {
-      0x58, 0xc6, 0x2e, 0x22, 0xca, 0xd5, 0x75, 0x81,
-      0x29, 0x71, 0x64, 0x73, 0xaa, 0x41, 0xc5, 0x26,
-      0x03, 0xc2, 0xd8, 0xed, 0x95, 0x64, 0xdf, 0x68,
-      0x8e, 0x8a, 0xf9, 0xa0, 0x21, 0x10, 0x99, 0xf7,
+      0x16, 0xa4, 0x15, 0xbc, 0xfb, 0x50, 0x86, 0x1a,
+      0x6c, 0x60, 0xfd, 0x12, 0xc2, 0xfe, 0xb7, 0xea,
+      0xdd, 0xde, 0xd6, 0xec, 0x9f, 0xda, 0x4a, 0x6d,
+      0xce, 0xb1, 0x95, 0x50, 0xce, 0xc6, 0x3a, 0xe1,
     }};
   return &hash;
 }
@@ -26,10 +26,10 @@ battery_state__srv__BatterySrv_Request__get_type_hash(
 {
   (void)type_support;
   static rosidl_type_hash_t hash = {1, {
-      0xff, 0x71, 0x4d, 0x1d, 0xb0, 0x6c, 0xc4, 0x8b,
-      0xe3, 0xbe, 0xb7, 0x16, 0x2c, 0xf0, 0xca, 0x40,
-      0x7e, 0x6f, 0x89, 0x3c, 0xc4, 0xe1, 0xc9, 0x1f,
-      0x02, 0xcb, 0x4a, 0x27, 0xc6, 0x8f, 0x2a, 0x60,
+      0xf0, 0xdf, 0x02, 0x9d, 0xf3, 0x5c, 0x08, 0x71,
+      0x00, 0xf2, 0x07, 0x14, 0x90, 0x71, 0x17, 0x4e,
+      0x0c, 0x34, 0x62, 0x0f, 0x7b, 0xdb, 0x6d, 0xf5,
+      0x2d, 0x1b, 0x18, 0xfb, 0xbf, 0x5b, 0xe6, 0xcb,
     }};
   return &hash;
 }
@@ -41,10 +41,10 @@ battery_state__srv__BatterySrv_Response__get_type_hash(
 {
   (void)type_support;
   static rosidl_type_hash_t hash = {1, {
-      0xbd, 0xff, 0x57, 0x11, 0x92, 0x89, 0xe3, 0x31,
-      0xff, 0x10, 0x9a, 0x2c, 0xbb, 0xea, 0x1c, 0x22,
-      0x5f, 0x92, 0xc8, 0x1e, 0x8b, 0x10, 0x23, 0xf2,
-      0xed, 0x6c, 0x4f, 0xc9, 0xc8, 0xbe, 0x53, 0x3b,
+      0x8c, 0xea, 0x8c, 0x97, 0x42, 0xcc, 0x57, 0xf0,
+      0xf0, 0x86, 0x43, 0x44, 0x11, 0xe1, 0xda, 0xf9,
+      0x60, 0x60, 0x9c, 0x9d, 0xef, 0x8a, 0x51, 0xde,
+      0xd7, 0xeb, 0x23, 0x75, 0xfb, 0x25, 0x51, 0x24,
     }};
   return &hash;
 }
@@ -56,10 +56,10 @@ battery_state__srv__BatterySrv_Event__get_type_hash(
 {
   (void)type_support;
   static rosidl_type_hash_t hash = {1, {
-      0xc8, 0x0e, 0x55, 0x84, 0x75, 0xf7, 0xbe, 0x71,
-      0x76, 0xe3, 0xf6, 0xd5, 0x49, 0x2e, 0x06, 0x32,
-      0x6f, 0xbb, 0x55, 0x7a, 0x16, 0x24, 0x75, 0x32,
-      0xe1, 0x87, 0xba, 0xc1, 0x0d, 0xab, 0x07, 0x8c,
+      0xf3, 0x27, 0xde, 0x8e, 0x8e, 0xbb, 0x1c, 0xe8,
+      0x99, 0x40, 0x63, 0x90, 0x6f, 0x81, 0xa4, 0x12,
+      0xb1, 0x11, 0x7b, 0x63, 0x33, 0xb4, 0xd9, 0xb9,
+      0x08, 0x78, 0x2d, 0xe9, 0xa0, 0xa2, 0xea, 0x77,
     }};
   return &hash;
 }
@@ -181,22 +181,11 @@ battery_state__srv__BatterySrv__get_type_description(
   return &description;
 }
 // Define type names, field names, and default values
-static char battery_state__srv__BatterySrv_Request__FIELD_NAME__led_number[] = "led_number";
-static char battery_state__srv__BatterySrv_Request__FIELD_NAME__state[] = "state";
+static char battery_state__srv__BatterySrv_Request__FIELD_NAME__led_state[] = "led_state";
 
 static rosidl_runtime_c__type_description__Field battery_state__srv__BatterySrv_Request__FIELDS[] = {
   {
-    {battery_state__srv__BatterySrv_Request__FIELD_NAME__led_number, 10, 10},
-    {
-      rosidl_runtime_c__type_description__FieldType__FIELD_TYPE_INT32,
-      0,
-      0,
-      {NULL, 0, 0},
-    },
-    {NULL, 0, 0},
-  },
-  {
-    {battery_state__srv__BatterySrv_Request__FIELD_NAME__state, 5, 5},
+    {battery_state__srv__BatterySrv_Request__FIELD_NAME__led_state, 9, 9},
     {
       rosidl_runtime_c__type_description__FieldType__FIELD_TYPE_INT32,
       0,
@@ -216,7 +205,7 @@ battery_state__srv__BatterySrv_Request__get_type_description(
   static const rosidl_runtime_c__type_description__TypeDescription description = {
     {
       {battery_state__srv__BatterySrv_Request__TYPE_NAME, 36, 36},
-      {battery_state__srv__BatterySrv_Request__FIELDS, 2, 2},
+      {battery_state__srv__BatterySrv_Request__FIELDS, 1, 1},
     },
     {NULL, 0, 0},
   };
@@ -226,13 +215,13 @@ battery_state__srv__BatterySrv_Request__get_type_description(
   return &description;
 }
 // Define type names, field names, and default values
-static char battery_state__srv__BatterySrv_Response__FIELD_NAME__success[] = "success";
+static char battery_state__srv__BatterySrv_Response__FIELD_NAME__state[] = "state";
 
 static rosidl_runtime_c__type_description__Field battery_state__srv__BatterySrv_Response__FIELDS[] = {
   {
-    {battery_state__srv__BatterySrv_Response__FIELD_NAME__success, 7, 7},
+    {battery_state__srv__BatterySrv_Response__FIELD_NAME__state, 5, 5},
     {
-      rosidl_runtime_c__type_description__FieldType__FIELD_TYPE_BOOLEAN,
+      rosidl_runtime_c__type_description__FieldType__FIELD_TYPE_STRING,
       0,
       0,
       {NULL, 0, 0},
@@ -342,10 +331,9 @@ battery_state__srv__BatterySrv_Event__get_type_description(
 }
 
 static char toplevel_type_raw_source[] =
-  "int32 led_number\n"
-  "int32 state\n"
+  "int32 led_state\n"
   "---\n"
-  "bool success";
+  "string state";
 
 static char srv_encoding[] = "srv";
 static char implicit_encoding[] = "implicit";
@@ -360,7 +348,7 @@ battery_state__srv__BatterySrv__get_individual_type_description_source(
   static const rosidl_runtime_c__type_description__TypeSource source = {
     {battery_state__srv__BatterySrv__TYPE_NAME, 28, 28},
     {srv_encoding, 3, 3},
-    {toplevel_type_raw_source, 45, 45},
+    {toplevel_type_raw_source, 32, 32},
   };
   return &source;
 }

@@ -1,0 +1,41 @@
+[1.968s] Invoking command in '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/src/turtlesim_manipulation': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/turtlesim_manipulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/turtlesim_manipulation/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlesim_manipulation build --build-base /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/turtlesim_manipulation/build install --record /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/turtlesim_manipulation/install.log --single-version-externally-managed install_data
+[2.439s] running egg_info
+[2.439s] creating ../../build/turtlesim_manipulation/turtlesim_manipulation.egg-info
+[2.480s] writing ../../build/turtlesim_manipulation/turtlesim_manipulation.egg-info/PKG-INFO
+[2.481s] writing dependency_links to ../../build/turtlesim_manipulation/turtlesim_manipulation.egg-info/dependency_links.txt
+[2.481s] writing entry points to ../../build/turtlesim_manipulation/turtlesim_manipulation.egg-info/entry_points.txt
+[2.481s] writing requirements to ../../build/turtlesim_manipulation/turtlesim_manipulation.egg-info/requires.txt
+[2.481s] writing top-level names to ../../build/turtlesim_manipulation/turtlesim_manipulation.egg-info/top_level.txt
+[2.482s] writing manifest file '../../build/turtlesim_manipulation/turtlesim_manipulation.egg-info/SOURCES.txt'
+[2.569s] reading manifest file '../../build/turtlesim_manipulation/turtlesim_manipulation.egg-info/SOURCES.txt'
+[2.571s] writing manifest file '../../build/turtlesim_manipulation/turtlesim_manipulation.egg-info/SOURCES.txt'
+[2.571s] running build
+[2.572s] running build_py
+[2.572s] creating /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/turtlesim_manipulation/build
+[2.572s] creating /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/turtlesim_manipulation/build/lib
+[2.572s] creating /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/turtlesim_manipulation/build/lib/turtlesim_manipulation
+[2.573s] copying turtlesim_manipulation/traveler_turtle.py -> /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/turtlesim_manipulation/build/lib/turtlesim_manipulation
+[2.573s] copying turtlesim_manipulation/draw_circle.py -> /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/turtlesim_manipulation/build/lib/turtlesim_manipulation
+[2.573s] copying turtlesim_manipulation/__init__.py -> /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/turtlesim_manipulation/build/lib/turtlesim_manipulation
+[2.573s] running install
+[2.587s] running install_lib
+[2.639s] creating /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/turtlesim_manipulation/lib/python3.12/site-packages/turtlesim_manipulation
+[2.640s] copying /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/turtlesim_manipulation/build/lib/turtlesim_manipulation/traveler_turtle.py -> /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/turtlesim_manipulation/lib/python3.12/site-packages/turtlesim_manipulation
+[2.640s] copying /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/turtlesim_manipulation/build/lib/turtlesim_manipulation/draw_circle.py -> /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/turtlesim_manipulation/lib/python3.12/site-packages/turtlesim_manipulation
+[2.640s] copying /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/turtlesim_manipulation/build/lib/turtlesim_manipulation/__init__.py -> /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/turtlesim_manipulation/lib/python3.12/site-packages/turtlesim_manipulation
+[2.641s] byte-compiling /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/turtlesim_manipulation/lib/python3.12/site-packages/turtlesim_manipulation/traveler_turtle.py to traveler_turtle.cpython-312.pyc
+[2.642s] byte-compiling /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/turtlesim_manipulation/lib/python3.12/site-packages/turtlesim_manipulation/draw_circle.py to draw_circle.cpython-312.pyc
+[2.643s] byte-compiling /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/turtlesim_manipulation/lib/python3.12/site-packages/turtlesim_manipulation/__init__.py to __init__.cpython-312.pyc
+[2.643s] running install_data
+[2.643s] creating /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/turtlesim_manipulation/share/ament_index
+[2.644s] creating /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/turtlesim_manipulation/share/ament_index/resource_index
+[2.644s] creating /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/turtlesim_manipulation/share/ament_index/resource_index/packages
+[2.644s] copying resource/turtlesim_manipulation -> /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/turtlesim_manipulation/share/ament_index/resource_index/packages
+[2.645s] copying package.xml -> /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/turtlesim_manipulation/share/turtlesim_manipulation
+[2.645s] running install_egg_info
+[2.680s] Copying ../../build/turtlesim_manipulation/turtlesim_manipulation.egg-info to /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/turtlesim_manipulation/lib/python3.12/site-packages/turtlesim_manipulation-0.0.0-py3.12.egg-info
+[2.682s] running install_scripts
+[2.925s] Installing draw_circle script to /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/turtlesim_manipulation/lib/turtlesim_manipulation
+[2.925s] Installing traveler_turtle script to /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/turtlesim_manipulation/lib/turtlesim_manipulation
+[2.926s] writing list of installed files to '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/turtlesim_manipulation/install.log'
+[2.990s] Invoked command in '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/src/turtlesim_manipulation' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/turtlesim_manipulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/turtlesim_manipulation/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlesim_manipulation build --build-base /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/turtlesim_manipulation/build install --record /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/turtlesim_manipulation/install.log --single-version-externally-managed install_data

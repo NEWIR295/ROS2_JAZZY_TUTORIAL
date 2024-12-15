@@ -41,8 +41,7 @@ struct BatterySrv_Request_
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
-      this->led_number = 0l;
-      this->state = 0l;
+      this->led_state = 0l;
     }
   }
 
@@ -52,30 +51,20 @@ struct BatterySrv_Request_
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
-      this->led_number = 0l;
-      this->state = 0l;
+      this->led_state = 0l;
     }
   }
 
   // field types and members
-  using _led_number_type =
+  using _led_state_type =
     int32_t;
-  _led_number_type led_number;
-  using _state_type =
-    int32_t;
-  _state_type state;
+  _led_state_type led_state;
 
   // setters for named parameter idiom
-  Type & set__led_number(
+  Type & set__led_state(
     const int32_t & _arg)
   {
-    this->led_number = _arg;
-    return *this;
-  }
-  Type & set__state(
-    const int32_t & _arg)
-  {
-    this->state = _arg;
+    this->led_state = _arg;
     return *this;
   }
 
@@ -121,10 +110,7 @@ struct BatterySrv_Request_
   // comparison operators
   bool operator==(const BatterySrv_Request_ & other) const
   {
-    if (this->led_number != other.led_number) {
-      return false;
-    }
-    if (this->state != other.state) {
+    if (this->led_state != other.led_state) {
       return false;
     }
     return true;
@@ -169,30 +155,30 @@ struct BatterySrv_Response_
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
-      this->success = false;
+      this->state = "";
     }
   }
 
   explicit BatterySrv_Response_(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+  : state(_alloc)
   {
-    (void)_alloc;
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
-      this->success = false;
+      this->state = "";
     }
   }
 
   // field types and members
-  using _success_type =
-    bool;
-  _success_type success;
+  using _state_type =
+    std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>;
+  _state_type state;
 
   // setters for named parameter idiom
-  Type & set__success(
-    const bool & _arg)
+  Type & set__state(
+    const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> & _arg)
   {
-    this->success = _arg;
+    this->state = _arg;
     return *this;
   }
 
@@ -238,7 +224,7 @@ struct BatterySrv_Response_
   // comparison operators
   bool operator==(const BatterySrv_Response_ & other) const
   {
-    if (this->success != other.success) {
+    if (this->state != other.state) {
       return false;
     }
     return true;
