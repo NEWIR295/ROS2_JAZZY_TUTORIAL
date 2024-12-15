@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "battery_state/srv/BatterySrv_Request",
+      "fields": [
+        {
+          "name": "led_number",
+          "type": {
+            "type_id": 6,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "state",
+          "type": {
+            "type_id": 6,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "battery_state/srv/BatterySrv_Request",
+      "hash_string": "RIHS01_ff714d1db06cc48be3beb7162cf0ca407e6f893cc4e1c91f02cb4a27c68f2a60"
+    }
+  ]
+}

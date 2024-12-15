@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_copy_battery_state.dir/compiler_depend.mak
 include CMakeFiles/ament_cmake_python_copy_battery_state.dir/progress.make
 
 CMakeFiles/ament_cmake_python_copy_battery_state:
-	/usr/bin/cmake -E copy_directory /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/src/battery_state/battery_state /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/battery_state/ament_cmake_python/battery_state/battery_state
+	/usr/bin/cmake -E copy_directory /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/battery_state/rosidl_generator_py/battery_state /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/battery_state/ament_cmake_python/battery_state/battery_state
 
 ament_cmake_python_copy_battery_state: CMakeFiles/ament_cmake_python_copy_battery_state
 ament_cmake_python_copy_battery_state: CMakeFiles/ament_cmake_python_copy_battery_state.dir/build.make

@@ -1,0 +1,386 @@
+[0.000000] (-) TimerEvent: {}
+[0.000325] (battery_state) JobQueued: {'identifier': 'battery_state', 'dependencies': OrderedDict()}
+[0.000373] (first_py_pkg) JobQueued: {'identifier': 'first_py_pkg', 'dependencies': OrderedDict()}
+[0.000402] (myFirst_cpp_pkg) JobQueued: {'identifier': 'myFirst_cpp_pkg', 'dependencies': OrderedDict()}
+[0.000426] (turtlesim_manipulation) JobQueued: {'identifier': 'turtlesim_manipulation', 'dependencies': OrderedDict()}
+[0.000448] (battery_state) JobStarted: {'identifier': 'battery_state'}
+[0.009866] (first_py_pkg) JobStarted: {'identifier': 'first_py_pkg'}
+[0.017135] (myFirst_cpp_pkg) JobStarted: {'identifier': 'myFirst_cpp_pkg'}
+[0.021728] (turtlesim_manipulation) JobStarted: {'identifier': 'turtlesim_manipulation'}
+[0.029609] (battery_state) JobProgress: {'identifier': 'battery_state', 'progress': 'cmake'}
+[0.030441] (battery_state) Command: {'cmd': ['/usr/bin/cmake', '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/src/battery_state', '-DCMAKE_INSTALL_PREFIX=/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state'], 'cwd': '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/battery_state', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': '1404a459-baba-4528-877b-2a41bdcf248e', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'newir529', 'LC_TIME': 'ar_EG.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/newir529', 'OLDPWD': '/home/newir529', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ar_EG.UTF-8', 'MANAGERPID': '2095', 'SYSTEMD_EXEC_PID': '2367', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3252', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'newir529', 'JOURNAL_STREAM': '8:19891', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'newir529', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/newir529:@/tmp/.ICE-unix/2323,unix/newir529:/tmp/.ICE-unix/2323', 'INVOCATION_ID': '0fe9c494ce48405db084ae705e60b1c9', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ar_EG.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ar_EG.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.TG7UY2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'ar_EG.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:0488e507-7647-45e8-b61e-5cc41164a28d', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ar_EG.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'ar_EG.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/battery_state', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'ar_EG.UTF-8', 'LC_PAPER': 'ar_EG.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099068] (-) TimerEvent: {}
+[0.199646] (-) TimerEvent: {}
+[0.299939] (-) TimerEvent: {}
+[0.400381] (-) TimerEvent: {}
+[0.419783] (myFirst_cpp_pkg) JobProgress: {'identifier': 'myFirst_cpp_pkg', 'progress': 'cmake'}
+[0.421272] (myFirst_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/src/myFirst_cpp_pkg', '-DCMAKE_INSTALL_PREFIX=/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/myFirst_cpp_pkg'], 'cwd': '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/myFirst_cpp_pkg', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': '1404a459-baba-4528-877b-2a41bdcf248e', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'newir529', 'LC_TIME': 'ar_EG.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/newir529', 'OLDPWD': '/home/newir529', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ar_EG.UTF-8', 'MANAGERPID': '2095', 'SYSTEMD_EXEC_PID': '2367', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3252', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'newir529', 'JOURNAL_STREAM': '8:19891', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'newir529', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/newir529:@/tmp/.ICE-unix/2323,unix/newir529:/tmp/.ICE-unix/2323', 'INVOCATION_ID': '0fe9c494ce48405db084ae705e60b1c9', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ar_EG.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ar_EG.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.TG7UY2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'ar_EG.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:0488e507-7647-45e8-b61e-5cc41164a28d', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ar_EG.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'ar_EG.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/myFirst_cpp_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'ar_EG.UTF-8', 'LC_PAPER': 'ar_EG.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.424633] (battery_state) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.425483] (battery_state) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.426731] (battery_state) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.427241] (battery_state) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.427363] (battery_state) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.427475] (battery_state) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.428717] (battery_state) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.428884] (battery_state) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.500509] (-) TimerEvent: {}
+[0.512780] (myFirst_cpp_pkg) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.572481] (battery_state) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.588630] (battery_state) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.589116] (battery_state) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.589864] (battery_state) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.593434] (battery_state) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.600614] (-) TimerEvent: {}
+[0.606010] (myFirst_cpp_pkg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.630405] (myFirst_cpp_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.700705] (-) TimerEvent: {}
+[0.760965] (myFirst_cpp_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.784471] (myFirst_cpp_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.785065] (myFirst_cpp_pkg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.786047] (myFirst_cpp_pkg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.799706] (myFirst_cpp_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.800813] (-) TimerEvent: {}
+[0.836260] (battery_state) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.900988] (-) TimerEvent: {}
+[0.963921] (myFirst_cpp_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.980092] (myFirst_cpp_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.980540] (myFirst_cpp_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.981448] (myFirst_cpp_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.985093] (myFirst_cpp_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[1.001066] (-) TimerEvent: {}
+[1.032546] (battery_state) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[1.040339] (battery_state) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.101169] (-) TimerEvent: {}
+[1.120036] (battery_state) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.193041] (battery_state) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.4 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[1.198164] (battery_state) StdoutLine: {'line': b'-- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[1.201266] (-) TimerEvent: {}
+[1.219783] (myFirst_cpp_pkg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.301375] (-) TimerEvent: {}
+[1.344223] (battery_state) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.348609] (battery_state) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.391740] (myFirst_cpp_pkg) StdoutLine: {'line': b'-- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[1.401503] (-) TimerEvent: {}
+[1.473088] (battery_state) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[1.490904] (myFirst_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.501608] (-) TimerEvent: {}
+[1.515578] (myFirst_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.524620] (battery_state) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[1.541044] (myFirst_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.562733] (battery_state) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.569610] (myFirst_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.601706] (-) TimerEvent: {}
+[1.691688] (battery_state) StdoutLine: {'line': b'-- Found rclpy: 7.1.2 (/opt/ros/jazzy/share/rclpy/cmake)\n'}
+[1.693852] (battery_state) StdoutLine: {'line': b'-- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[1.701812] (-) TimerEvent: {}
+[1.714368] (myFirst_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.718697] (myFirst_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.721831] (battery_state) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[1.801852] (-) TimerEvent: {}
+[1.840371] (myFirst_cpp_pkg) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[1.871442] (myFirst_cpp_pkg) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[1.901956] (-) TimerEvent: {}
+[1.921507] (myFirst_cpp_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.002077] (-) TimerEvent: {}
+[2.031539] (first_py_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/first_py_pkg', 'build', '--build-base', '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/first_py_pkg/build', 'install', '--record', '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/first_py_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/src/first_py_pkg', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': '1404a459-baba-4528-877b-2a41bdcf248e', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'newir529', 'LC_TIME': 'ar_EG.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/newir529', 'OLDPWD': '/home/newir529', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ar_EG.UTF-8', 'MANAGERPID': '2095', 'SYSTEMD_EXEC_PID': '2367', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3252', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'newir529', 'JOURNAL_STREAM': '8:19891', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'newir529', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/newir529:@/tmp/.ICE-unix/2323,unix/newir529:/tmp/.ICE-unix/2323', 'INVOCATION_ID': '0fe9c494ce48405db084ae705e60b1c9', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ar_EG.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ar_EG.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.TG7UY2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'ar_EG.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:0488e507-7647-45e8-b61e-5cc41164a28d', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ar_EG.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'ar_EG.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/first_py_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/first_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/first_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'ar_EG.UTF-8', 'LC_PAPER': 'ar_EG.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[2.047679] (turtlesim_manipulation) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/turtlesim_manipulation', 'build', '--build-base', '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/turtlesim_manipulation/build', 'install', '--record', '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/turtlesim_manipulation/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/src/turtlesim_manipulation', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': '1404a459-baba-4528-877b-2a41bdcf248e', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'newir529', 'LC_TIME': 'ar_EG.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/newir529', 'OLDPWD': '/home/newir529', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ar_EG.UTF-8', 'MANAGERPID': '2095', 'SYSTEMD_EXEC_PID': '2367', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3252', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'newir529', 'JOURNAL_STREAM': '8:19891', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'newir529', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/newir529:@/tmp/.ICE-unix/2323,unix/newir529:/tmp/.ICE-unix/2323', 'INVOCATION_ID': '0fe9c494ce48405db084ae705e60b1c9', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ar_EG.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ar_EG.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.TG7UY2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'ar_EG.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:0488e507-7647-45e8-b61e-5cc41164a28d', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ar_EG.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'ar_EG.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/turtlesim_manipulation', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/turtlesim_manipulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/turtlesim_manipulation/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'ar_EG.UTF-8', 'LC_PAPER': 'ar_EG.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[2.072586] (myFirst_cpp_pkg) StdoutLine: {'line': b'-- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[2.102181] (-) TimerEvent: {}
+[2.107225] (myFirst_cpp_pkg) StdoutLine: {'line': b'-- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)\n'}
+[2.202286] (-) TimerEvent: {}
+[2.256242] (myFirst_cpp_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[2.302410] (-) TimerEvent: {}
+[2.375899] (myFirst_cpp_pkg) StderrLine: {'line': b'WARNING: Package name "myFirst_cpp_pkg" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.\n'}
+[2.402522] (-) TimerEvent: {}
+[2.456571] (myFirst_cpp_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.456968] (myFirst_cpp_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[2.457198] (myFirst_cpp_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.458893] (myFirst_cpp_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.461585] (myFirst_cpp_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.461891] (myFirst_cpp_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.463049] (myFirst_cpp_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.472245] (myFirst_cpp_pkg) StdoutLine: {'line': b'-- Configuring done (2.0s)\n'}
+[2.502647] (-) TimerEvent: {}
+[2.521316] (myFirst_cpp_pkg) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[2.535997] (myFirst_cpp_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/myFirst_cpp_pkg\n'}
+[2.544887] (turtlesim_manipulation) StdoutLine: {'line': b'running egg_info\n'}
+[2.545635] (turtlesim_manipulation) StdoutLine: {'line': b'creating ../../build/turtlesim_manipulation/turtlesim_manipulation.egg-info\n'}
+[2.552063] (myFirst_cpp_pkg) CommandEnded: {'returncode': 0}
+[2.553118] (myFirst_cpp_pkg) JobProgress: {'identifier': 'myFirst_cpp_pkg', 'progress': 'build'}
+[2.554940] (myFirst_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/myFirst_cpp_pkg', '--', '-j8', '-l8'], 'cwd': '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/myFirst_cpp_pkg', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': '1404a459-baba-4528-877b-2a41bdcf248e', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'newir529', 'LC_TIME': 'ar_EG.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/newir529', 'OLDPWD': '/home/newir529', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ar_EG.UTF-8', 'MANAGERPID': '2095', 'SYSTEMD_EXEC_PID': '2367', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3252', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'newir529', 'JOURNAL_STREAM': '8:19891', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'newir529', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/newir529:@/tmp/.ICE-unix/2323,unix/newir529:/tmp/.ICE-unix/2323', 'INVOCATION_ID': '0fe9c494ce48405db084ae705e60b1c9', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ar_EG.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ar_EG.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.TG7UY2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'ar_EG.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:0488e507-7647-45e8-b61e-5cc41164a28d', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ar_EG.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'ar_EG.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/myFirst_cpp_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'ar_EG.UTF-8', 'LC_PAPER': 'ar_EG.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[2.559106] (first_py_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[2.559453] (first_py_pkg) StdoutLine: {'line': b'creating ../../build/first_py_pkg/first_py_pkg.egg-info\n'}
+[2.593671] (first_py_pkg) StdoutLine: {'line': b'writing ../../build/first_py_pkg/first_py_pkg.egg-info/PKG-INFO\n'}
+[2.594059] (first_py_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/first_py_pkg/first_py_pkg.egg-info/dependency_links.txt\n'}
+[2.594292] (first_py_pkg) StdoutLine: {'line': b'writing entry points to ../../build/first_py_pkg/first_py_pkg.egg-info/entry_points.txt\n'}
+[2.594467] (first_py_pkg) StdoutLine: {'line': b'writing requirements to ../../build/first_py_pkg/first_py_pkg.egg-info/requires.txt\n'}
+[2.594670] (first_py_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/first_py_pkg/first_py_pkg.egg-info/top_level.txt\n'}
+[2.594934] (first_py_pkg) StdoutLine: {'line': b"writing manifest file '../../build/first_py_pkg/first_py_pkg.egg-info/SOURCES.txt'\n"}
+[2.602736] (-) TimerEvent: {}
+[2.611008] (turtlesim_manipulation) StdoutLine: {'line': b'writing ../../build/turtlesim_manipulation/turtlesim_manipulation.egg-info/PKG-INFO\n'}
+[2.611414] (turtlesim_manipulation) StdoutLine: {'line': b'writing dependency_links to ../../build/turtlesim_manipulation/turtlesim_manipulation.egg-info/dependency_links.txt\n'}
+[2.611706] (turtlesim_manipulation) StdoutLine: {'line': b'writing entry points to ../../build/turtlesim_manipulation/turtlesim_manipulation.egg-info/entry_points.txt\n'}
+[2.611998] (turtlesim_manipulation) StdoutLine: {'line': b'writing requirements to ../../build/turtlesim_manipulation/turtlesim_manipulation.egg-info/requires.txt\n'}
+[2.612275] (turtlesim_manipulation) StdoutLine: {'line': b'writing top-level names to ../../build/turtlesim_manipulation/turtlesim_manipulation.egg-info/top_level.txt\n'}
+[2.612571] (turtlesim_manipulation) StdoutLine: {'line': b"writing manifest file '../../build/turtlesim_manipulation/turtlesim_manipulation.egg-info/SOURCES.txt'\n"}
+[2.636212] (myFirst_cpp_pkg) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/number_pub.dir/src/number_pub.cpp.o\x1b[0m\n'}
+[2.644900] (myFirst_cpp_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/number_sub.dir/src/number_sub.cpp.o\x1b[0m\n'}
+[2.668783] (first_py_pkg) StdoutLine: {'line': b"reading manifest file '../../build/first_py_pkg/first_py_pkg.egg-info/SOURCES.txt'\n"}
+[2.669788] (first_py_pkg) StdoutLine: {'line': b"writing manifest file '../../build/first_py_pkg/first_py_pkg.egg-info/SOURCES.txt'\n"}
+[2.670167] (first_py_pkg) StdoutLine: {'line': b'running build\n'}
+[2.670391] (first_py_pkg) StdoutLine: {'line': b'running build_py\n'}
+[2.670661] (first_py_pkg) StdoutLine: {'line': b'creating /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/first_py_pkg/build\n'}
+[2.670968] (first_py_pkg) StdoutLine: {'line': b'creating /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/first_py_pkg/build/lib\n'}
+[2.671186] (first_py_pkg) StdoutLine: {'line': b'creating /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/first_py_pkg/build/lib/first_py_pkg\n'}
+[2.671397] (first_py_pkg) StdoutLine: {'line': b'copying first_py_pkg/ros2_simple_pub.py -> /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/first_py_pkg/build/lib/first_py_pkg\n'}
+[2.671663] (first_py_pkg) StdoutLine: {'line': b'copying first_py_pkg/ros2_simple_sub.py -> /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/first_py_pkg/build/lib/first_py_pkg\n'}
+[2.671933] (first_py_pkg) StdoutLine: {'line': b'copying first_py_pkg/__init__.py -> /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/first_py_pkg/build/lib/first_py_pkg\n'}
+[2.672156] (first_py_pkg) StdoutLine: {'line': b'copying first_py_pkg/camera.py -> /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/first_py_pkg/build/lib/first_py_pkg\n'}
+[2.672358] (first_py_pkg) StdoutLine: {'line': b'running install\n'}
+[2.681677] (first_py_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[2.687332] (turtlesim_manipulation) StdoutLine: {'line': b"reading manifest file '../../build/turtlesim_manipulation/turtlesim_manipulation.egg-info/SOURCES.txt'\n"}
+[2.688603] (turtlesim_manipulation) StdoutLine: {'line': b"writing manifest file '../../build/turtlesim_manipulation/turtlesim_manipulation.egg-info/SOURCES.txt'\n"}
+[2.689036] (turtlesim_manipulation) StdoutLine: {'line': b'running build\n'}
+[2.689420] (turtlesim_manipulation) StdoutLine: {'line': b'running build_py\n'}
+[2.689706] (turtlesim_manipulation) StdoutLine: {'line': b'creating /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/turtlesim_manipulation/build\n'}
+[2.690019] (turtlesim_manipulation) StdoutLine: {'line': b'creating /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/turtlesim_manipulation/build/lib\n'}
+[2.690269] (turtlesim_manipulation) StdoutLine: {'line': b'creating /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/turtlesim_manipulation/build/lib/turtlesim_manipulation\n'}
+[2.690508] (turtlesim_manipulation) StdoutLine: {'line': b'copying turtlesim_manipulation/traveler_turtle.py -> /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/turtlesim_manipulation/build/lib/turtlesim_manipulation\n'}
+[2.690792] (turtlesim_manipulation) StdoutLine: {'line': b'copying turtlesim_manipulation/draw_circle.py -> /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/turtlesim_manipulation/build/lib/turtlesim_manipulation\n'}
+[2.691100] (turtlesim_manipulation) StdoutLine: {'line': b'copying turtlesim_manipulation/__init__.py -> /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/turtlesim_manipulation/build/lib/turtlesim_manipulation\n'}
+[2.691321] (turtlesim_manipulation) StdoutLine: {'line': b'running install\n'}
+[2.702856] (-) TimerEvent: {}
+[2.705072] (turtlesim_manipulation) StdoutLine: {'line': b'running install_lib\n'}
+[2.720105] (first_py_pkg) StdoutLine: {'line': b'creating /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/first_py_pkg/lib/python3.12/site-packages/first_py_pkg\n'}
+[2.720484] (first_py_pkg) StdoutLine: {'line': b'copying /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/first_py_pkg/build/lib/first_py_pkg/ros2_simple_pub.py -> /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/first_py_pkg/lib/python3.12/site-packages/first_py_pkg\n'}
+[2.720906] (first_py_pkg) StdoutLine: {'line': b'copying /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/first_py_pkg/build/lib/first_py_pkg/ros2_simple_sub.py -> /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/first_py_pkg/lib/python3.12/site-packages/first_py_pkg\n'}
+[2.721223] (first_py_pkg) StdoutLine: {'line': b'copying /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/first_py_pkg/build/lib/first_py_pkg/__init__.py -> /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/first_py_pkg/lib/python3.12/site-packages/first_py_pkg\n'}
+[2.721710] (first_py_pkg) StdoutLine: {'line': b'copying /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/first_py_pkg/build/lib/first_py_pkg/camera.py -> /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/first_py_pkg/lib/python3.12/site-packages/first_py_pkg\n'}
+[2.722289] (first_py_pkg) StdoutLine: {'line': b'byte-compiling /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/first_py_pkg/lib/python3.12/site-packages/first_py_pkg/ros2_simple_pub.py to ros2_simple_pub.cpython-312.pyc\n'}
+[2.723301] (first_py_pkg) StdoutLine: {'line': b'byte-compiling /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/first_py_pkg/lib/python3.12/site-packages/first_py_pkg/ros2_simple_sub.py to ros2_simple_sub.cpython-312.pyc\n'}
+[2.724130] (first_py_pkg) StdoutLine: {'line': b'byte-compiling /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/first_py_pkg/lib/python3.12/site-packages/first_py_pkg/__init__.py to __init__.cpython-312.pyc\n'}
+[2.724491] (first_py_pkg) StdoutLine: {'line': b'byte-compiling /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/first_py_pkg/lib/python3.12/site-packages/first_py_pkg/camera.py to camera.cpython-312.pyc\n'}
+[2.725352] (first_py_pkg) StdoutLine: {'line': b'running install_data\n'}
+[2.725657] (first_py_pkg) StdoutLine: {'line': b'creating /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/first_py_pkg/share/ament_index\n'}
+[2.725981] (first_py_pkg) StdoutLine: {'line': b'creating /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/first_py_pkg/share/ament_index/resource_index\n'}
+[2.726324] (first_py_pkg) StdoutLine: {'line': b'creating /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/first_py_pkg/share/ament_index/resource_index/packages\n'}
+[2.726551] (first_py_pkg) StdoutLine: {'line': b'copying resource/first_py_pkg -> /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/first_py_pkg/share/ament_index/resource_index/packages\n'}
+[2.726768] (first_py_pkg) StdoutLine: {'line': b'copying package.xml -> /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/first_py_pkg/share/first_py_pkg\n'}
+[2.727054] (first_py_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.746020] (turtlesim_manipulation) StdoutLine: {'line': b'creating /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/turtlesim_manipulation/lib/python3.12/site-packages/turtlesim_manipulation\n'}
+[2.746476] (turtlesim_manipulation) StdoutLine: {'line': b'copying /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/turtlesim_manipulation/build/lib/turtlesim_manipulation/traveler_turtle.py -> /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/turtlesim_manipulation/lib/python3.12/site-packages/turtlesim_manipulation\n'}
+[2.746733] (turtlesim_manipulation) StdoutLine: {'line': b'copying /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/turtlesim_manipulation/build/lib/turtlesim_manipulation/draw_circle.py -> /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/turtlesim_manipulation/lib/python3.12/site-packages/turtlesim_manipulation\n'}
+[2.747048] (turtlesim_manipulation) StdoutLine: {'line': b'copying /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/turtlesim_manipulation/build/lib/turtlesim_manipulation/__init__.py -> /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/turtlesim_manipulation/lib/python3.12/site-packages/turtlesim_manipulation\n'}
+[2.747718] (turtlesim_manipulation) StdoutLine: {'line': b'byte-compiling /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/turtlesim_manipulation/lib/python3.12/site-packages/turtlesim_manipulation/traveler_turtle.py to traveler_turtle.cpython-312.pyc\n'}
+[2.749125] (turtlesim_manipulation) StdoutLine: {'line': b'byte-compiling /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/turtlesim_manipulation/lib/python3.12/site-packages/turtlesim_manipulation/draw_circle.py to draw_circle.cpython-312.pyc\n'}
+[2.750060] (turtlesim_manipulation) StdoutLine: {'line': b'byte-compiling /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/turtlesim_manipulation/lib/python3.12/site-packages/turtlesim_manipulation/__init__.py to __init__.cpython-312.pyc\n'}
+[2.750386] (turtlesim_manipulation) StdoutLine: {'line': b'running install_data\n'}
+[2.750679] (turtlesim_manipulation) StdoutLine: {'line': b'creating /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/turtlesim_manipulation/share/ament_index\n'}
+[2.751088] (turtlesim_manipulation) StdoutLine: {'line': b'creating /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/turtlesim_manipulation/share/ament_index/resource_index\n'}
+[2.751418] (turtlesim_manipulation) StdoutLine: {'line': b'creating /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/turtlesim_manipulation/share/ament_index/resource_index/packages\n'}
+[2.751603] (turtlesim_manipulation) StdoutLine: {'line': b'copying resource/turtlesim_manipulation -> /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/turtlesim_manipulation/share/ament_index/resource_index/packages\n'}
+[2.751779] (turtlesim_manipulation) StdoutLine: {'line': b'copying package.xml -> /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/turtlesim_manipulation/share/turtlesim_manipulation\n'}
+[2.752046] (turtlesim_manipulation) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.767436] (first_py_pkg) StdoutLine: {'line': b'Copying ../../build/first_py_pkg/first_py_pkg.egg-info to /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/first_py_pkg/lib/python3.12/site-packages/first_py_pkg-0.0.0-py3.12.egg-info\n'}
+[2.768823] (first_py_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[2.802983] (-) TimerEvent: {}
+[2.821600] (turtlesim_manipulation) StdoutLine: {'line': b'Copying ../../build/turtlesim_manipulation/turtlesim_manipulation.egg-info to /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/turtlesim_manipulation/lib/python3.12/site-packages/turtlesim_manipulation-0.0.0-py3.12.egg-info\n'}
+[2.823739] (turtlesim_manipulation) StdoutLine: {'line': b'running install_scripts\n'}
+[2.903113] (-) TimerEvent: {}
+[2.918915] (battery_state) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[3.003226] (-) TimerEvent: {}
+[3.103647] (-) TimerEvent: {}
+[3.127583] (turtlesim_manipulation) StdoutLine: {'line': b'Installing draw_circle script to /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/turtlesim_manipulation/lib/turtlesim_manipulation\n'}
+[3.127869] (turtlesim_manipulation) StdoutLine: {'line': b'Installing traveler_turtle script to /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/turtlesim_manipulation/lib/turtlesim_manipulation\n'}
+[3.128504] (turtlesim_manipulation) StdoutLine: {'line': b"writing list of installed files to '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/turtlesim_manipulation/install.log'\n"}
+[3.142621] (first_py_pkg) StdoutLine: {'line': b'Installing camera script to /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/first_py_pkg/lib/first_py_pkg\n'}
+[3.143028] (first_py_pkg) StdoutLine: {'line': b'Installing pub_node script to /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/first_py_pkg/lib/first_py_pkg\n'}
+[3.143335] (first_py_pkg) StdoutLine: {'line': b'Installing sub_node script to /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/first_py_pkg/lib/first_py_pkg\n'}
+[3.144069] (first_py_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/first_py_pkg/install.log'\n"}
+[3.186941] (turtlesim_manipulation) CommandEnded: {'returncode': 0}
+[3.204470] (-) TimerEvent: {}
+[3.208596] (turtlesim_manipulation) JobEnded: {'identifier': 'turtlesim_manipulation', 'rc': 0}
+[3.222479] (first_py_pkg) CommandEnded: {'returncode': 0}
+[3.235238] (first_py_pkg) JobEnded: {'identifier': 'first_py_pkg', 'rc': 0}
+[3.304594] (-) TimerEvent: {}
+[3.404885] (-) TimerEvent: {}
+[3.505195] (-) TimerEvent: {}
+[3.605536] (-) TimerEvent: {}
+[3.705853] (-) TimerEvent: {}
+[3.720939] (battery_state) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.805980] (-) TimerEvent: {}
+[3.906293] (-) TimerEvent: {}
+[4.006600] (-) TimerEvent: {}
+[4.106904] (-) TimerEvent: {}
+[4.207291] (-) TimerEvent: {}
+[4.307602] (-) TimerEvent: {}
+[4.407901] (-) TimerEvent: {}
+[4.508206] (-) TimerEvent: {}
+[4.608523] (-) TimerEvent: {}
+[4.708905] (-) TimerEvent: {}
+[4.713831] (battery_state) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.718981] (battery_state) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[4.809013] (-) TimerEvent: {}
+[4.909375] (-) TimerEvent: {}
+[4.935928] (battery_state) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[5.009502] (-) TimerEvent: {}
+[5.109896] (-) TimerEvent: {}
+[5.210399] (-) TimerEvent: {}
+[5.310691] (-) TimerEvent: {}
+[5.411014] (-) TimerEvent: {}
+[5.511310] (-) TimerEvent: {}
+[5.611608] (-) TimerEvent: {}
+[5.665914] (battery_state) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[5.711713] (-) TimerEvent: {}
+[5.745324] (battery_state) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_python/cmake/ament_python_install_package.cmake:122 (add_custom_target):\n'}
+[5.745775] (battery_state) StderrLine: {'line': b'  add_custom_target cannot create target\n'}
+[5.746035] (battery_state) StderrLine: {'line': b'  "ament_cmake_python_copy_battery_state" because another target with the\n'}
+[5.746255] (battery_state) StderrLine: {'line': b'  same name already exists.  The existing target is a custom target created\n'}
+[5.746466] (battery_state) StderrLine: {'line': b'  in source directory\n'}
+[5.746697] (battery_state) StderrLine: {'line': b'  "/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/src/battery_state".\n'}
+[5.746932] (battery_state) StderrLine: {'line': b'  See documentation for policy CMP0002 for more details.\n'}
+[5.747196] (battery_state) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[5.747414] (battery_state) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_python/cmake/ament_python_install_package.cmake:39 (_ament_cmake_python_install_package)\n'}
+[5.747678] (battery_state) StderrLine: {'line': b'  CMakeLists.txt:49 (ament_python_install_package)\n'}
+[5.747914] (battery_state) StderrLine: {'line': b'\n'}
+[5.748128] (battery_state) StderrLine: {'line': b'\x1b[0m\n'}
+[5.748361] (battery_state) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_python/cmake/ament_python_install_package.cmake:144 (add_custom_target):\n'}
+[5.748630] (battery_state) StderrLine: {'line': b'  add_custom_target cannot create target\n'}
+[5.748860] (battery_state) StderrLine: {'line': b'  "ament_cmake_python_build_battery_state_egg" because another target with\n'}
+[5.749077] (battery_state) StderrLine: {'line': b'  the same name already exists.  The existing target is a custom target\n'}
+[5.749304] (battery_state) StderrLine: {'line': b'  created in source directory\n'}
+[5.749548] (battery_state) StderrLine: {'line': b'  "/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/src/battery_state".\n'}
+[5.749777] (battery_state) StderrLine: {'line': b'  See documentation for policy CMP0002 for more details.\n'}
+[5.750022] (battery_state) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[5.750256] (battery_state) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_python/cmake/ament_python_install_package.cmake:39 (_ament_cmake_python_install_package)\n'}
+[5.750508] (battery_state) StderrLine: {'line': b'  CMakeLists.txt:49 (ament_python_install_package)\n'}
+[5.750723] (battery_state) StderrLine: {'line': b'\n'}
+[5.750953] (battery_state) StderrLine: {'line': b'\x1b[0m\n'}
+[5.753796] (battery_state) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[5.754106] (battery_state) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[5.755205] (battery_state) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.756293] (battery_state) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[5.758901] (battery_state) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.767368] (battery_state) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[5.783837] (battery_state) CommandEnded: {'returncode': 1}
+[5.809511] (battery_state) JobEnded: {'identifier': 'battery_state', 'rc': 1}
+[5.811822] (-) TimerEvent: {}
+[5.912153] (-) TimerEvent: {}
+[6.012503] (-) TimerEvent: {}
+[6.112786] (-) TimerEvent: {}
+[6.213123] (-) TimerEvent: {}
+[6.313601] (-) TimerEvent: {}
+[6.368705] (myFirst_cpp_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[6.369064] (myFirst_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27\x1b[m\x1b[K,\n'}
+[6.369197] (myFirst_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171\x1b[m\x1b[K,\n'}
+[6.369310] (myFirst_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/src/myFirst_cpp_pkg/src/number_sub.cpp:10\x1b[m\x1b[K:\n'}
+[6.369419] (myFirst_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/src/myFirst_cpp_pkg/src/number_sub.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid number_sub::\x1b[01;32m\x1b[Ksub_cb\x1b[m\x1b[K(std_msgs::msg::Int64_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.369530] (myFirst_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/src/myFirst_cpp_pkg/src/number_sub.cpp:25:35:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%lld\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Klong long int\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int64\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int64_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.369647] (myFirst_cpp_pkg) StderrLine: {'line': b'   25 |         RCLCPP_INFO(get_logger(), \x1b[01;35m\x1b[K"%lld"\x1b[m\x1b[K, \x1b[32m\x1b[Kthis->counter_\x1b[m\x1b[K);\n'}
+[6.369756] (myFirst_cpp_pkg) StderrLine: {'line': b'      |                                   \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K  \x1b[32m\x1b[K~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.369881] (myFirst_cpp_pkg) StderrLine: {'line': b'      |                                                 \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[6.369990] (myFirst_cpp_pkg) StderrLine: {'line': b'      |                                                 \x1b[32m\x1b[Kstd_msgs::msg::Int64 {aka std_msgs::msg::Int64_<std::allocator<void> >}\x1b[m\x1b[K\n'}
+[6.370113] (myFirst_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/src/myFirst_cpp_pkg/src/number_sub.cpp:25:39:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[6.370216] (myFirst_cpp_pkg) StderrLine: {'line': b'   25 |         RCLCPP_INFO(get_logger(), "\x1b[01;36m\x1b[K%lld\x1b[m\x1b[K", this->counter_);\n'}
+[6.370316] (myFirst_cpp_pkg) StderrLine: {'line': b'      |                                    \x1b[01;36m\x1b[K~~~^\x1b[m\x1b[K\n'}
+[6.370426] (myFirst_cpp_pkg) StderrLine: {'line': b'      |                                       \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[6.370528] (myFirst_cpp_pkg) StderrLine: {'line': b'      |                                       \x1b[01;36m\x1b[Klong long int\x1b[m\x1b[K\n'}
+[6.413681] (-) TimerEvent: {}
+[6.513959] (-) TimerEvent: {}
+[6.614260] (-) TimerEvent: {}
+[6.714568] (-) TimerEvent: {}
+[6.814909] (-) TimerEvent: {}
+[6.915206] (-) TimerEvent: {}
+[7.015502] (-) TimerEvent: {}
+[7.115785] (-) TimerEvent: {}
+[7.216097] (-) TimerEvent: {}
+[7.316423] (-) TimerEvent: {}
+[7.416756] (-) TimerEvent: {}
+[7.517060] (-) TimerEvent: {}
+[7.617344] (-) TimerEvent: {}
+[7.717648] (-) TimerEvent: {}
+[7.817896] (-) TimerEvent: {}
+[7.918184] (-) TimerEvent: {}
+[8.018494] (-) TimerEvent: {}
+[8.118777] (-) TimerEvent: {}
+[8.219051] (-) TimerEvent: {}
+[8.319363] (-) TimerEvent: {}
+[8.419656] (-) TimerEvent: {}
+[8.519894] (-) TimerEvent: {}
+[8.620178] (-) TimerEvent: {}
+[8.720471] (-) TimerEvent: {}
+[8.820774] (-) TimerEvent: {}
+[8.921101] (-) TimerEvent: {}
+[9.021396] (-) TimerEvent: {}
+[9.121685] (-) TimerEvent: {}
+[9.221996] (-) TimerEvent: {}
+[9.322291] (-) TimerEvent: {}
+[9.422627] (-) TimerEvent: {}
+[9.498135] (myFirst_cpp_pkg) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable number_pub\x1b[0m\n'}
+[9.522758] (-) TimerEvent: {}
+[9.623057] (-) TimerEvent: {}
+[9.723409] (-) TimerEvent: {}
+[9.809344] (myFirst_cpp_pkg) StdoutLine: {'line': b'[ 75%] Built target number_pub\n'}
+[9.823538] (-) TimerEvent: {}
+[9.923851] (-) TimerEvent: {}
+[10.024153] (-) TimerEvent: {}
+[10.124413] (-) TimerEvent: {}
+[10.224730] (-) TimerEvent: {}
+[10.325013] (-) TimerEvent: {}
+[10.425320] (-) TimerEvent: {}
+[10.525609] (-) TimerEvent: {}
+[10.625895] (-) TimerEvent: {}
+[10.726182] (-) TimerEvent: {}
+[10.826477] (-) TimerEvent: {}
+[10.926786] (-) TimerEvent: {}
+[11.027052] (-) TimerEvent: {}
+[11.127340] (-) TimerEvent: {}
+[11.227629] (-) TimerEvent: {}
+[11.327892] (-) TimerEvent: {}
+[11.428150] (-) TimerEvent: {}
+[11.528439] (-) TimerEvent: {}
+[11.628728] (-) TimerEvent: {}
+[11.729054] (-) TimerEvent: {}
+[11.829343] (-) TimerEvent: {}
+[11.929632] (-) TimerEvent: {}
+[12.029905] (-) TimerEvent: {}
+[12.130184] (-) TimerEvent: {}
+[12.230497] (-) TimerEvent: {}
+[12.330787] (-) TimerEvent: {}
+[12.431113] (-) TimerEvent: {}
+[12.531399] (-) TimerEvent: {}
+[12.631690] (-) TimerEvent: {}
+[12.731957] (-) TimerEvent: {}
+[12.832246] (-) TimerEvent: {}
+[12.932538] (-) TimerEvent: {}
+[13.032864] (-) TimerEvent: {}
+[13.133141] (-) TimerEvent: {}
+[13.233429] (-) TimerEvent: {}
+[13.333684] (-) TimerEvent: {}
+[13.433988] (-) TimerEvent: {}
+[13.534279] (-) TimerEvent: {}
+[13.634578] (-) TimerEvent: {}
+[13.734867] (-) TimerEvent: {}
+[13.835179] (-) TimerEvent: {}
+[13.935470] (-) TimerEvent: {}
+[14.035758] (-) TimerEvent: {}
+[14.136081] (-) TimerEvent: {}
+[14.236368] (-) TimerEvent: {}
+[14.336635] (-) TimerEvent: {}
+[14.436939] (-) TimerEvent: {}
+[14.537259] (-) TimerEvent: {}
+[14.637604] (-) TimerEvent: {}
+[14.737949] (-) TimerEvent: {}
+[14.838275] (-) TimerEvent: {}
+[14.938631] (-) TimerEvent: {}
+[15.038933] (-) TimerEvent: {}
+[15.139269] (-) TimerEvent: {}
+[15.209957] (myFirst_cpp_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable number_sub\x1b[0m\n'}
+[15.239414] (-) TimerEvent: {}
+[15.339689] (-) TimerEvent: {}
+[15.440010] (-) TimerEvent: {}
+[15.540312] (-) TimerEvent: {}
+[15.640610] (-) TimerEvent: {}
+[15.708620] (myFirst_cpp_pkg) StdoutLine: {'line': b'[100%] Built target number_sub\n'}
+[15.724089] (myFirst_cpp_pkg) JobEnded: {'identifier': 'myFirst_cpp_pkg', 'rc': 'SIGINT'}
+[15.734787] (-) EventReactorShutdown: {}

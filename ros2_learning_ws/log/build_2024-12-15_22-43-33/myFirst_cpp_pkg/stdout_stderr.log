@@ -1,0 +1,22 @@
+[ 50%] Built target number_sub
+[100%] Built target number_pub
+-- Install configuration: ""
+-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/myFirst_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/myFirst_cpp_pkg
+-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/myFirst_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/myFirst_cpp_pkg
+-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/myFirst_cpp_pkg/share/myFirst_cpp_pkg/environment/ament_prefix_path.sh
+-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/myFirst_cpp_pkg/share/myFirst_cpp_pkg/environment/ament_prefix_path.dsv
+-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/myFirst_cpp_pkg/share/myFirst_cpp_pkg/environment/path.sh
+-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/myFirst_cpp_pkg/share/myFirst_cpp_pkg/environment/path.dsv
+-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/myFirst_cpp_pkg/share/myFirst_cpp_pkg/local_setup.bash
+-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/myFirst_cpp_pkg/share/myFirst_cpp_pkg/local_setup.sh
+-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/myFirst_cpp_pkg/share/myFirst_cpp_pkg/local_setup.zsh
+-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/myFirst_cpp_pkg/share/myFirst_cpp_pkg/local_setup.dsv
+-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/myFirst_cpp_pkg/share/myFirst_cpp_pkg/package.dsv
+-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/myFirst_cpp_pkg/share/ament_index/resource_index/packages/myFirst_cpp_pkg
+-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/myFirst_cpp_pkg/share/myFirst_cpp_pkg/cmake/myFirst_cpp_pkgConfig.cmake
+-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/myFirst_cpp_pkg/share/myFirst_cpp_pkg/cmake/myFirst_cpp_pkgConfig-version.cmake
+-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/myFirst_cpp_pkg/share/myFirst_cpp_pkg/package.xml
+-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/myFirst_cpp_pkg/lib/myFirst_cpp_pkg/number_pub
+-- Set non-toolchain portion of runtime path of "/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/myFirst_cpp_pkg/lib/myFirst_cpp_pkg/number_pub" to ""
+-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/myFirst_cpp_pkg/lib/myFirst_cpp_pkg/number_sub
+-- Set non-toolchain portion of runtime path of "/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/myFirst_cpp_pkg/lib/myFirst_cpp_pkg/number_sub" to ""

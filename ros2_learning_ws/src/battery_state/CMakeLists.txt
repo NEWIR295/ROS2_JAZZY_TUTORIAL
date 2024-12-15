@@ -26,10 +26,12 @@ if(BUILD_TESTING)
 endif()
 
 #build custom srv and msg
-# rosidl_generate_interfaces(${PROJECT_NAME}
-#   msg &srv files "msg/file.msg"
-#   DEPENDENCIES 
-# )
+rosidl_generate_interfaces(${PROJECT_NAME}
+  #msg &srv files msg/file.msg  
+  "srv/BatterySrv.srv"
+  "msg/BatteryMsg.msg"
+  DEPENDENCIES std_msgs
+)
 
 ament_export_dependencies(rosidl_default_runtime)
 
@@ -37,18 +39,18 @@ ament_export_dependencies(rosidl_default_runtime)
 # add_executable( src/.cpp)
 # ament_target_dependencies()
 
-install(TARGETS
-  #files
+# install(TARGETS
+#   #files
 
-  DESTINATION lib/${PROJECT_NAME}
-)
+#   DESTINATION lib/${PROJECT_NAME}
+# )
 
 #building python nodes 
-ament_python_install_package(${PROJECT_NAME})
-install(PROGRAMS
-  #files
+# ament_python_install_package(${PROJECT_NAME})
+# install(PROGRAMS
+#   #files
   
-  DESTINATION lib/${PROJECT_NAME}
-)
+#   DESTINATION lib/${PROJECT_NAME}
+# )
 
 ament_package()

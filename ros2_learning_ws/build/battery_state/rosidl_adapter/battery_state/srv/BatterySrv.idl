@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from battery_state/srv/BatterySrv.srv
+// generated code does not contain a copyright notice
+
+
+module battery_state {
+  module srv {
+    struct BatterySrv_Request {
+      int32 led_number;
+
+      int32 state;
+    };
+    struct BatterySrv_Response {
+      boolean success;
+    };
+  };
+};

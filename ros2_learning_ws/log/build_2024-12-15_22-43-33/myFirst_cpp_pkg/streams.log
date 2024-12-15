@@ -1,0 +1,26 @@
+[0.386s] Invoking command in '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/myFirst_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/myFirst_cpp_pkg -- -j8 -l8
+[0.476s] [ 50%] Built target number_sub
+[0.488s] [100%] Built target number_pub
+[0.744s] Invoked command in '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/myFirst_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/myFirst_cpp_pkg -- -j8 -l8
+[0.759s] Invoking command in '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/myFirst_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/myFirst_cpp_pkg
+[0.774s] -- Install configuration: ""
+[0.774s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/myFirst_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/myFirst_cpp_pkg
+[0.775s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/myFirst_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/myFirst_cpp_pkg
+[0.775s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/myFirst_cpp_pkg/share/myFirst_cpp_pkg/environment/ament_prefix_path.sh
+[0.776s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/myFirst_cpp_pkg/share/myFirst_cpp_pkg/environment/ament_prefix_path.dsv
+[0.776s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/myFirst_cpp_pkg/share/myFirst_cpp_pkg/environment/path.sh
+[0.776s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/myFirst_cpp_pkg/share/myFirst_cpp_pkg/environment/path.dsv
+[0.777s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/myFirst_cpp_pkg/share/myFirst_cpp_pkg/local_setup.bash
+[0.777s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/myFirst_cpp_pkg/share/myFirst_cpp_pkg/local_setup.sh
+[0.777s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/myFirst_cpp_pkg/share/myFirst_cpp_pkg/local_setup.zsh
+[0.777s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/myFirst_cpp_pkg/share/myFirst_cpp_pkg/local_setup.dsv
+[0.778s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/myFirst_cpp_pkg/share/myFirst_cpp_pkg/package.dsv
+[0.778s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/myFirst_cpp_pkg/share/ament_index/resource_index/packages/myFirst_cpp_pkg
+[0.778s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/myFirst_cpp_pkg/share/myFirst_cpp_pkg/cmake/myFirst_cpp_pkgConfig.cmake
+[0.779s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/myFirst_cpp_pkg/share/myFirst_cpp_pkg/cmake/myFirst_cpp_pkgConfig-version.cmake
+[0.779s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/myFirst_cpp_pkg/share/myFirst_cpp_pkg/package.xml
+[0.779s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/myFirst_cpp_pkg/lib/myFirst_cpp_pkg/number_pub
+[0.782s] -- Set non-toolchain portion of runtime path of "/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/myFirst_cpp_pkg/lib/myFirst_cpp_pkg/number_pub" to ""
+[0.783s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/myFirst_cpp_pkg/lib/myFirst_cpp_pkg/number_sub
+[0.793s] -- Set non-toolchain portion of runtime path of "/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/myFirst_cpp_pkg/lib/myFirst_cpp_pkg/number_sub" to ""
+[0.797s] Invoked command in '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/myFirst_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/myFirst_cpp_pkg

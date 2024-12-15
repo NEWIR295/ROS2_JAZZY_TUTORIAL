@@ -1,0 +1,272 @@
+[0.017s] Invoking command in '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/battery_state': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/battery_state -- -j8 -l8
+[0.054s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.093s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.216s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.219s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.279s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.330s] -- Found rosidl_adapter: 4.6.4 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.332s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.448s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.450s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.553s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.664s] -- Found rclpy: 7.1.2 (/opt/ros/jazzy/share/rclpy/cmake)
+[0.665s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.687s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.121s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.339s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.625s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.627s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[2.033s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[2.081s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.081s] -- Configured 'flake8' exclude dirs and/or files: 
+[2.082s] -- Added test 'lint_cmake' to check CMake code style
+[2.083s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.086s] -- Added test 'xmllint' to check XML markup files
+[2.094s] -- Configuring done (2.0s)
+[2.164s] -- Generating done (0.1s)
+[2.184s] -- Build files have been written to: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/battery_state
+[2.238s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[2.251s] [  2%] Built target ament_cmake_python_copy_battery_state
+[2.674s] [  2%] Built target battery_state__rosidl_generator_type_description
+[2.675s] running egg_info
+[2.689s] [  4%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.704s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.714s] writing battery_state.egg-info/PKG-INFO
+[2.714s] writing dependency_links to battery_state.egg-info/dependency_links.txt
+[2.715s] writing top-level names to battery_state.egg-info/top_level.txt
+[2.817s] reading manifest file 'battery_state.egg-info/SOURCES.txt'
+[2.818s] writing manifest file 'battery_state.egg-info/SOURCES.txt'
+[2.859s] [  6%] Built target ament_cmake_python_build_battery_state_egg
+[3.196s] [  6%] Built target battery_state__cpp
+[3.261s] [  9%] [32mBuilding C object CMakeFiles/battery_state__rosidl_generator_c.dir/rosidl_generator_c/battery_state/srv/detail/battery_srv__functions.c.o[0m
+[3.262s] [ 11%] [32mBuilding C object CMakeFiles/battery_state__rosidl_generator_c.dir/rosidl_generator_c/battery_state/msg/detail/battery_msg__description.c.o[0m
+[3.265s] [ 13%] [32mBuilding C object CMakeFiles/battery_state__rosidl_generator_c.dir/rosidl_generator_c/battery_state/srv/detail/battery_srv__description.c.o[0m
+[3.265s] [ 15%] [32mBuilding C object CMakeFiles/battery_state__rosidl_generator_c.dir/rosidl_generator_c/battery_state/srv/detail/battery_srv__type_support.c.o[0m
+[3.268s] [ 18%] [32mBuilding C object CMakeFiles/battery_state__rosidl_generator_c.dir/rosidl_generator_c/battery_state/msg/detail/battery_msg__functions.c.o[0m
+[3.268s] [ 20%] [32mBuilding C object CMakeFiles/battery_state__rosidl_generator_c.dir/rosidl_generator_c/battery_state/msg/detail/battery_msg__type_support.c.o[0m
+[3.387s] [ 22%] [32m[1mLinking C shared library libbattery_state__rosidl_generator_c.so[0m
+[3.446s] [ 22%] Built target battery_state__rosidl_generator_c
+[3.461s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.462s] [ 27%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.466s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.467s] [ 31%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.467s] [ 34%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.468s] [ 36%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.946s] [ 40%] [32mBuilding CXX object CMakeFiles/battery_state__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/battery_state/srv/detail/battery_srv__type_support.cpp.o[0m
+[3.947s] [ 40%] [32mBuilding CXX object CMakeFiles/battery_state__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/battery_state/msg/detail/battery_msg__type_support.cpp.o[0m
+[4.094s] [ 43%] [32mBuilding CXX object CMakeFiles/battery_state__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/battery_state/msg/battery_msg__type_support.cpp.o[0m
+[4.094s] [ 45%] [32mBuilding CXX object CMakeFiles/battery_state__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/battery_state/srv/battery_srv__type_support.cpp.o[0m
+[4.120s] [ 47%] [32mBuilding CXX object CMakeFiles/battery_state__rosidl_typesupport_c.dir/rosidl_typesupport_c/battery_state/srv/battery_srv__type_support.cpp.o[0m
+[4.196s] [ 50%] [32mBuilding CXX object CMakeFiles/battery_state__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/battery_state/srv/detail/battery_srv__type_support_c.cpp.o[0m
+[4.246s] [ 52%] [32mBuilding CXX object CMakeFiles/battery_state__rosidl_typesupport_c.dir/rosidl_typesupport_c/battery_state/msg/battery_msg__type_support.cpp.o[0m
+[4.279s] [ 54%] [32mBuilding C object CMakeFiles/battery_state__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/battery_state/srv/detail/battery_srv__type_support.c.o[0m
+[4.378s] [ 56%] [32m[1mLinking CXX shared library libbattery_state__rosidl_typesupport_c.so[0m
+[4.426s] [ 59%] [32mBuilding C object CMakeFiles/battery_state__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/battery_state/msg/detail/battery_msg__type_support.c.o[0m
+[4.503s] [ 59%] Built target battery_state__rosidl_typesupport_c
+[4.538s] [ 61%] [32mBuilding CXX object CMakeFiles/battery_state__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/battery_state/srv/detail/dds_fastrtps/battery_srv__type_support.cpp.o[0m
+[4.554s] [ 63%] [32mBuilding CXX object CMakeFiles/battery_state__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/battery_state/msg/detail/battery_msg__type_support_c.cpp.o[0m
+[4.562s] [ 65%] [32m[1mLinking C shared library libbattery_state__rosidl_typesupport_introspection_c.so[0m
+[4.712s] [ 65%] Built target battery_state__rosidl_typesupport_introspection_c
+[4.761s] [ 68%] [32mBuilding CXX object CMakeFiles/battery_state__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/battery_state/msg/detail/dds_fastrtps/battery_msg__type_support.cpp.o[0m
+[5.026s] [ 70%] [32m[1mLinking CXX shared library libbattery_state__rosidl_typesupport_introspection_cpp.so[0m
+[5.222s] [ 72%] [32m[1mLinking CXX shared library libbattery_state__rosidl_typesupport_cpp.so[0m
+[5.232s] [ 72%] Built target battery_state__rosidl_typesupport_introspection_cpp
+[5.423s] [ 72%] Built target battery_state__rosidl_typesupport_cpp
+[5.691s] [ 75%] [32m[1mLinking CXX shared library libbattery_state__rosidl_typesupport_fastrtps_c.so[0m
+[5.774s] [ 75%] Built target battery_state__rosidl_typesupport_fastrtps_c
+[5.914s] [ 77%] [32m[1mLinking CXX shared library libbattery_state__rosidl_typesupport_fastrtps_cpp.so[0m
+[6.030s] [ 77%] Built target battery_state__rosidl_typesupport_fastrtps_cpp
+[6.059s] [ 77%] Built target battery_state
+[6.090s] [ 79%] [34m[1mGenerating Python code for ROS interfaces[0m
+[6.756s] [ 79%] Built target battery_state__py
+[6.785s] [ 81%] [32mBuilding C object CMakeFiles/battery_state__rosidl_generator_py.dir/rosidl_generator_py/battery_state/srv/_battery_srv_s.c.o[0m
+[6.786s] [ 84%] [32mBuilding C object CMakeFiles/battery_state__rosidl_generator_py.dir/rosidl_generator_py/battery_state/msg/_battery_msg_s.c.o[0m
+[7.041s] [ 86%] [32m[1mLinking C shared library libbattery_state__rosidl_generator_py.so[0m
+[7.107s] [ 86%] Built target battery_state__rosidl_generator_py
+[7.138s] [ 90%] [32mBuilding C object CMakeFiles/battery_state_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/battery_state/_battery_state_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[7.139s] [ 90%] [32mBuilding C object CMakeFiles/battery_state_s__rosidl_typesupport_c.dir/rosidl_generator_py/battery_state/_battery_state_s.ep.rosidl_typesupport_c.c.o[0m
+[7.140s] [ 93%] [32mBuilding C object CMakeFiles/battery_state_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/battery_state/_battery_state_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[7.326s] [ 95%] [32m[1mLinking C shared module rosidl_generator_py/battery_state/battery_state_s__rosidl_typesupport_introspection_c.so[0m
+[7.339s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/battery_state/battery_state_s__rosidl_typesupport_c.so[0m
+[7.348s] [100%] [32m[1mLinking C shared module rosidl_generator_py/battery_state/battery_state_s__rosidl_typesupport_fastrtps_c.so[0m
+[7.377s] [100%] Built target battery_state_s__rosidl_typesupport_introspection_c
+[7.388s] [100%] Built target battery_state_s__rosidl_typesupport_c
+[7.399s] [100%] Built target battery_state_s__rosidl_typesupport_fastrtps_c
+[7.417s] Invoked command in '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/battery_state' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/battery_state -- -j8 -l8
+[7.432s] Invoking command in '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/battery_state': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/battery_state
+[7.445s] -- Install configuration: ""
+[7.446s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/ament_index/resource_index/rosidl_interfaces/battery_state
+[7.446s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/srv/BatterySrv.json
+[7.446s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/msg/BatteryMsg.json
+[7.446s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state
+[7.447s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg
+[7.447s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/battery_msg.h
+[7.447s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/detail
+[7.447s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/detail/battery_msg__functions.c
+[7.447s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/detail/battery_msg__type_support.h
+[7.447s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/detail/battery_msg__type_support.c
+[7.448s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/detail/battery_msg__functions.h
+[7.448s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/detail/battery_msg__struct.h
+[7.448s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/detail/battery_msg__description.c
+[7.448s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/rosidl_generator_c__visibility_control.h
+[7.448s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv
+[7.448s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv/battery_srv.h
+[7.449s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv/detail
+[7.449s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv/detail/battery_srv__functions.h
+[7.449s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv/detail/battery_srv__type_support.h
+[7.449s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv/detail/battery_srv__functions.c
+[7.449s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv/detail/battery_srv__description.c
+[7.449s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv/detail/battery_srv__struct.h
+[7.450s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv/detail/battery_srv__type_support.c
+[7.450s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/environment/library_path.sh
+[7.450s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/environment/library_path.dsv
+[7.450s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/libbattery_state__rosidl_generator_c.so
+[7.451s] -- Set non-toolchain portion of runtime path of "/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/libbattery_state__rosidl_generator_c.so" to ""
+[7.451s] -- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state
+[7.451s] -- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg
+[7.451s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.451s] -- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/detail
+[7.452s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/detail/battery_msg__rosidl_typesupport_fastrtps_c.h
+[7.452s] -- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv
+[7.452s] -- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv/detail
+[7.452s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv/detail/battery_srv__rosidl_typesupport_fastrtps_c.h
+[7.452s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/libbattery_state__rosidl_typesupport_fastrtps_c.so
+[7.453s] -- Set non-toolchain portion of runtime path of "/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/libbattery_state__rosidl_typesupport_fastrtps_c.so" to ""
+[7.453s] -- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state
+[7.453s] -- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg
+[7.453s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.453s] -- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/detail
+[7.453s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/detail/battery_msg__rosidl_typesupport_introspection_c.h
+[7.454s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/detail/battery_msg__type_support.c
+[7.454s] -- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv
+[7.454s] -- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv/detail
+[7.454s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv/detail/battery_srv__rosidl_typesupport_introspection_c.h
+[7.454s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv/detail/battery_srv__type_support.c
+[7.454s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/libbattery_state__rosidl_typesupport_introspection_c.so
+[7.454s] -- Set non-toolchain portion of runtime path of "/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/libbattery_state__rosidl_typesupport_introspection_c.so" to ""
+[7.455s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/libbattery_state__rosidl_typesupport_c.so
+[7.455s] -- Set non-toolchain portion of runtime path of "/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/libbattery_state__rosidl_typesupport_c.so" to ""
+[7.456s] -- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state
+[7.456s] -- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg
+[7.456s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/battery_msg.hpp
+[7.456s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/rosidl_generator_cpp__visibility_control.hpp
+[7.456s] -- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/detail
+[7.456s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/detail/battery_msg__traits.hpp
+[7.457s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/detail/battery_msg__builder.hpp
+[7.457s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/detail/battery_msg__struct.hpp
+[7.457s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/detail/battery_msg__type_support.hpp
+[7.457s] -- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv
+[7.457s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv/battery_srv.hpp
+[7.457s] -- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv/detail
+[7.458s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv/detail/battery_srv__traits.hpp
+[7.458s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv/detail/battery_srv__type_support.hpp
+[7.458s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv/detail/battery_srv__struct.hpp
+[7.458s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv/detail/battery_srv__builder.hpp
+[7.458s] -- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state
+[7.458s] -- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg
+[7.459s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.459s] -- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/detail
+[7.459s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/detail/dds_fastrtps
+[7.459s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/detail/battery_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[7.459s] -- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv
+[7.459s] -- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv/detail
+[7.459s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv/detail/battery_srv__rosidl_typesupport_fastrtps_cpp.hpp
+[7.459s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv/detail/dds_fastrtps
+[7.460s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/libbattery_state__rosidl_typesupport_fastrtps_cpp.so
+[7.460s] -- Set non-toolchain portion of runtime path of "/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/libbattery_state__rosidl_typesupport_fastrtps_cpp.so" to ""
+[7.460s] -- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state
+[7.460s] -- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg
+[7.460s] -- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/detail
+[7.460s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/detail/battery_msg__rosidl_typesupport_introspection_cpp.hpp
+[7.461s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/detail/battery_msg__type_support.cpp
+[7.461s] -- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv
+[7.461s] -- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv/detail
+[7.461s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv/detail/battery_srv__rosidl_typesupport_introspection_cpp.hpp
+[7.461s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv/detail/battery_srv__type_support.cpp
+[7.461s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/libbattery_state__rosidl_typesupport_introspection_cpp.so
+[7.461s] -- Set non-toolchain portion of runtime path of "/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/libbattery_state__rosidl_typesupport_introspection_cpp.so" to ""
+[7.462s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/libbattery_state__rosidl_typesupport_cpp.so
+[7.462s] -- Set non-toolchain portion of runtime path of "/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/libbattery_state__rosidl_typesupport_cpp.so" to ""
+[7.462s] -- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/environment/pythonpath.sh
+[7.463s] -- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/environment/pythonpath.dsv
+[7.463s] -- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state-0.0.0-py3.12.egg-info
+[7.463s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state-0.0.0-py3.12.egg-info/SOURCES.txt
+[7.463s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state-0.0.0-py3.12.egg-info/dependency_links.txt
+[7.463s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state-0.0.0-py3.12.egg-info/PKG-INFO
+[7.464s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state-0.0.0-py3.12.egg-info/top_level.txt
+[7.464s] -- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state
+[7.464s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state/_battery_state_s.ep.rosidl_typesupport_fastrtps_c.c
+[7.464s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state/_battery_state_s.ep.rosidl_typesupport_introspection_c.c
+[7.464s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state/battery_state_s__rosidl_typesupport_fastrtps_c.so
+[7.464s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state/battery_state_s__rosidl_typesupport_introspection_c.so
+[7.465s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state/_battery_state_s.ep.rosidl_typesupport_c.c
+[7.465s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state/battery_state_s__rosidl_typesupport_c.so
+[7.465s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state/msg
+[7.465s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state/msg/_battery_msg.py
+[7.465s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state/msg/_battery_msg_s.c
+[7.466s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state/msg/__init__.py
+[7.466s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state/__init__.py
+[7.466s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state/srv
+[7.466s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state/srv/_battery_srv_s.c
+[7.466s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state/srv/_battery_srv.py
+[7.466s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state/srv/__init__.py
+[7.529s] Listing '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state'...
+[7.530s] Compiling '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state/__init__.py'...
+[7.530s] Listing '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state/msg'...
+[7.530s] Compiling '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state/msg/__init__.py'...
+[7.530s] Compiling '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state/msg/_battery_msg.py'...
+[7.530s] Listing '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state/srv'...
+[7.531s] Compiling '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state/srv/__init__.py'...
+[7.531s] Compiling '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state/srv/_battery_srv.py'...
+[7.541s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state/battery_state_s__rosidl_typesupport_fastrtps_c.so
+[7.541s] -- Set non-toolchain portion of runtime path of "/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state/battery_state_s__rosidl_typesupport_fastrtps_c.so" to ""
+[7.542s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state/battery_state_s__rosidl_typesupport_introspection_c.so
+[7.542s] -- Set non-toolchain portion of runtime path of "/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state/battery_state_s__rosidl_typesupport_introspection_c.so" to ""
+[7.542s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state/battery_state_s__rosidl_typesupport_c.so
+[7.543s] -- Set non-toolchain portion of runtime path of "/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state/battery_state_s__rosidl_typesupport_c.so" to ""
+[7.543s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/libbattery_state__rosidl_generator_py.so
+[7.544s] -- Set non-toolchain portion of runtime path of "/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/libbattery_state__rosidl_generator_py.so" to ""
+[7.544s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/srv/BatterySrv.idl
+[7.544s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/msg/BatteryMsg.idl
+[7.545s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/srv/BatterySrv.srv
+[7.545s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/msg/BatteryMsg.msg
+[7.545s] -- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/ament_index/resource_index/package_run_dependencies/battery_state
+[7.545s] -- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/ament_index/resource_index/parent_prefix_path/battery_state
+[7.546s] -- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/environment/ament_prefix_path.sh
+[7.546s] -- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/environment/ament_prefix_path.dsv
+[7.546s] -- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/environment/path.sh
+[7.546s] -- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/environment/path.dsv
+[7.547s] -- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/local_setup.bash
+[7.547s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/local_setup.sh
+[7.547s] -- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/local_setup.zsh
+[7.547s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/local_setup.dsv
+[7.547s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/package.dsv
+[7.548s] -- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/ament_index/resource_index/packages/battery_state
+[7.548s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/cmake/export_battery_state__rosidl_generator_cExport.cmake
+[7.548s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/cmake/export_battery_state__rosidl_generator_cExport-noconfig.cmake
+[7.548s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/cmake/export_battery_state__rosidl_typesupport_fastrtps_cExport.cmake
+[7.548s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/cmake/export_battery_state__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[7.549s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/cmake/battery_state__rosidl_typesupport_introspection_cExport.cmake
+[7.549s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/cmake/battery_state__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.549s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/cmake/battery_state__rosidl_typesupport_cExport.cmake
+[7.549s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/cmake/battery_state__rosidl_typesupport_cExport-noconfig.cmake
+[7.549s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/cmake/export_battery_state__rosidl_generator_cppExport.cmake
+[7.550s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/cmake/export_battery_state__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.550s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/cmake/export_battery_state__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[7.550s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/cmake/battery_state__rosidl_typesupport_introspection_cppExport.cmake
+[7.550s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/cmake/battery_state__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.551s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/cmake/battery_state__rosidl_typesupport_cppExport.cmake
+[7.551s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/cmake/battery_state__rosidl_typesupport_cppExport-noconfig.cmake
+[7.551s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/cmake/export_battery_state__rosidl_generator_pyExport.cmake
+[7.551s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/cmake/export_battery_state__rosidl_generator_pyExport-noconfig.cmake
+[7.551s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/cmake/rosidl_cmake-extras.cmake
+[7.552s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.552s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.552s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/cmake/ament_cmake_export_libraries-extras.cmake
+[7.552s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/cmake/ament_cmake_export_targets-extras.cmake
+[7.552s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.553s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.553s] -- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/cmake/battery_stateConfig.cmake
+[7.553s] -- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/cmake/battery_stateConfig-version.cmake
+[7.553s] -- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/package.xml
+[7.555s] Invoked command in '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/battery_state' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/battery_state

@@ -1,0 +1,7 @@
+{
+  "package_name": "battery_state",
+  "non_idl_tuples": [
+    "/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/src/battery_state:srv/BatterySrv.srv",
+    "/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/src/battery_state:msg/BatteryMsg.msg"
+  ]
+}

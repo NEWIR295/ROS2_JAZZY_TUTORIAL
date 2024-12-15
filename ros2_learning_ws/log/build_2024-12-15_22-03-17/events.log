@@ -1,6 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.000205] (-) JobUnselected: {'identifier': 'battery_state'}
-[0.000263] (-) JobUnselected: {'identifier': 'first_py_pkg'}
-[0.000298] (-) JobUnselected: {'identifier': 'myFirst_cpp_pkg'}
-[0.000327] (-) JobUnselected: {'identifier': 'turtlesim_manipulation'}
-[0.000625] (-) EventReactorShutdown: {}

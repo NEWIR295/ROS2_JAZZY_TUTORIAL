@@ -1,7 +1,0 @@
-Metadata-Version: 2.1
-Name: battery-state
-Version: 0.0.0
-Summary: Package used to obtain Battery percentage and sent warning to rhe user
-Maintainer: Newir
-Maintainer-email: mohamed.mohamed0123@eng-st.cu.edu.eg
-License: BSD-2-Clause

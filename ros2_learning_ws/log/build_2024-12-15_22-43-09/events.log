@@ -1,0 +1,80 @@
+[0.000000] (-) TimerEvent: {}
+[0.000285] (-) JobUnselected: {'identifier': 'first_py_pkg'}
+[0.000361] (-) JobUnselected: {'identifier': 'myFirst_cpp_pkg'}
+[0.000406] (-) JobUnselected: {'identifier': 'turtlesim_manipulation'}
+[0.000550] (battery_state) JobQueued: {'identifier': 'battery_state', 'dependencies': OrderedDict()}
+[0.000595] (battery_state) JobStarted: {'identifier': 'battery_state'}
+[0.012226] (battery_state) JobProgress: {'identifier': 'battery_state', 'progress': 'cmake'}
+[0.013665] (battery_state) Command: {'cmd': ['/usr/bin/cmake', '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/src/battery_state', '-DCMAKE_INSTALL_PREFIX=/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state'], 'cwd': '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/battery_state', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': '1404a459-baba-4528-877b-2a41bdcf248e', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'newir529', 'LC_TIME': 'ar_EG.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/newir529', 'OLDPWD': '/home/newir529', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ar_EG.UTF-8', 'MANAGERPID': '2095', 'SYSTEMD_EXEC_PID': '2367', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3252', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'newir529', 'JOURNAL_STREAM': '8:19891', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'newir529', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/newir529:@/tmp/.ICE-unix/2323,unix/newir529:/tmp/.ICE-unix/2323', 'INVOCATION_ID': '0fe9c494ce48405db084ae705e60b1c9', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ar_EG.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ar_EG.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.TG7UY2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'ar_EG.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:0488e507-7647-45e8-b61e-5cc41164a28d', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ar_EG.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'ar_EG.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/battery_state', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'ar_EG.UTF-8', 'LC_PAPER': 'ar_EG.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.037151] (battery_state) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.076795] (battery_state) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.099027] (-) TimerEvent: {}
+[0.199328] (-) TimerEvent: {}
+[0.201890] (battery_state) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.205800] (battery_state) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.265816] (battery_state) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.299424] (-) TimerEvent: {}
+[0.318215] (battery_state) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.4 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[0.321013] (battery_state) StdoutLine: {'line': b'-- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.399549] (-) TimerEvent: {}
+[0.437693] (battery_state) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.440205] (battery_state) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.499664] (-) TimerEvent: {}
+[0.550249] (battery_state) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.599795] (-) TimerEvent: {}
+[0.661093] (battery_state) StdoutLine: {'line': b'-- Found rclpy: 7.1.2 (/opt/ros/jazzy/share/rclpy/cmake)\n'}
+[0.661464] (battery_state) StdoutLine: {'line': b'-- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[0.684466] (battery_state) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[0.699920] (-) TimerEvent: {}
+[0.800275] (-) TimerEvent: {}
+[0.900570] (-) TimerEvent: {}
+[1.000903] (-) TimerEvent: {}
+[1.101201] (-) TimerEvent: {}
+[1.120841] (battery_state) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[1.201343] (-) TimerEvent: {}
+[1.301694] (-) TimerEvent: {}
+[1.335792] (battery_state) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.401814] (-) TimerEvent: {}
+[1.502106] (-) TimerEvent: {}
+[1.602463] (-) TimerEvent: {}
+[1.617946] (battery_state) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.619793] (battery_state) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[1.702598] (-) TimerEvent: {}
+[1.802916] (-) TimerEvent: {}
+[1.903257] (-) TimerEvent: {}
+[2.003553] (-) TimerEvent: {}
+[2.036003] (battery_state) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[2.075086] (battery_state) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_python/cmake/ament_python_install_package.cmake:122 (add_custom_target):\n'}
+[2.075376] (battery_state) StderrLine: {'line': b'  add_custom_target cannot create target\n'}
+[2.075498] (battery_state) StderrLine: {'line': b'  "ament_cmake_python_copy_battery_state" because another target with the\n'}
+[2.075607] (battery_state) StderrLine: {'line': b'  same name already exists.  The existing target is a custom target created\n'}
+[2.075709] (battery_state) StderrLine: {'line': b'  in source directory\n'}
+[2.075807] (battery_state) StderrLine: {'line': b'  "/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/src/battery_state".\n'}
+[2.075906] (battery_state) StderrLine: {'line': b'  See documentation for policy CMP0002 for more details.\n'}
+[2.076003] (battery_state) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.076100] (battery_state) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_python/cmake/ament_python_install_package.cmake:39 (_ament_cmake_python_install_package)\n'}
+[2.076199] (battery_state) StderrLine: {'line': b'  CMakeLists.txt:49 (ament_python_install_package)\n'}
+[2.076317] (battery_state) StderrLine: {'line': b'\n'}
+[2.076420] (battery_state) StderrLine: {'line': b'\x1b[0m\n'}
+[2.076520] (battery_state) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_python/cmake/ament_python_install_package.cmake:144 (add_custom_target):\n'}
+[2.076618] (battery_state) StderrLine: {'line': b'  add_custom_target cannot create target\n'}
+[2.076714] (battery_state) StderrLine: {'line': b'  "ament_cmake_python_build_battery_state_egg" because another target with\n'}
+[2.076812] (battery_state) StderrLine: {'line': b'  the same name already exists.  The existing target is a custom target\n'}
+[2.076907] (battery_state) StderrLine: {'line': b'  created in source directory\n'}
+[2.077004] (battery_state) StderrLine: {'line': b'  "/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/src/battery_state".\n'}
+[2.077100] (battery_state) StderrLine: {'line': b'  See documentation for policy CMP0002 for more details.\n'}
+[2.077197] (battery_state) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.077313] (battery_state) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_python/cmake/ament_python_install_package.cmake:39 (_ament_cmake_python_install_package)\n'}
+[2.077414] (battery_state) StderrLine: {'line': b'  CMakeLists.txt:49 (ament_python_install_package)\n'}
+[2.077512] (battery_state) StderrLine: {'line': b'\n'}
+[2.077608] (battery_state) StderrLine: {'line': b'\x1b[0m\n'}
+[2.080308] (battery_state) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.080486] (battery_state) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[2.081184] (battery_state) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.081823] (battery_state) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.083953] (battery_state) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.089164] (battery_state) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.100693] (battery_state) CommandEnded: {'returncode': 1}
+[2.103661] (-) TimerEvent: {}
+[2.129652] (battery_state) JobEnded: {'identifier': 'battery_state', 'rc': 1}
+[2.131113] (-) EventReactorShutdown: {}

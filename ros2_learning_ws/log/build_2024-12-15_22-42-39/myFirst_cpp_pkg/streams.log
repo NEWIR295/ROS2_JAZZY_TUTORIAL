@@ -1,0 +1,62 @@
+[0.407s] Invoking command in '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/myFirst_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/src/myFirst_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/myFirst_cpp_pkg
+[0.496s] -- The C compiler identification is GNU 13.3.0
+[0.589s] -- The CXX compiler identification is GNU 13.3.0
+[0.613s] -- Detecting C compiler ABI info
+[0.744s] -- Detecting C compiler ABI info - done
+[0.768s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.768s] -- Detecting C compile features
+[0.769s] -- Detecting C compile features - done
+[0.783s] -- Detecting CXX compiler ABI info
+[0.947s] -- Detecting CXX compiler ABI info - done
+[0.963s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.963s] -- Detecting CXX compile features
+[0.964s] -- Detecting CXX compile features - done
+[0.968s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.203s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.375s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.474s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.499s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.524s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.553s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.697s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.702s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.823s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.854s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.905s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.056s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[2.090s] -- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)
+[2.239s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.359s] WARNING: Package name "myFirst_cpp_pkg" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[2.440s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.440s] -- Configured cppcheck include dirs: 
+[2.440s] -- Configured cppcheck exclude dirs and/or files: 
+[2.442s] -- Added test 'lint_cmake' to check CMake code style
+[2.445s] -- Added test 'uncrustify' to check C / C++ code style
+[2.445s] -- Configured uncrustify additional arguments: 
+[2.446s] -- Added test 'xmllint' to check XML markup files
+[2.455s] -- Configuring done (2.0s)
+[2.504s] -- Generating done (0.0s)
+[2.519s] -- Build files have been written to: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/myFirst_cpp_pkg
+[2.535s] Invoked command in '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/myFirst_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/src/myFirst_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/myFirst_cpp_pkg
+[2.538s] Invoking command in '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/myFirst_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/myFirst_cpp_pkg -- -j8 -l8
+[2.619s] [ 25%] [32mBuilding CXX object CMakeFiles/number_pub.dir/src/number_pub.cpp.o[0m
+[2.628s] [ 50%] [32mBuilding CXX object CMakeFiles/number_sub.dir/src/number_sub.cpp.o[0m
+[6.352s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[6.352s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+[6.352s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+[6.352s]                  from [01m[K/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/src/myFirst_cpp_pkg/src/number_sub.cpp:10[m[K:
+[6.352s] [01m[K/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/src/myFirst_cpp_pkg/src/number_sub.cpp:[m[K In member function ‘[01m[Kvoid number_sub::[01;32m[Ksub_cb[m[K(std_msgs::msg::Int64_<std::allocator<void> >::SharedPtr)[m[K’:
+[6.352s] [01m[K/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/src/myFirst_cpp_pkg/src/number_sub.cpp:25:35:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%lld[m[K’ expects argument of type ‘[01m[Klong long int[m[K’, but argument 5 has type ‘[01m[Kstd_msgs::msg::Int64[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int64_<std::allocator<void> >[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[6.353s]    25 |         RCLCPP_INFO(get_logger(), [01;35m[K"%lld"[m[K, [32m[Kthis->counter_[m[K);
+[6.353s]       |                                   [01;35m[K^~~~~~[m[K  [32m[K~~~~~~~~~~~~~~[m[K
+[6.353s]       |                                                 [32m[K|[m[K
+[6.353s]       |                                                 [32m[Kstd_msgs::msg::Int64 {aka std_msgs::msg::Int64_<std::allocator<void> >}[m[K
+[6.353s] [01m[K/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/src/myFirst_cpp_pkg/src/number_sub.cpp:25:39:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[6.353s]    25 |         RCLCPP_INFO(get_logger(), "[01;36m[K%lld[m[K", this->counter_);
+[6.353s]       |                                    [01;36m[K~~~^[m[K
+[6.353s]       |                                       [01;36m[K|[m[K
+[6.353s]       |                                       [01;36m[Klong long int[m[K
+[9.481s] [ 75%] [32m[1mLinking CXX executable number_pub[0m
+[9.792s] [ 75%] Built target number_pub
+[15.193s] [100%] [32m[1mLinking CXX executable number_sub[0m
+[15.692s] [100%] Built target number_sub

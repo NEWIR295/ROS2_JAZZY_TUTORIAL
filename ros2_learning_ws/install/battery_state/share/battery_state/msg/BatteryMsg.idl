@@ -1,0 +1,12 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from battery_state/msg/BatteryMsg.msg
+// generated code does not contain a copyright notice
+
+
+module battery_state {
+  module msg {
+    struct BatteryMsg {
+      sequence<int32> led_states;
+    };
+  };
+};
