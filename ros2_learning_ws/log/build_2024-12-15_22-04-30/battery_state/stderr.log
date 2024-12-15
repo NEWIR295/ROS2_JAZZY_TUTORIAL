@@ -1,0 +1,9 @@
+[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_python/cmake/ament_python_install_package.cmake:66 (message):
+  ament_python_install_package() the Python package folder
+  '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/src/battery_state/battery_state'
+  doesn't contain an '__init__.py' file
+Call Stack (most recent call first):
+  /opt/ros/jazzy/share/ament_cmake_python/cmake/ament_python_install_package.cmake:39 (_ament_cmake_python_install_package)
+  CMakeLists.txt:47 (ament_python_install_package)
+
+[0m

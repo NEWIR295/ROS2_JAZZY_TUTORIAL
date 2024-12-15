@@ -1,0 +1,3 @@
+source;share/battery_state/environment/ament_prefix_path.sh
+source;share/battery_state/environment/path.sh
+source;share/battery_state/environment/pythonpath.sh
