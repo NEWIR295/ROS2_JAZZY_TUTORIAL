@@ -5,7 +5,7 @@ set(battery_state_BUILD_DEPENDS "rosidl_default_generators" "rclcpp" "rclpy" "st
 set(battery_state_BUILDTOOL_DEPENDS "ament_cmake" "ament_cmake_python")
 set(battery_state_BUILD_EXPORT_DEPENDS "rclcpp" "rclpy" "std_msgs")
 set(battery_state_BUILDTOOL_EXPORT_DEPENDS )
-set(battery_state_EXEC_DEPENDS "rosidl_default_runtime" "rclcpp" "rclpy" "std_msgs")
+set(battery_state_EXEC_DEPENDS "rosidl_default_runtime" "ros2launch" "rclcpp" "rclpy" "std_msgs")
 set(battery_state_TEST_DEPENDS "ament_lint_auto" "ament_lint_common")
 set(battery_state_GROUP_DEPENDS )
 set(battery_state_MEMBER_OF_GROUPS "rosidl_interface_packages")

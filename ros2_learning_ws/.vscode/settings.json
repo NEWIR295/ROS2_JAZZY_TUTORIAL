@@ -12,5 +12,6 @@
         "/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/first_py_pkg",
         "/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/first_py_pkg/lib/python3.12/site-packages",
         "/opt/ros/jazzy/lib/python3.12/site-packages"
-    ]
+    ],
+    "cmake.sourceDirectory": "/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/src/battery_state"
 }

@@ -178,15 +178,15 @@ CMakeFiles/battery_state_uninstall.dir/clean:
 # Target rules for target CMakeFiles/battery_state.dir
 
 # All Build rule for target.
+CMakeFiles/battery_state.dir/all: CMakeFiles/battery_state__rosidl_generator_type_description.dir/all
+CMakeFiles/battery_state.dir/all: CMakeFiles/battery_state__rosidl_generator_c.dir/all
+CMakeFiles/battery_state.dir/all: CMakeFiles/battery_state__rosidl_typesupport_fastrtps_c.dir/all
+CMakeFiles/battery_state.dir/all: CMakeFiles/battery_state__rosidl_typesupport_introspection_c.dir/all
 CMakeFiles/battery_state.dir/all: CMakeFiles/battery_state__rosidl_typesupport_c.dir/all
 CMakeFiles/battery_state.dir/all: CMakeFiles/battery_state__cpp.dir/all
 CMakeFiles/battery_state.dir/all: CMakeFiles/battery_state__rosidl_typesupport_fastrtps_cpp.dir/all
 CMakeFiles/battery_state.dir/all: CMakeFiles/battery_state__rosidl_typesupport_introspection_cpp.dir/all
 CMakeFiles/battery_state.dir/all: CMakeFiles/battery_state__rosidl_typesupport_cpp.dir/all
-CMakeFiles/battery_state.dir/all: CMakeFiles/battery_state__rosidl_generator_type_description.dir/all
-CMakeFiles/battery_state.dir/all: CMakeFiles/battery_state__rosidl_generator_c.dir/all
-CMakeFiles/battery_state.dir/all: CMakeFiles/battery_state__rosidl_typesupport_fastrtps_c.dir/all
-CMakeFiles/battery_state.dir/all: CMakeFiles/battery_state__rosidl_typesupport_introspection_c.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/battery_state.dir/build.make CMakeFiles/battery_state.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/battery_state.dir/build.make CMakeFiles/battery_state.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/battery_state/CMakeFiles --progress-num= "Built target battery_state"
@@ -368,8 +368,8 @@ CMakeFiles/battery_state__cpp.dir/clean:
 # Target rules for target CMakeFiles/battery_state__rosidl_typesupport_fastrtps_cpp.dir
 
 # All Build rule for target.
-CMakeFiles/battery_state__rosidl_typesupport_fastrtps_cpp.dir/all: CMakeFiles/battery_state__cpp.dir/all
 CMakeFiles/battery_state__rosidl_typesupport_fastrtps_cpp.dir/all: CMakeFiles/battery_state__rosidl_generator_c.dir/all
+CMakeFiles/battery_state__rosidl_typesupport_fastrtps_cpp.dir/all: CMakeFiles/battery_state__cpp.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/battery_state__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/battery_state__rosidl_typesupport_fastrtps_cpp.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/battery_state__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/battery_state__rosidl_typesupport_fastrtps_cpp.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/battery_state/CMakeFiles --progress-num=29,30,31,32 "Built target battery_state__rosidl_typesupport_fastrtps_cpp"
@@ -395,8 +395,8 @@ CMakeFiles/battery_state__rosidl_typesupport_fastrtps_cpp.dir/clean:
 # Target rules for target CMakeFiles/battery_state__rosidl_typesupport_introspection_cpp.dir
 
 # All Build rule for target.
-CMakeFiles/battery_state__rosidl_typesupport_introspection_cpp.dir/all: CMakeFiles/battery_state__cpp.dir/all
 CMakeFiles/battery_state__rosidl_typesupport_introspection_cpp.dir/all: CMakeFiles/battery_state__rosidl_generator_c.dir/all
+CMakeFiles/battery_state__rosidl_typesupport_introspection_cpp.dir/all: CMakeFiles/battery_state__cpp.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/battery_state__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/battery_state__rosidl_typesupport_introspection_cpp.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/battery_state__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/battery_state__rosidl_typesupport_introspection_cpp.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/battery_state/CMakeFiles --progress-num=37,38,39,40 "Built target battery_state__rosidl_typesupport_introspection_cpp"
@@ -422,8 +422,8 @@ CMakeFiles/battery_state__rosidl_typesupport_introspection_cpp.dir/clean:
 # Target rules for target CMakeFiles/battery_state__rosidl_typesupport_cpp.dir
 
 # All Build rule for target.
-CMakeFiles/battery_state__rosidl_typesupport_cpp.dir/all: CMakeFiles/battery_state__cpp.dir/all
 CMakeFiles/battery_state__rosidl_typesupport_cpp.dir/all: CMakeFiles/battery_state__rosidl_generator_c.dir/all
+CMakeFiles/battery_state__rosidl_typesupport_cpp.dir/all: CMakeFiles/battery_state__cpp.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/battery_state__rosidl_typesupport_cpp.dir/build.make CMakeFiles/battery_state__rosidl_typesupport_cpp.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/battery_state__rosidl_typesupport_cpp.dir/build.make CMakeFiles/battery_state__rosidl_typesupport_cpp.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/battery_state/CMakeFiles --progress-num=21,22,23,24 "Built target battery_state__rosidl_typesupport_cpp"
@@ -501,8 +501,8 @@ CMakeFiles/ament_cmake_python_build_battery_state_egg.dir/clean:
 # Target rules for target CMakeFiles/battery_state__rosidl_generator_py.dir
 
 # All Build rule for target.
-CMakeFiles/battery_state__rosidl_generator_py.dir/all: CMakeFiles/battery_state__rosidl_typesupport_c.dir/all
 CMakeFiles/battery_state__rosidl_generator_py.dir/all: CMakeFiles/battery_state__rosidl_generator_c.dir/all
+CMakeFiles/battery_state__rosidl_generator_py.dir/all: CMakeFiles/battery_state__rosidl_typesupport_c.dir/all
 CMakeFiles/battery_state__rosidl_generator_py.dir/all: battery_state__py/CMakeFiles/battery_state__py.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/battery_state__rosidl_generator_py.dir/build.make CMakeFiles/battery_state__rosidl_generator_py.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/battery_state__rosidl_generator_py.dir/build.make CMakeFiles/battery_state__rosidl_generator_py.dir/build
@@ -529,10 +529,10 @@ CMakeFiles/battery_state__rosidl_generator_py.dir/clean:
 # Target rules for target CMakeFiles/battery_state_s__rosidl_typesupport_fastrtps_c.dir
 
 # All Build rule for target.
-CMakeFiles/battery_state_s__rosidl_typesupport_fastrtps_c.dir/all: CMakeFiles/battery_state__rosidl_typesupport_c.dir/all
-CMakeFiles/battery_state_s__rosidl_typesupport_fastrtps_c.dir/all: CMakeFiles/battery_state__rosidl_generator_py.dir/all
 CMakeFiles/battery_state_s__rosidl_typesupport_fastrtps_c.dir/all: CMakeFiles/battery_state__rosidl_generator_c.dir/all
 CMakeFiles/battery_state_s__rosidl_typesupport_fastrtps_c.dir/all: CMakeFiles/battery_state__rosidl_typesupport_fastrtps_c.dir/all
+CMakeFiles/battery_state_s__rosidl_typesupport_fastrtps_c.dir/all: CMakeFiles/battery_state__rosidl_typesupport_c.dir/all
+CMakeFiles/battery_state_s__rosidl_typesupport_fastrtps_c.dir/all: CMakeFiles/battery_state__rosidl_generator_py.dir/all
 CMakeFiles/battery_state_s__rosidl_typesupport_fastrtps_c.dir/all: battery_state__py/CMakeFiles/battery_state__py.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/battery_state_s__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/battery_state_s__rosidl_typesupport_fastrtps_c.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/battery_state_s__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/battery_state_s__rosidl_typesupport_fastrtps_c.dir/build
@@ -559,10 +559,10 @@ CMakeFiles/battery_state_s__rosidl_typesupport_fastrtps_c.dir/clean:
 # Target rules for target CMakeFiles/battery_state_s__rosidl_typesupport_introspection_c.dir
 
 # All Build rule for target.
-CMakeFiles/battery_state_s__rosidl_typesupport_introspection_c.dir/all: CMakeFiles/battery_state__rosidl_typesupport_c.dir/all
-CMakeFiles/battery_state_s__rosidl_typesupport_introspection_c.dir/all: CMakeFiles/battery_state__rosidl_generator_py.dir/all
 CMakeFiles/battery_state_s__rosidl_typesupport_introspection_c.dir/all: CMakeFiles/battery_state__rosidl_generator_c.dir/all
 CMakeFiles/battery_state_s__rosidl_typesupport_introspection_c.dir/all: CMakeFiles/battery_state__rosidl_typesupport_introspection_c.dir/all
+CMakeFiles/battery_state_s__rosidl_typesupport_introspection_c.dir/all: CMakeFiles/battery_state__rosidl_typesupport_c.dir/all
+CMakeFiles/battery_state_s__rosidl_typesupport_introspection_c.dir/all: CMakeFiles/battery_state__rosidl_generator_py.dir/all
 CMakeFiles/battery_state_s__rosidl_typesupport_introspection_c.dir/all: battery_state__py/CMakeFiles/battery_state__py.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/battery_state_s__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/battery_state_s__rosidl_typesupport_introspection_c.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/battery_state_s__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/battery_state_s__rosidl_typesupport_introspection_c.dir/build
@@ -589,9 +589,9 @@ CMakeFiles/battery_state_s__rosidl_typesupport_introspection_c.dir/clean:
 # Target rules for target CMakeFiles/battery_state_s__rosidl_typesupport_c.dir
 
 # All Build rule for target.
+CMakeFiles/battery_state_s__rosidl_typesupport_c.dir/all: CMakeFiles/battery_state__rosidl_generator_c.dir/all
 CMakeFiles/battery_state_s__rosidl_typesupport_c.dir/all: CMakeFiles/battery_state__rosidl_typesupport_c.dir/all
 CMakeFiles/battery_state_s__rosidl_typesupport_c.dir/all: CMakeFiles/battery_state__rosidl_generator_py.dir/all
-CMakeFiles/battery_state_s__rosidl_typesupport_c.dir/all: CMakeFiles/battery_state__rosidl_generator_c.dir/all
 CMakeFiles/battery_state_s__rosidl_typesupport_c.dir/all: battery_state__py/CMakeFiles/battery_state__py.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/battery_state_s__rosidl_typesupport_c.dir/build.make CMakeFiles/battery_state_s__rosidl_typesupport_c.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/battery_state_s__rosidl_typesupport_c.dir/build.make CMakeFiles/battery_state_s__rosidl_typesupport_c.dir/build
@@ -618,9 +618,9 @@ CMakeFiles/battery_state_s__rosidl_typesupport_c.dir/clean:
 # Target rules for target CMakeFiles/batteryClient.dir
 
 # All Build rule for target.
+CMakeFiles/batteryClient.dir/all: CMakeFiles/battery_state__rosidl_generator_c.dir/all
 CMakeFiles/batteryClient.dir/all: CMakeFiles/battery_state__cpp.dir/all
 CMakeFiles/batteryClient.dir/all: CMakeFiles/battery_state__rosidl_typesupport_cpp.dir/all
-CMakeFiles/batteryClient.dir/all: CMakeFiles/battery_state__rosidl_generator_c.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/batteryClient.dir/build.make CMakeFiles/batteryClient.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/batteryClient.dir/build.make CMakeFiles/batteryClient.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/battery_state/CMakeFiles --progress-num=1,2 "Built target batteryClient"

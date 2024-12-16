@@ -524,12 +524,12 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 58,
-			"id" : "battery_state__cpp::@6890427a1f51a3e7e1df"
-		},
-		{
 			"backtrace" : 7,
 			"id" : "battery_state__rosidl_generator_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 58,
+			"id" : "battery_state__cpp::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "battery_state__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",

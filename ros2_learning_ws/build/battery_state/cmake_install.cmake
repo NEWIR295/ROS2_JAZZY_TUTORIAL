@@ -411,6 +411,10 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/battery_state" TYPE DIRECTORY FILES "/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/src/battery_state/launch")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/battery_state/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/battery_state")
 endif()
 

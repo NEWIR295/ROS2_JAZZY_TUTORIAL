@@ -80,6 +80,7 @@
 /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/msg/BatteryMsg.msg
 /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/battery_state/batteryClient
 /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/battery_state/batteryServer.py
+/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/launch/battery.launch.xml
 /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/ament_index/resource_index/package_run_dependencies/battery_state
 /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/ament_index/resource_index/parent_prefix_path/battery_state
 /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/environment/ament_prefix_path.sh

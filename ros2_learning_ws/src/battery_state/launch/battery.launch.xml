@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<launch>
+    <!-- Launch the Python node -->
+    <node pkg="battery_state" exec="batteryServer.py" name="batteryServer" output="screen">
+    </node>
+
+    <!-- Launch the C++ node -->
+    <node pkg="battery_state" exec="batteryClient" name="batteryClient" output="screen">
+        <param name="batteryCapacity" value="90" />
+    </node>
+</launch>

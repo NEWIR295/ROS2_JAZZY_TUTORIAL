@@ -929,16 +929,16 @@
 	"dependencies" : 
 	[
 		{
+			"backtrace" : 5,
+			"id" : "battery_state__rosidl_generator_c::@6890427a1f51a3e7e1df"
+		},
+		{
 			"backtrace" : 116,
 			"id" : "battery_state__cpp::@6890427a1f51a3e7e1df"
 		},
 		{
 			"backtrace" : 5,
 			"id" : "battery_state__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df"
-		},
-		{
-			"backtrace" : 5,
-			"id" : "battery_state__rosidl_generator_c::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "batteryClient::@6890427a1f51a3e7e1df",
