@@ -1,0 +1,295 @@
+[0.000000] (-) TimerEvent: {}
+[0.000307] (-) JobUnselected: {'identifier': 'first_py_pkg'}
+[0.000338] (-) JobUnselected: {'identifier': 'myFirst_cpp_pkg'}
+[0.000356] (-) JobUnselected: {'identifier': 'turtlesim_manipulation'}
+[0.000373] (battery_state) JobQueued: {'identifier': 'battery_state', 'dependencies': OrderedDict()}
+[0.000390] (battery_state) JobStarted: {'identifier': 'battery_state'}
+[0.007553] (battery_state) JobProgress: {'identifier': 'battery_state', 'progress': 'cmake'}
+[0.008623] (battery_state) JobProgress: {'identifier': 'battery_state', 'progress': 'build'}
+[0.008654] (battery_state) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/battery_state', '--', '-j8', '-l8'], 'cwd': '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/battery_state', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': '1404a459-baba-4528-877b-2a41bdcf248e', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'newir529', 'LC_TIME': 'ar_EG.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/newir529', 'OLDPWD': '/home/newir529', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ar_EG.UTF-8', 'MANAGERPID': '2095', 'SYSTEMD_EXEC_PID': '2367', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3252', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'newir529', 'JOURNAL_STREAM': '8:19891', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'newir529', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/newir529:@/tmp/.ICE-unix/2323,unix/newir529:/tmp/.ICE-unix/2323', 'INVOCATION_ID': '0fe9c494ce48405db084ae705e60b1c9', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ar_EG.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ar_EG.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.TG7UY2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/turtlesim_manipulation:/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/myFirst_cpp_pkg:/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/first_py_pkg:/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'ar_EG.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:0488e507-7647-45e8-b61e-5cc41164a28d', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ar_EG.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'ar_EG.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/battery_state', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/turtlesim_manipulation/lib/python3.12/site-packages:/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/first_py_pkg/lib/python3.12/site-packages:/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'ar_EG.UTF-8', 'LC_PAPER': 'ar_EG.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/myFirst_cpp_pkg:/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/turtlesim_manipulation:/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/first_py_pkg:/opt/ros/jazzy'}), 'shell': False}
+[0.056222] (battery_state) StdoutLine: {'line': b'[  2%] Built target battery_state__rosidl_generator_type_description\n'}
+[0.065194] (battery_state) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_battery_state\n'}
+[0.074778] (battery_state) StdoutLine: {'line': b'[  4%] Built target battery_state__cpp\n'}
+[0.076169] (battery_state) StdoutLine: {'line': b'[ 21%] Built target battery_state__rosidl_generator_c\n'}
+[0.101348] (-) TimerEvent: {}
+[0.108745] (battery_state) StdoutLine: {'line': b'[ 30%] Built target battery_state__rosidl_typesupport_c\n'}
+[0.109005] (battery_state) StdoutLine: {'line': b'[ 39%] Built target battery_state__rosidl_typesupport_introspection_c\n'}
+[0.109240] (battery_state) StdoutLine: {'line': b'[ 47%] Built target battery_state__rosidl_typesupport_cpp\n'}
+[0.109459] (battery_state) StdoutLine: {'line': b'[ 56%] Built target battery_state__rosidl_typesupport_introspection_cpp\n'}
+[0.112624] (battery_state) StdoutLine: {'line': b'[ 65%] Built target battery_state__rosidl_typesupport_fastrtps_cpp\n'}
+[0.118993] (battery_state) StdoutLine: {'line': b'[ 73%] Built target battery_state__rosidl_typesupport_fastrtps_c\n'}
+[0.140533] (battery_state) StdoutLine: {'line': b'[ 76%] Built target battery_state\n'}
+[0.140777] (battery_state) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/batteryClient.dir/src/battaryClient.cpp.o\x1b[0m\n'}
+[0.161362] (battery_state) StdoutLine: {'line': b'[ 78%] Built target battery_state__py\n'}
+[0.184368] (battery_state) StdoutLine: {'line': b'[ 84%] Built target battery_state__rosidl_generator_py\n'}
+[0.201447] (-) TimerEvent: {}
+[0.214934] (battery_state) StdoutLine: {'line': b'[ 93%] Built target battery_state_s__rosidl_typesupport_introspection_c\n'}
+[0.215237] (battery_state) StdoutLine: {'line': b'[ 93%] Built target battery_state_s__rosidl_typesupport_c\n'}
+[0.215561] (battery_state) StdoutLine: {'line': b'[ 97%] Built target battery_state_s__rosidl_typesupport_fastrtps_c\n'}
+[0.301554] (-) TimerEvent: {}
+[0.333455] (battery_state) StdoutLine: {'line': b'running egg_info\n'}
+[0.359542] (battery_state) StdoutLine: {'line': b'writing battery_state.egg-info/PKG-INFO\n'}
+[0.359831] (battery_state) StdoutLine: {'line': b'writing dependency_links to battery_state.egg-info/dependency_links.txt\n'}
+[0.360062] (battery_state) StdoutLine: {'line': b'writing top-level names to battery_state.egg-info/top_level.txt\n'}
+[0.401672] (-) TimerEvent: {}
+[0.444889] (battery_state) StdoutLine: {'line': b"reading manifest file 'battery_state.egg-info/SOURCES.txt'\n"}
+[0.445550] (battery_state) StdoutLine: {'line': b"writing manifest file 'battery_state.egg-info/SOURCES.txt'\n"}
+[0.482775] (battery_state) StdoutLine: {'line': b'[ 97%] Built target ament_cmake_python_build_battery_state_egg\n'}
+[0.501776] (-) TimerEvent: {}
+[0.602091] (-) TimerEvent: {}
+[0.702321] (-) TimerEvent: {}
+[0.802658] (-) TimerEvent: {}
+[0.902917] (-) TimerEvent: {}
+[1.003109] (-) TimerEvent: {}
+[1.103360] (-) TimerEvent: {}
+[1.203607] (-) TimerEvent: {}
+[1.303873] (-) TimerEvent: {}
+[1.404105] (-) TimerEvent: {}
+[1.504315] (-) TimerEvent: {}
+[1.604561] (-) TimerEvent: {}
+[1.704805] (-) TimerEvent: {}
+[1.805061] (-) TimerEvent: {}
+[1.905282] (-) TimerEvent: {}
+[2.005544] (-) TimerEvent: {}
+[2.105791] (-) TimerEvent: {}
+[2.206042] (-) TimerEvent: {}
+[2.239896] (battery_state) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[2.240080] (battery_state) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27\x1b[m\x1b[K,\n'}
+[2.240157] (battery_state) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171\x1b[m\x1b[K,\n'}
+[2.240224] (battery_state) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/src/battery_state/src/battaryClient.cpp:10\x1b[m\x1b[K:\n'}
+[2.240288] (battery_state) StderrLine: {'line': b'\x1b[01m\x1b[K/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/src/battery_state/src/battaryClient.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid batteryClient::\x1b[01;32m\x1b[Kclient_cb\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.240351] (battery_state) StderrLine: {'line': b'\x1b[01m\x1b[K/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/src/battery_state/src/battaryClient.cpp:60:49:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%s\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kchar*\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kbattery_state::srv::BatterySrv_Response_<std::allocator<void> >::_state_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.240418] (battery_state) StderrLine: {'line': b'   60 |                 RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"led state : %s"\x1b[m\x1b[K, response->state);\n'}
+[2.240486] (battery_state) StderrLine: {'line': b'      |                                                 \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.240546] (battery_state) StderrLine: {'line': b'\x1b[01m\x1b[K/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/src/battery_state/src/battaryClient.cpp:60:63:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[2.240607] (battery_state) StderrLine: {'line': b'   60 |                 RCLCPP_INFO(this->get_logger(), "led state : \x1b[01;36m\x1b[K%s\x1b[m\x1b[K", response->state);\n'}
+[2.240667] (battery_state) StderrLine: {'line': b'      |                                                              \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[2.240725] (battery_state) StderrLine: {'line': b'      |                                                               \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[2.240785] (battery_state) StderrLine: {'line': b'      |                                                               \x1b[01;36m\x1b[Kchar*\x1b[m\x1b[K\n'}
+[2.306131] (-) TimerEvent: {}
+[2.406358] (-) TimerEvent: {}
+[2.506663] (-) TimerEvent: {}
+[2.606922] (-) TimerEvent: {}
+[2.707153] (-) TimerEvent: {}
+[2.807399] (-) TimerEvent: {}
+[2.907727] (-) TimerEvent: {}
+[3.008070] (-) TimerEvent: {}
+[3.108311] (-) TimerEvent: {}
+[3.208564] (-) TimerEvent: {}
+[3.308816] (-) TimerEvent: {}
+[3.409092] (-) TimerEvent: {}
+[3.509334] (-) TimerEvent: {}
+[3.609592] (-) TimerEvent: {}
+[3.709878] (-) TimerEvent: {}
+[3.810104] (-) TimerEvent: {}
+[3.910353] (-) TimerEvent: {}
+[4.010598] (-) TimerEvent: {}
+[4.110841] (-) TimerEvent: {}
+[4.211107] (-) TimerEvent: {}
+[4.311367] (-) TimerEvent: {}
+[4.411669] (-) TimerEvent: {}
+[4.511927] (-) TimerEvent: {}
+[4.612166] (-) TimerEvent: {}
+[4.712428] (-) TimerEvent: {}
+[4.812679] (-) TimerEvent: {}
+[4.912927] (-) TimerEvent: {}
+[5.013170] (-) TimerEvent: {}
+[5.113411] (-) TimerEvent: {}
+[5.213662] (-) TimerEvent: {}
+[5.313908] (-) TimerEvent: {}
+[5.414145] (-) TimerEvent: {}
+[5.514392] (-) TimerEvent: {}
+[5.614641] (-) TimerEvent: {}
+[5.714909] (-) TimerEvent: {}
+[5.815102] (-) TimerEvent: {}
+[5.915309] (-) TimerEvent: {}
+[6.015547] (-) TimerEvent: {}
+[6.115823] (-) TimerEvent: {}
+[6.216063] (-) TimerEvent: {}
+[6.316267] (-) TimerEvent: {}
+[6.416500] (-) TimerEvent: {}
+[6.516748] (-) TimerEvent: {}
+[6.617004] (-) TimerEvent: {}
+[6.717239] (-) TimerEvent: {}
+[6.817478] (-) TimerEvent: {}
+[6.917685] (-) TimerEvent: {}
+[7.017924] (-) TimerEvent: {}
+[7.118163] (-) TimerEvent: {}
+[7.218421] (-) TimerEvent: {}
+[7.318671] (-) TimerEvent: {}
+[7.418955] (-) TimerEvent: {}
+[7.519247] (-) TimerEvent: {}
+[7.580295] (battery_state) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable batteryClient\x1b[0m\n'}
+[7.619376] (-) TimerEvent: {}
+[7.719638] (-) TimerEvent: {}
+[7.819924] (-) TimerEvent: {}
+[7.864180] (battery_state) StdoutLine: {'line': b'[100%] Built target batteryClient\n'}
+[7.875455] (battery_state) CommandEnded: {'returncode': 0}
+[7.876115] (battery_state) JobProgress: {'identifier': 'battery_state', 'progress': 'install'}
+[7.884662] (battery_state) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/battery_state'], 'cwd': '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/battery_state', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': '1404a459-baba-4528-877b-2a41bdcf248e', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'newir529', 'LC_TIME': 'ar_EG.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/newir529', 'OLDPWD': '/home/newir529', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ar_EG.UTF-8', 'MANAGERPID': '2095', 'SYSTEMD_EXEC_PID': '2367', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3252', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'newir529', 'JOURNAL_STREAM': '8:19891', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'newir529', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/newir529:@/tmp/.ICE-unix/2323,unix/newir529:/tmp/.ICE-unix/2323', 'INVOCATION_ID': '0fe9c494ce48405db084ae705e60b1c9', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ar_EG.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ar_EG.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.TG7UY2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/turtlesim_manipulation:/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/myFirst_cpp_pkg:/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/first_py_pkg:/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'ar_EG.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:0488e507-7647-45e8-b61e-5cc41164a28d', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ar_EG.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'ar_EG.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/battery_state', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/turtlesim_manipulation/lib/python3.12/site-packages:/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/first_py_pkg/lib/python3.12/site-packages:/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'ar_EG.UTF-8', 'LC_PAPER': 'ar_EG.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/myFirst_cpp_pkg:/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/turtlesim_manipulation:/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/first_py_pkg:/opt/ros/jazzy'}), 'shell': False}
+[7.892489] (battery_state) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.892850] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/ament_index/resource_index/rosidl_interfaces/battery_state\n'}
+[7.893124] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/srv/BatterySrv.json\n'}
+[7.893288] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/msg/BatteryMsg.json\n'}
+[7.893399] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state\n'}
+[7.893538] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg\n'}
+[7.893649] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/battery_msg.h\n'}
+[7.893839] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/detail\n'}
+[7.893998] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/detail/battery_msg__functions.c\n'}
+[7.894153] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/detail/battery_msg__type_support.h\n'}
+[7.894264] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/detail/battery_msg__type_support.c\n'}
+[7.894371] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/detail/battery_msg__functions.h\n'}
+[7.894561] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/detail/battery_msg__struct.h\n'}
+[7.894678] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/detail/battery_msg__description.c\n'}
+[7.894813] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/rosidl_generator_c__visibility_control.h\n'}
+[7.894920] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv\n'}
+[7.895053] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv/battery_srv.h\n'}
+[7.895124] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv/detail\n'}
+[7.895217] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv/detail/battery_srv__functions.h\n'}
+[7.895410] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv/detail/battery_srv__type_support.h\n'}
+[7.895536] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv/detail/battery_srv__functions.c\n'}
+[7.895683] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv/detail/battery_srv__description.c\n'}
+[7.895812] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv/detail/battery_srv__struct.h\n'}
+[7.895938] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv/detail/battery_srv__type_support.c\n'}
+[7.896150] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/environment/library_path.sh\n'}
+[7.896332] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/environment/library_path.dsv\n'}
+[7.896459] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/libbattery_state__rosidl_generator_c.so\n'}
+[7.896584] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state\n'}
+[7.896711] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg\n'}
+[7.896837] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[7.896963] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/detail\n'}
+[7.897094] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/detail/battery_msg__rosidl_typesupport_fastrtps_c.h\n'}
+[7.897214] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv\n'}
+[7.897345] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv/detail\n'}
+[7.897544] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv/detail/battery_srv__rosidl_typesupport_fastrtps_c.h\n'}
+[7.897653] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/libbattery_state__rosidl_typesupport_fastrtps_c.so\n'}
+[7.897759] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state\n'}
+[7.897868] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg\n'}
+[7.897974] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[7.898160] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/detail\n'}
+[7.898322] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/detail/battery_msg__rosidl_typesupport_introspection_c.h\n'}
+[7.898433] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/detail/battery_msg__type_support.c\n'}
+[7.898543] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv\n'}
+[7.898715] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv/detail\n'}
+[7.898904] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv/detail/battery_srv__rosidl_typesupport_introspection_c.h\n'}
+[7.899006] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv/detail/battery_srv__type_support.c\n'}
+[7.899142] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/libbattery_state__rosidl_typesupport_introspection_c.so\n'}
+[7.899245] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/libbattery_state__rosidl_typesupport_c.so\n'}
+[7.899358] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state\n'}
+[7.899472] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg\n'}
+[7.899578] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/battery_msg.hpp\n'}
+[7.899695] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[7.899828] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/detail\n'}
+[7.899963] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/detail/battery_msg__traits.hpp\n'}
+[7.900100] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/detail/battery_msg__builder.hpp\n'}
+[7.900226] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/detail/battery_msg__struct.hpp\n'}
+[7.900338] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/detail/battery_msg__type_support.hpp\n'}
+[7.900449] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv\n'}
+[7.900564] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv/battery_srv.hpp\n'}
+[7.900686] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv/detail\n'}
+[7.900810] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv/detail/battery_srv__traits.hpp\n'}
+[7.900945] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv/detail/battery_srv__type_support.hpp\n'}
+[7.901072] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv/detail/battery_srv__struct.hpp\n'}
+[7.901194] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv/detail/battery_srv__builder.hpp\n'}
+[7.901314] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state\n'}
+[7.901427] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg\n'}
+[7.901550] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[7.901672] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/detail\n'}
+[7.901802] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/detail/dds_fastrtps\n'}
+[7.901922] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/detail/battery_msg__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.902054] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv\n'}
+[7.902184] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv/detail\n'}
+[7.902312] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv/detail/battery_srv__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.902444] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv/detail/dds_fastrtps\n'}
+[7.902581] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/libbattery_state__rosidl_typesupport_fastrtps_cpp.so\n'}
+[7.902702] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state\n'}
+[7.902831] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg\n'}
+[7.902955] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/detail\n'}
+[7.903085] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/detail/battery_msg__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.903217] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/detail/battery_msg__type_support.cpp\n'}
+[7.903346] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv\n'}
+[7.903466] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv/detail\n'}
+[7.903587] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv/detail/battery_srv__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.903706] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv/detail/battery_srv__type_support.cpp\n'}
+[7.903833] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/libbattery_state__rosidl_typesupport_introspection_cpp.so\n'}
+[7.903955] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/libbattery_state__rosidl_typesupport_cpp.so\n'}
+[7.904094] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/environment/pythonpath.sh\n'}
+[7.904225] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/environment/pythonpath.dsv\n'}
+[7.904361] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state-0.0.0-py3.12.egg-info\n'}
+[7.904486] (battery_state) StdoutLine: {'line': b'-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[7.904622] (battery_state) StdoutLine: {'line': b'-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[7.904742] (battery_state) StdoutLine: {'line': b'-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[7.904881] (battery_state) StdoutLine: {'line': b'-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[7.905007] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state\n'}
+[7.905153] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state/_battery_state_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[7.905291] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state/_battery_state_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[7.905423] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state/battery_state_s__rosidl_typesupport_fastrtps_c.so\n'}
+[7.905558] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state/battery_state_s__rosidl_typesupport_introspection_c.so\n'}
+[7.905681] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state/_battery_state_s.ep.rosidl_typesupport_c.c\n'}
+[7.905828] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state/battery_state_s__rosidl_typesupport_c.so\n'}
+[7.905954] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state/msg\n'}
+[7.906095] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state/msg/_battery_msg.py\n'}
+[7.906228] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state/msg/_battery_msg_s.c\n'}
+[7.906352] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state/msg/__init__.py\n'}
+[7.906479] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state/__init__.py\n'}
+[7.906606] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state/srv\n'}
+[7.906734] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state/srv/_battery_srv_s.c\n'}
+[7.906864] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state/srv/_battery_srv.py\n'}
+[7.906990] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state/srv/__init__.py\n'}
+[7.920069] (-) TimerEvent: {}
+[7.936575] (battery_state) StdoutLine: {'line': b"Listing '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state'...\n"}
+[7.936731] (battery_state) StdoutLine: {'line': b"Listing '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state/msg'...\n"}
+[7.936803] (battery_state) StdoutLine: {'line': b"Listing '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state/srv'...\n"}
+[7.943884] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state/battery_state_s__rosidl_typesupport_fastrtps_c.so\n'}
+[7.944256] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state/battery_state_s__rosidl_typesupport_introspection_c.so\n'}
+[7.944600] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state/battery_state_s__rosidl_typesupport_c.so\n'}
+[7.944902] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/libbattery_state__rosidl_generator_py.so\n'}
+[7.945109] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/srv/BatterySrv.idl\n'}
+[7.945272] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/msg/BatteryMsg.idl\n'}
+[7.945440] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/srv/BatterySrv.srv\n'}
+[7.945512] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/msg/BatteryMsg.msg\n'}
+[7.945608] (battery_state) StdoutLine: {'line': b'-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/battery_state/batteryClient\n'}
+[7.951192] (battery_state) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/battery_state/batteryClient" to ""\n'}
+[7.951436] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/battery_state/batteryServer.py\n'}
+[7.951616] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/ament_index/resource_index/package_run_dependencies/battery_state\n'}
+[7.951695] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/ament_index/resource_index/parent_prefix_path/battery_state\n'}
+[7.951765] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/environment/ament_prefix_path.sh\n'}
+[7.951833] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/environment/ament_prefix_path.dsv\n'}
+[7.951944] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/environment/path.sh\n'}
+[7.952164] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/environment/path.dsv\n'}
+[7.952346] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/local_setup.bash\n'}
+[7.952499] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/local_setup.sh\n'}
+[7.952622] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/local_setup.zsh\n'}
+[7.952754] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/local_setup.dsv\n'}
+[7.952891] (battery_state) StdoutLine: {'line': b'-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/package.dsv\n'}
+[7.953006] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/ament_index/resource_index/packages/battery_state\n'}
+[7.953203] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/cmake/export_battery_state__rosidl_generator_cExport.cmake\n'}
+[7.953322] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/cmake/export_battery_state__rosidl_generator_cExport-noconfig.cmake\n'}
+[7.953437] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/cmake/export_battery_state__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[7.953572] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/cmake/export_battery_state__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[7.953705] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/cmake/battery_state__rosidl_typesupport_introspection_cExport.cmake\n'}
+[7.953834] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/cmake/battery_state__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[7.953981] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/cmake/battery_state__rosidl_typesupport_cExport.cmake\n'}
+[7.954142] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/cmake/battery_state__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[7.954253] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/cmake/export_battery_state__rosidl_generator_cppExport.cmake\n'}
+[7.954341] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/cmake/export_battery_state__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[7.954428] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/cmake/export_battery_state__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[7.954514] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/cmake/battery_state__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[7.954601] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/cmake/battery_state__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[7.954693] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/cmake/battery_state__rosidl_typesupport_cppExport.cmake\n'}
+[7.954790] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/cmake/battery_state__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[7.954875] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/cmake/export_battery_state__rosidl_generator_pyExport.cmake\n'}
+[7.954960] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/cmake/export_battery_state__rosidl_generator_pyExport-noconfig.cmake\n'}
+[7.955073] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/cmake/rosidl_cmake-extras.cmake\n'}
+[7.955182] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.955281] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[7.955377] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[7.955475] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[7.955572] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[7.955671] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[7.955767] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/cmake/battery_stateConfig.cmake\n'}
+[7.955937] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/cmake/battery_stateConfig-version.cmake\n'}
+[7.956380] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/package.xml\n'}
+[7.956818] (battery_state) CommandEnded: {'returncode': 0}
+[7.977971] (battery_state) JobEnded: {'identifier': 'battery_state', 'rc': 0}
+[7.978678] (-) EventReactorShutdown: {}

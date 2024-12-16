@@ -1,0 +1,13 @@
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/src/battery_state/src/battaryClient.cpp:10[m[K:
+[01m[K/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/src/battery_state/src/battaryClient.cpp:[m[K In member function ‘[01m[Kvoid batteryClient::[01;32m[Kclient_cb[m[K()[m[K’:
+[01m[K/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/src/battery_state/src/battaryClient.cpp:60:49:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kbattery_state::srv::BatterySrv_Response_<std::allocator<void> >::_state_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   60 |                 RCLCPP_INFO(this->get_logger(), [01;35m[K"led state : %s"[m[K, response->state);
+      |                                                 [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/src/battery_state/src/battaryClient.cpp:60:63:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   60 |                 RCLCPP_INFO(this->get_logger(), "led state : [01;36m[K%s[m[K", response->state);
+      |                                                              [01;36m[K~^[m[K
+      |                                                               [01;36m[K|[m[K
+      |                                                               [01;36m[Kchar*[m[K
