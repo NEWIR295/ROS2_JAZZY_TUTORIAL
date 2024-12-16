@@ -16,6 +16,7 @@
 /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/battery_state/CMakeFiles/battery_state_s__rosidl_typesupport_fastrtps_c.dir
 /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/battery_state/CMakeFiles/battery_state_s__rosidl_typesupport_introspection_c.dir
 /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/battery_state/CMakeFiles/battery_state_s__rosidl_typesupport_c.dir
+/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/battery_state/CMakeFiles/batteryClient.dir
 /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/battery_state/CMakeFiles/test.dir
 /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/battery_state/CMakeFiles/edit_cache.dir
 /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/battery_state/CMakeFiles/rebuild_cache.dir

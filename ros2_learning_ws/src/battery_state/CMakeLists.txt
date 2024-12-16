@@ -25,14 +25,18 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 ament_export_dependencies(rosidl_default_runtime)
 
 #building Cpp nodes 
-# add_executable( src/.cpp)
-# ament_target_dependencies()
-# rosidl_target_interfaces(battery_state_cpp_node ${PROJECT_NAME} "rosidl_typesupport_cpp")
-# install(TARGETS
-#   #files
+add_executable(batteryClient src/battaryClient.cpp)
+ament_target_dependencies(batteryClient rclcpp)
 
-#   DESTINATION lib/${PROJECT_NAME}
-# )
+
+install(TARGETS
+  #files
+  batteryClient
+  DESTINATION lib/${PROJECT_NAME}
+)
+
+rosidl_get_typesupport_target(cpp_typesupport_target ${PROJECT_NAME} rosidl_typesupport_cpp)
+target_link_libraries(batteryClient ${cpp_typesupport_target})
 
 #building python nodes 
 # ament_python_install_package(${PROJECT_NAME})

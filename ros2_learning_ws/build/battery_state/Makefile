@@ -406,6 +406,19 @@ battery_state_s__rosidl_typesupport_c/fast:
 .PHONY : battery_state_s__rosidl_typesupport_c/fast
 
 #=============================================================================
+# Target rules for targets named batteryClient
+
+# Build rule for target.
+batteryClient: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 batteryClient
+.PHONY : batteryClient
+
+# fast build rule for target.
+batteryClient/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/batteryClient.dir/build.make CMakeFiles/batteryClient.dir/build
+.PHONY : batteryClient/fast
+
+#=============================================================================
 # Target rules for targets named battery_state__py
 
 # Build rule for target.
@@ -970,6 +983,30 @@ rosidl_typesupport_introspection_cpp/battery_state/srv/detail/battery_srv__type_
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/battery_state__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/battery_state__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/battery_state/srv/detail/battery_srv__type_support.cpp.s
 .PHONY : rosidl_typesupport_introspection_cpp/battery_state/srv/detail/battery_srv__type_support.cpp.s
 
+src/battaryClient.o: src/battaryClient.cpp.o
+.PHONY : src/battaryClient.o
+
+# target to build an object file
+src/battaryClient.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/batteryClient.dir/build.make CMakeFiles/batteryClient.dir/src/battaryClient.cpp.o
+.PHONY : src/battaryClient.cpp.o
+
+src/battaryClient.i: src/battaryClient.cpp.i
+.PHONY : src/battaryClient.i
+
+# target to preprocess a source file
+src/battaryClient.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/batteryClient.dir/build.make CMakeFiles/batteryClient.dir/src/battaryClient.cpp.i
+.PHONY : src/battaryClient.cpp.i
+
+src/battaryClient.s: src/battaryClient.cpp.s
+.PHONY : src/battaryClient.s
+
+# target to generate assembly for a file
+src/battaryClient.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/batteryClient.dir/build.make CMakeFiles/batteryClient.dir/src/battaryClient.cpp.s
+.PHONY : src/battaryClient.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -991,6 +1028,7 @@ help:
 	@echo "... battery_state__rosidl_generator_type_description"
 	@echo "... battery_state_uninstall"
 	@echo "... uninstall"
+	@echo "... batteryClient"
 	@echo "... battery_state__rosidl_generator_c"
 	@echo "... battery_state__rosidl_generator_py"
 	@echo "... battery_state__rosidl_typesupport_c"
@@ -1071,6 +1109,9 @@ help:
 	@echo "... rosidl_typesupport_introspection_cpp/battery_state/srv/detail/battery_srv__type_support.o"
 	@echo "... rosidl_typesupport_introspection_cpp/battery_state/srv/detail/battery_srv__type_support.i"
 	@echo "... rosidl_typesupport_introspection_cpp/battery_state/srv/detail/battery_srv__type_support.s"
+	@echo "... src/battaryClient.o"
+	@echo "... src/battaryClient.i"
+	@echo "... src/battaryClient.s"
 .PHONY : help
 
 

@@ -1,0 +1,18 @@
+[0mCMake Deprecation Warning at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+  Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+  rosidl_target_interfaces().  i.e:
+
+    rosidl_get_typesupport_target(cpp_typesupport_target "${PROJECT_NAME}" "rosidl_typesupport_cpp")
+    target_link_libraries(${PROJECT_NAME}_node "${cpp_typesupport_target}")
+
+Call Stack (most recent call first):
+  CMakeLists.txt:30 (rosidl_target_interfaces)
+
+[0m
+[01m[K/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/src/battery_state/src/battaryClient.cpp:11:10:[m[K [01;31m[Kfatal error: [m[Kbattery_state/msg/BatteryMsg.hpp: No such file or directory
+   11 | #include [01;31m[K"battery_state/msg/BatteryMsg.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/batteryClient.dir/build.make:76: CMakeFiles/batteryClient.dir/src/battaryClient.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:626: CMakeFiles/batteryClient.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

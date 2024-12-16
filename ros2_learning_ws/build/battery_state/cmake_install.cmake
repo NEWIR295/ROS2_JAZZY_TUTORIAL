@@ -383,6 +383,30 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/battery_state/batteryClient" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/battery_state/batteryClient")
+    file(RPATH_CHECK
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/battery_state/batteryClient"
+         RPATH "")
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/battery_state" TYPE EXECUTABLE FILES "/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/battery_state/batteryClient")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/battery_state/batteryClient" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/battery_state/batteryClient")
+    file(RPATH_CHANGE
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/battery_state/batteryClient"
+         OLD_RPATH "/opt/ros/jazzy/lib:/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/battery_state:"
+         NEW_RPATH "")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/battery_state/batteryClient")
+    endif()
+  endif()
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  include("/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/battery_state/CMakeFiles/batteryClient.dir/install-cxx-module-bmi-noconfig.cmake" OPTIONAL)
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/battery_state" TYPE PROGRAM FILES "/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/src/battery_state/scripts/batteryServer.py")
 endif()
 
