@@ -22,6 +22,7 @@ setup(
         'console_scripts': [
             'draw_circle = turtlesim_manipulation.draw_circle:main',
             'traveler_turtle = turtlesim_manipulation.traveler_turtle:main',
+            'turtle_killer = turtlesim_manipulation.turtle_killer:main',
         ],
     },
 )
