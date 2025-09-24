@@ -153,7 +153,7 @@ number_pub: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtp
 number_pub: /opt/ros/jazzy/lib/librosidl_typesupport_fastrtps_cpp.so
 number_pub: /opt/ros/jazzy/lib/librmw.so
 number_pub: /opt/ros/jazzy/lib/librosidl_dynamic_typesupport.so
-number_pub: /opt/ros/jazzy/lib/libfastcdr.so.2.2.4
+number_pub: /opt/ros/jazzy/lib/libfastcdr.so.2.2.5
 number_pub: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so
 number_pub: /opt/ros/jazzy/lib/librosidl_typesupport_introspection_cpp.so
 number_pub: /opt/ros/jazzy/lib/librosidl_typesupport_introspection_c.so

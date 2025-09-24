@@ -1,0 +1,710 @@
+[0.000000] (-) TimerEvent: {}
+[0.000354] (battery_state) JobQueued: {'identifier': 'battery_state', 'dependencies': OrderedDict()}
+[0.000501] (first_py_pkg) JobQueued: {'identifier': 'first_py_pkg', 'dependencies': OrderedDict()}
+[0.000559] (myFirst_cpp_pkg) JobQueued: {'identifier': 'myFirst_cpp_pkg', 'dependencies': OrderedDict()}
+[0.000587] (turtlesim_manipulation) JobQueued: {'identifier': 'turtlesim_manipulation', 'dependencies': OrderedDict()}
+[0.000612] (battery_state) JobStarted: {'identifier': 'battery_state'}
+[0.011656] (first_py_pkg) JobStarted: {'identifier': 'first_py_pkg'}
+[0.018757] (myFirst_cpp_pkg) JobStarted: {'identifier': 'myFirst_cpp_pkg'}
+[0.024818] (turtlesim_manipulation) JobStarted: {'identifier': 'turtlesim_manipulation'}
+[0.037724] (battery_state) JobProgress: {'identifier': 'battery_state', 'progress': 'cmake'}
+[0.041011] (battery_state) JobProgress: {'identifier': 'battery_state', 'progress': 'build'}
+[0.041135] (battery_state) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/battery_state', '--', '-j8', '-l8'], 'cwd': '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/battery_state', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'newir529', 'LC_TIME': 'ar_EG.UTF-8', 'FONTCONFIG_PATH': '/etc/fonts', 'GIO_MODULE_DIR': '/home/newir529/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/snap/code/184/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/newir529/EMBEDDED_LINUX/Linux_Administration/Project/Part2/Application/out/lib', 'HOME': '/home/newir529', 'CHROME_DESKTOP': 'code.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'OLDPWD': '/home/newir529/ROS2_JAZZY_TUTORIAL', 'TERM_PROGRAM_VERSION': '1.97.2', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/184/usr/lib/x86_64-linux-gnu/gtk-3.0', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/newir529/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/184/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'ar_EG.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/184/usr/share/code/code', 'MANAGERPID': '2848', 'SYSTEMD_EXEC_PID': '3121', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'LIBVIRT_DEFAULT_URI': 'qemu:///system', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '19600', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'newir529', 'JOURNAL_STREAM': '8:24976', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'newir529', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/newir529/.config/Code/User/globalStorage/github.copilot-chat/debugCommand', 'SESSION_MANAGER': 'local/newir529:@/tmp/.ICE-unix/3077,unix/newir529:/tmp/.ICE-unix/3077', 'GTK_EXE_PREFIX': '/snap/code/184/usr', 'INVOCATION_ID': 'a1ec077f26104563b920abcafd0e6252', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ar_EG.UTF-8', 'BAMF_DESKTOP_FILE_HINT': '/var/lib/snapd/desktop/applications/code_code.desktop', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/184/usr/lib/locale', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'ar_EG.UTF-8', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XDG_DATA_HOME': '/home/newir529/snap/code/184/.local/share', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.SK5J32', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-faea15ce8d.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/newir529/snap/code/184/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'ar_EG.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'LC_MEASUREMENT': 'ar_EG.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'ar_EG.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/battery_state', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/home/newir529/snap/code/184/.local/share:/home/newir529/snap/code/184:/snap/code/184/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'ar_EG.UTF-8', 'LC_PAPER': 'ar_EG.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099111] (-) TimerEvent: {}
+[0.200039] (-) TimerEvent: {}
+[0.300432] (-) TimerEvent: {}
+[0.400723] (-) TimerEvent: {}
+[0.501207] (-) TimerEvent: {}
+[0.558581] (myFirst_cpp_pkg) JobProgress: {'identifier': 'myFirst_cpp_pkg', 'progress': 'cmake'}
+[0.559801] (myFirst_cpp_pkg) JobProgress: {'identifier': 'myFirst_cpp_pkg', 'progress': 'build'}
+[0.561433] (myFirst_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/myFirst_cpp_pkg', '--', '-j8', '-l8'], 'cwd': '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/myFirst_cpp_pkg', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'newir529', 'LC_TIME': 'ar_EG.UTF-8', 'FONTCONFIG_PATH': '/etc/fonts', 'GIO_MODULE_DIR': '/home/newir529/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/snap/code/184/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/newir529/EMBEDDED_LINUX/Linux_Administration/Project/Part2/Application/out/lib', 'HOME': '/home/newir529', 'CHROME_DESKTOP': 'code.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'OLDPWD': '/home/newir529/ROS2_JAZZY_TUTORIAL', 'TERM_PROGRAM_VERSION': '1.97.2', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/184/usr/lib/x86_64-linux-gnu/gtk-3.0', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/newir529/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/184/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'ar_EG.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/184/usr/share/code/code', 'MANAGERPID': '2848', 'SYSTEMD_EXEC_PID': '3121', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'LIBVIRT_DEFAULT_URI': 'qemu:///system', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '19600', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'newir529', 'JOURNAL_STREAM': '8:24976', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'newir529', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/newir529/.config/Code/User/globalStorage/github.copilot-chat/debugCommand', 'SESSION_MANAGER': 'local/newir529:@/tmp/.ICE-unix/3077,unix/newir529:/tmp/.ICE-unix/3077', 'GTK_EXE_PREFIX': '/snap/code/184/usr', 'INVOCATION_ID': 'a1ec077f26104563b920abcafd0e6252', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ar_EG.UTF-8', 'BAMF_DESKTOP_FILE_HINT': '/var/lib/snapd/desktop/applications/code_code.desktop', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/184/usr/lib/locale', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'ar_EG.UTF-8', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XDG_DATA_HOME': '/home/newir529/snap/code/184/.local/share', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.SK5J32', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-faea15ce8d.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/newir529/snap/code/184/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'ar_EG.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'LC_MEASUREMENT': 'ar_EG.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'ar_EG.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/myFirst_cpp_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/home/newir529/snap/code/184/.local/share:/home/newir529/snap/code/184:/snap/code/184/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'ar_EG.UTF-8', 'LC_PAPER': 'ar_EG.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.564757] (battery_state) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.565851] (battery_state) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.566564] (battery_state) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.567490] (battery_state) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.568171] (battery_state) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.601282] (-) TimerEvent: {}
+[0.614841] (myFirst_cpp_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.632068] (battery_state) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[0.641177] (battery_state) StdoutLine: {'line': b'-- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.701399] (-) TimerEvent: {}
+[0.801803] (-) TimerEvent: {}
+[0.874091] (battery_state) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.879585] (battery_state) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.901928] (-) TimerEvent: {}
+[1.002226] (-) TimerEvent: {}
+[1.031837] (battery_state) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.065624] (myFirst_cpp_pkg) StdoutLine: {'line': b'-- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[1.102338] (-) TimerEvent: {}
+[1.128890] (myFirst_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.158096] (myFirst_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.190847] (myFirst_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.202429] (-) TimerEvent: {}
+[1.223074] (myFirst_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.252018] (battery_state) StdoutLine: {'line': b'-- Found rclpy: 7.1.3 (/opt/ros/jazzy/share/rclpy/cmake)\n'}
+[1.253675] (battery_state) StdoutLine: {'line': b'-- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[1.303509] (-) TimerEvent: {}
+[1.403898] (-) TimerEvent: {}
+[1.416410] (myFirst_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.420243] (myFirst_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.504002] (-) TimerEvent: {}
+[1.607607] (-) TimerEvent: {}
+[1.612295] (myFirst_cpp_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.707722] (-) TimerEvent: {}
+[1.808055] (-) TimerEvent: {}
+[1.813498] (myFirst_cpp_pkg) StdoutLine: {'line': b'-- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[1.854636] (myFirst_cpp_pkg) StdoutLine: {'line': b'-- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)\n'}
+[1.908162] (-) TimerEvent: {}
+[2.008558] (-) TimerEvent: {}
+[2.022174] (myFirst_cpp_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[2.039436] (battery_state) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[2.108690] (-) TimerEvent: {}
+[2.209029] (-) TimerEvent: {}
+[2.214211] (myFirst_cpp_pkg) StderrLine: {'line': b'WARNING: Package name "myFirst_cpp_pkg" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.\n'}
+[2.289844] (myFirst_cpp_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.290189] (myFirst_cpp_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[2.290392] (myFirst_cpp_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.292150] (myFirst_cpp_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.295255] (myFirst_cpp_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.295675] (myFirst_cpp_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.296671] (myFirst_cpp_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.302850] (myFirst_cpp_pkg) StdoutLine: {'line': b'-- Configuring done (1.7s)\n'}
+[2.309167] (-) TimerEvent: {}
+[2.362083] (myFirst_cpp_pkg) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[2.380652] (myFirst_cpp_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/myFirst_cpp_pkg\n'}
+[2.409300] (-) TimerEvent: {}
+[2.432796] (battery_state) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.498844] (myFirst_cpp_pkg) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/number_sub.dir/src/number_sub.cpp.o\x1b[0m\n'}
+[2.504157] (myFirst_cpp_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/number_pub.dir/src/number_pub.cpp.o\x1b[0m\n'}
+[2.509427] (-) TimerEvent: {}
+[2.610457] (-) TimerEvent: {}
+[2.710822] (-) TimerEvent: {}
+[2.804387] (first_py_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/first_py_pkg', 'build', '--build-base', '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/first_py_pkg/build', 'install', '--record', '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/first_py_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/src/first_py_pkg', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'newir529', 'LC_TIME': 'ar_EG.UTF-8', 'FONTCONFIG_PATH': '/etc/fonts', 'GIO_MODULE_DIR': '/home/newir529/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/snap/code/184/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/newir529/EMBEDDED_LINUX/Linux_Administration/Project/Part2/Application/out/lib', 'HOME': '/home/newir529', 'CHROME_DESKTOP': 'code.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'OLDPWD': '/home/newir529/ROS2_JAZZY_TUTORIAL', 'TERM_PROGRAM_VERSION': '1.97.2', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/184/usr/lib/x86_64-linux-gnu/gtk-3.0', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/newir529/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/184/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'ar_EG.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/184/usr/share/code/code', 'MANAGERPID': '2848', 'SYSTEMD_EXEC_PID': '3121', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'LIBVIRT_DEFAULT_URI': 'qemu:///system', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '19600', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'newir529', 'JOURNAL_STREAM': '8:24976', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'newir529', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/newir529/.config/Code/User/globalStorage/github.copilot-chat/debugCommand', 'SESSION_MANAGER': 'local/newir529:@/tmp/.ICE-unix/3077,unix/newir529:/tmp/.ICE-unix/3077', 'GTK_EXE_PREFIX': '/snap/code/184/usr', 'INVOCATION_ID': 'a1ec077f26104563b920abcafd0e6252', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ar_EG.UTF-8', 'BAMF_DESKTOP_FILE_HINT': '/var/lib/snapd/desktop/applications/code_code.desktop', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/184/usr/lib/locale', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'ar_EG.UTF-8', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XDG_DATA_HOME': '/home/newir529/snap/code/184/.local/share', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.SK5J32', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-faea15ce8d.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/newir529/snap/code/184/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'ar_EG.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'LC_MEASUREMENT': 'ar_EG.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'ar_EG.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/first_py_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/home/newir529/snap/code/184/.local/share:/home/newir529/snap/code/184:/snap/code/184/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/first_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/first_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'ar_EG.UTF-8', 'LC_PAPER': 'ar_EG.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[2.811060] (-) TimerEvent: {}
+[2.838270] (turtlesim_manipulation) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/turtlesim_manipulation', 'build', '--build-base', '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/turtlesim_manipulation/build', 'install', '--record', '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/turtlesim_manipulation/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/src/turtlesim_manipulation', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'newir529', 'LC_TIME': 'ar_EG.UTF-8', 'FONTCONFIG_PATH': '/etc/fonts', 'GIO_MODULE_DIR': '/home/newir529/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/snap/code/184/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/newir529/EMBEDDED_LINUX/Linux_Administration/Project/Part2/Application/out/lib', 'HOME': '/home/newir529', 'CHROME_DESKTOP': 'code.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'OLDPWD': '/home/newir529/ROS2_JAZZY_TUTORIAL', 'TERM_PROGRAM_VERSION': '1.97.2', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/184/usr/lib/x86_64-linux-gnu/gtk-3.0', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/newir529/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/184/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'ar_EG.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/184/usr/share/code/code', 'MANAGERPID': '2848', 'SYSTEMD_EXEC_PID': '3121', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'LIBVIRT_DEFAULT_URI': 'qemu:///system', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '19600', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'newir529', 'JOURNAL_STREAM': '8:24976', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'newir529', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/newir529/.config/Code/User/globalStorage/github.copilot-chat/debugCommand', 'SESSION_MANAGER': 'local/newir529:@/tmp/.ICE-unix/3077,unix/newir529:/tmp/.ICE-unix/3077', 'GTK_EXE_PREFIX': '/snap/code/184/usr', 'INVOCATION_ID': 'a1ec077f26104563b920abcafd0e6252', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ar_EG.UTF-8', 'BAMF_DESKTOP_FILE_HINT': '/var/lib/snapd/desktop/applications/code_code.desktop', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/184/usr/lib/locale', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'ar_EG.UTF-8', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XDG_DATA_HOME': '/home/newir529/snap/code/184/.local/share', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.SK5J32', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-faea15ce8d.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/newir529/snap/code/184/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'ar_EG.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'LC_MEASUREMENT': 'ar_EG.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'ar_EG.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/turtlesim_manipulation', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/home/newir529/snap/code/184/.local/share:/home/newir529/snap/code/184:/snap/code/184/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/turtlesim_manipulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/turtlesim_manipulation/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'ar_EG.UTF-8', 'LC_PAPER': 'ar_EG.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[2.912744] (-) TimerEvent: {}
+[3.013156] (-) TimerEvent: {}
+[3.060500] (battery_state) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.066565] (battery_state) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[3.113308] (-) TimerEvent: {}
+[3.215986] (-) TimerEvent: {}
+[3.316427] (-) TimerEvent: {}
+[3.417339] (-) TimerEvent: {}
+[3.517714] (-) TimerEvent: {}
+[3.618137] (-) TimerEvent: {}
+[3.634239] (first_py_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[3.670218] (turtlesim_manipulation) StdoutLine: {'line': b'running egg_info\n'}
+[3.696205] (first_py_pkg) StdoutLine: {'line': b'writing ../../build/first_py_pkg/first_py_pkg.egg-info/PKG-INFO\n'}
+[3.698420] (first_py_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/first_py_pkg/first_py_pkg.egg-info/dependency_links.txt\n'}
+[3.698743] (first_py_pkg) StdoutLine: {'line': b'writing entry points to ../../build/first_py_pkg/first_py_pkg.egg-info/entry_points.txt\n'}
+[3.698964] (first_py_pkg) StdoutLine: {'line': b'writing requirements to ../../build/first_py_pkg/first_py_pkg.egg-info/requires.txt\n'}
+[3.699196] (first_py_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/first_py_pkg/first_py_pkg.egg-info/top_level.txt\n'}
+[3.718239] (-) TimerEvent: {}
+[3.743027] (turtlesim_manipulation) StdoutLine: {'line': b'writing ../../build/turtlesim_manipulation/turtlesim_manipulation.egg-info/PKG-INFO\n'}
+[3.744235] (turtlesim_manipulation) StdoutLine: {'line': b'writing dependency_links to ../../build/turtlesim_manipulation/turtlesim_manipulation.egg-info/dependency_links.txt\n'}
+[3.744582] (turtlesim_manipulation) StdoutLine: {'line': b'writing entry points to ../../build/turtlesim_manipulation/turtlesim_manipulation.egg-info/entry_points.txt\n'}
+[3.747415] (turtlesim_manipulation) StdoutLine: {'line': b'writing requirements to ../../build/turtlesim_manipulation/turtlesim_manipulation.egg-info/requires.txt\n'}
+[3.747751] (turtlesim_manipulation) StdoutLine: {'line': b'writing top-level names to ../../build/turtlesim_manipulation/turtlesim_manipulation.egg-info/top_level.txt\n'}
+[3.818339] (-) TimerEvent: {}
+[3.844505] (first_py_pkg) StdoutLine: {'line': b"reading manifest file '../../build/first_py_pkg/first_py_pkg.egg-info/SOURCES.txt'\n"}
+[3.846833] (first_py_pkg) StdoutLine: {'line': b"writing manifest file '../../build/first_py_pkg/first_py_pkg.egg-info/SOURCES.txt'\n"}
+[3.847320] (first_py_pkg) StdoutLine: {'line': b'running build\n'}
+[3.847600] (first_py_pkg) StdoutLine: {'line': b'running build_py\n'}
+[3.851040] (first_py_pkg) StdoutLine: {'line': b'running install\n'}
+[3.868748] (first_py_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[3.882801] (turtlesim_manipulation) StdoutLine: {'line': b"reading manifest file '../../build/turtlesim_manipulation/turtlesim_manipulation.egg-info/SOURCES.txt'\n"}
+[3.889426] (turtlesim_manipulation) StdoutLine: {'line': b"writing manifest file '../../build/turtlesim_manipulation/turtlesim_manipulation.egg-info/SOURCES.txt'\n"}
+[3.889798] (turtlesim_manipulation) StdoutLine: {'line': b'running build\n'}
+[3.890038] (turtlesim_manipulation) StdoutLine: {'line': b'running build_py\n'}
+[3.890245] (turtlesim_manipulation) StdoutLine: {'line': b'copying turtlesim_manipulation/traveler_turtle.py -> /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/turtlesim_manipulation/build/lib/turtlesim_manipulation\n'}
+[3.892560] (turtlesim_manipulation) StdoutLine: {'line': b'copying turtlesim_manipulation/turtle_killer.py -> /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/turtlesim_manipulation/build/lib/turtlesim_manipulation\n'}
+[3.895726] (turtlesim_manipulation) StdoutLine: {'line': b'running install\n'}
+[3.918426] (-) TimerEvent: {}
+[3.919741] (turtlesim_manipulation) StdoutLine: {'line': b'running install_lib\n'}
+[3.955513] (battery_state) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[3.966453] (first_py_pkg) StdoutLine: {'line': b'running install_data\n'}
+[3.968464] (first_py_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.986615] (turtlesim_manipulation) StdoutLine: {'line': b'copying /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/turtlesim_manipulation/build/lib/turtlesim_manipulation/traveler_turtle.py -> /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/turtlesim_manipulation/lib/python3.12/site-packages/turtlesim_manipulation\n'}
+[3.987296] (turtlesim_manipulation) StdoutLine: {'line': b'copying /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/turtlesim_manipulation/build/lib/turtlesim_manipulation/turtle_killer.py -> /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/turtlesim_manipulation/lib/python3.12/site-packages/turtlesim_manipulation\n'}
+[3.990506] (turtlesim_manipulation) StdoutLine: {'line': b'byte-compiling /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/turtlesim_manipulation/lib/python3.12/site-packages/turtlesim_manipulation/traveler_turtle.py to traveler_turtle.cpython-312.pyc\n'}
+[3.992415] (turtlesim_manipulation) StdoutLine: {'line': b'byte-compiling /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/turtlesim_manipulation/lib/python3.12/site-packages/turtlesim_manipulation/turtle_killer.py to turtle_killer.cpython-312.pyc\n'}
+[3.993544] (turtlesim_manipulation) StdoutLine: {'line': b'running install_data\n'}
+[3.993973] (turtlesim_manipulation) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.018856] (-) TimerEvent: {}
+[4.043627] (first_py_pkg) StdoutLine: {'line': b"removing '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/first_py_pkg/lib/python3.12/site-packages/first_py_pkg-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[4.047442] (first_py_pkg) StdoutLine: {'line': b'Copying ../../build/first_py_pkg/first_py_pkg.egg-info to /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/first_py_pkg/lib/python3.12/site-packages/first_py_pkg-0.0.0-py3.12.egg-info\n'}
+[4.047906] (first_py_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[4.059557] (turtlesim_manipulation) StdoutLine: {'line': b"removing '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/turtlesim_manipulation/lib/python3.12/site-packages/turtlesim_manipulation-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[4.062201] (turtlesim_manipulation) StdoutLine: {'line': b'Copying ../../build/turtlesim_manipulation/turtlesim_manipulation.egg-info to /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/turtlesim_manipulation/lib/python3.12/site-packages/turtlesim_manipulation-0.0.0-py3.12.egg-info\n'}
+[4.064506] (turtlesim_manipulation) StdoutLine: {'line': b'running install_scripts\n'}
+[4.103203] (battery_state) StdoutLine: {'line': b'-- Configuring done (4.0s)\n'}
+[4.120909] (-) TimerEvent: {}
+[4.224146] (-) TimerEvent: {}
+[4.324577] (-) TimerEvent: {}
+[4.425438] (-) TimerEvent: {}
+[4.470049] (battery_state) StdoutLine: {'line': b'-- Generating done (0.3s)\n'}
+[4.526504] (-) TimerEvent: {}
+[4.532877] (first_py_pkg) StdoutLine: {'line': b'Installing camera script to /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/first_py_pkg/lib/first_py_pkg\n'}
+[4.534235] (first_py_pkg) StdoutLine: {'line': b'Installing pub_node script to /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/first_py_pkg/lib/first_py_pkg\n'}
+[4.535108] (first_py_pkg) StdoutLine: {'line': b'Installing sub_node script to /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/first_py_pkg/lib/first_py_pkg\n'}
+[4.536426] (first_py_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/first_py_pkg/install.log'\n"}
+[4.568507] (turtlesim_manipulation) StdoutLine: {'line': b'Installing draw_circle script to /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/turtlesim_manipulation/lib/turtlesim_manipulation\n'}
+[4.569300] (turtlesim_manipulation) StdoutLine: {'line': b'Installing traveler_turtle script to /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/turtlesim_manipulation/lib/turtlesim_manipulation\n'}
+[4.569572] (turtlesim_manipulation) StdoutLine: {'line': b'Installing turtle_killer script to /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/turtlesim_manipulation/lib/turtlesim_manipulation\n'}
+[4.571344] (turtlesim_manipulation) StdoutLine: {'line': b"writing list of installed files to '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/turtlesim_manipulation/install.log'\n"}
+[4.583467] (battery_state) StdoutLine: {'line': b'-- Build files have been written to: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/battery_state\n'}
+[4.626627] (-) TimerEvent: {}
+[4.632068] (first_py_pkg) CommandEnded: {'returncode': 0}
+[4.675104] (first_py_pkg) JobEnded: {'identifier': 'first_py_pkg', 'rc': 0}
+[4.678204] (turtlesim_manipulation) CommandEnded: {'returncode': 0}
+[4.703601] (turtlesim_manipulation) JobEnded: {'identifier': 'turtlesim_manipulation', 'rc': 0}
+[4.706667] (battery_state) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[4.726737] (-) TimerEvent: {}
+[4.733855] (battery_state) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_battery_state\n'}
+[4.826867] (-) TimerEvent: {}
+[4.927612] (-) TimerEvent: {}
+[5.028448] (-) TimerEvent: {}
+[5.128815] (-) TimerEvent: {}
+[5.229526] (-) TimerEvent: {}
+[5.330507] (-) TimerEvent: {}
+[5.364983] (battery_state) StdoutLine: {'line': b'[  2%] Built target battery_state__rosidl_generator_type_description\n'}
+[5.392437] (battery_state) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[5.411232] (battery_state) StdoutLine: {'line': b'running egg_info\n'}
+[5.413493] (battery_state) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[5.430628] (-) TimerEvent: {}
+[5.486737] (battery_state) StdoutLine: {'line': b'writing battery_state.egg-info/PKG-INFO\n'}
+[5.491578] (battery_state) StdoutLine: {'line': b'writing dependency_links to battery_state.egg-info/dependency_links.txt\n'}
+[5.491907] (battery_state) StdoutLine: {'line': b'writing top-level names to battery_state.egg-info/top_level.txt\n'}
+[5.532426] (-) TimerEvent: {}
+[5.632862] (-) TimerEvent: {}
+[5.715331] (battery_state) StdoutLine: {'line': b"reading manifest file 'battery_state.egg-info/SOURCES.txt'\n"}
+[5.719724] (battery_state) StdoutLine: {'line': b"writing manifest file 'battery_state.egg-info/SOURCES.txt'\n"}
+[5.732978] (-) TimerEvent: {}
+[5.819602] (battery_state) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_build_battery_state_egg\n'}
+[5.833450] (-) TimerEvent: {}
+[5.934461] (-) TimerEvent: {}
+[6.036077] (-) TimerEvent: {}
+[6.136579] (-) TimerEvent: {}
+[6.236966] (-) TimerEvent: {}
+[6.337327] (-) TimerEvent: {}
+[6.437785] (-) TimerEvent: {}
+[6.519677] (battery_state) StdoutLine: {'line': b'[  6%] Built target battery_state__cpp\n'}
+[6.540898] (-) TimerEvent: {}
+[6.557073] (battery_state) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/battery_state__rosidl_generator_c.dir/rosidl_generator_c/battery_state/srv/detail/battery_srv__functions.c.o\x1b[0m\n'}
+[6.557514] (battery_state) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/battery_state__rosidl_generator_c.dir/rosidl_generator_c/battery_state/srv/detail/battery_srv__type_support.c.o\x1b[0m\n'}
+[6.557761] (battery_state) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/battery_state__rosidl_generator_c.dir/rosidl_generator_c/battery_state/srv/detail/battery_srv__description.c.o\x1b[0m\n'}
+[6.557999] (battery_state) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/battery_state__rosidl_generator_c.dir/rosidl_generator_c/battery_state/msg/detail/battery_msg__description.c.o\x1b[0m\n'}
+[6.562291] (battery_state) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/battery_state__rosidl_generator_c.dir/rosidl_generator_c/battery_state/msg/detail/battery_msg__functions.c.o\x1b[0m\n'}
+[6.578624] (battery_state) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/battery_state__rosidl_generator_c.dir/rosidl_generator_c/battery_state/msg/detail/battery_msg__type_support.c.o\x1b[0m\n'}
+[6.641032] (-) TimerEvent: {}
+[6.746479] (-) TimerEvent: {}
+[6.846899] (-) TimerEvent: {}
+[6.940306] (battery_state) StdoutLine: {'line': b'[ 21%] \x1b[32m\x1b[1mLinking C shared library libbattery_state__rosidl_generator_c.so\x1b[0m\n'}
+[6.947015] (-) TimerEvent: {}
+[7.047450] (-) TimerEvent: {}
+[7.064532] (battery_state) StdoutLine: {'line': b'[ 21%] Built target battery_state__rosidl_generator_c\n'}
+[7.100501] (battery_state) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[7.100972] (battery_state) StdoutLine: {'line': b'[ 26%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[7.109639] (battery_state) StdoutLine: {'line': b'[ 30%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[7.110015] (battery_state) StdoutLine: {'line': b'[ 30%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[7.126842] (battery_state) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[7.129895] (battery_state) StdoutLine: {'line': b'[ 34%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[7.147553] (-) TimerEvent: {}
+[7.262266] (-) TimerEvent: {}
+[7.362689] (-) TimerEvent: {}
+[7.463657] (-) TimerEvent: {}
+[7.564398] (-) TimerEvent: {}
+[7.664721] (-) TimerEvent: {}
+[7.765024] (-) TimerEvent: {}
+[7.865334] (-) TimerEvent: {}
+[7.965704] (-) TimerEvent: {}
+[8.066039] (-) TimerEvent: {}
+[8.167150] (-) TimerEvent: {}
+[8.269687] (-) TimerEvent: {}
+[8.374437] (-) TimerEvent: {}
+[8.475133] (-) TimerEvent: {}
+[8.576244] (-) TimerEvent: {}
+[8.677734] (-) TimerEvent: {}
+[8.781429] (-) TimerEvent: {}
+[8.881764] (-) TimerEvent: {}
+[8.891140] (battery_state) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/battery_state__rosidl_typesupport_c.dir/rosidl_typesupport_c/battery_state/srv/battery_srv__type_support.cpp.o\x1b[0m\n'}
+[8.899835] (battery_state) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/battery_state__rosidl_typesupport_c.dir/rosidl_typesupport_c/battery_state/msg/battery_msg__type_support.cpp.o\x1b[0m\n'}
+[8.981876] (-) TimerEvent: {}
+[9.082514] (-) TimerEvent: {}
+[9.096299] (battery_state) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/battery_state__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/battery_state/msg/battery_msg__type_support.cpp.o\x1b[0m\n'}
+[9.105835] (battery_state) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/battery_state__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/battery_state/srv/battery_srv__type_support.cpp.o\x1b[0m\n'}
+[9.138182] (battery_state) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library libbattery_state__rosidl_typesupport_c.so\x1b[0m\n'}
+[9.185450] (-) TimerEvent: {}
+[9.258524] (battery_state) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/battery_state__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/battery_state/srv/detail/battery_srv__type_support.cpp.o\x1b[0m\n'}
+[9.278819] (battery_state) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/battery_state__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/battery_state/msg/detail/battery_msg__type_support.cpp.o\x1b[0m\n'}
+[9.285587] (-) TimerEvent: {}
+[9.319541] (battery_state) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object CMakeFiles/battery_state__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/battery_state/srv/detail/battery_srv__type_support.c.o\x1b[0m\n'}
+[9.326557] (battery_state) StdoutLine: {'line': b'[ 52%] Built target battery_state__rosidl_typesupport_c\n'}
+[9.373565] (battery_state) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding C object CMakeFiles/battery_state__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/battery_state/msg/detail/battery_msg__type_support.c.o\x1b[0m\n'}
+[9.385709] (-) TimerEvent: {}
+[9.486717] (-) TimerEvent: {}
+[9.569206] (battery_state) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/battery_state__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/battery_state/msg/detail/dds_fastrtps/battery_msg__type_support.cpp.o\x1b[0m\n'}
+[9.569705] (battery_state) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/battery_state__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/battery_state/srv/detail/dds_fastrtps/battery_srv__type_support.cpp.o\x1b[0m\n'}
+[9.574221] (battery_state) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking C shared library libbattery_state__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[9.589582] (-) TimerEvent: {}
+[9.690050] (-) TimerEvent: {}
+[9.719487] (battery_state) StdoutLine: {'line': b'[ 60%] Built target battery_state__rosidl_typesupport_introspection_c\n'}
+[9.790174] (-) TimerEvent: {}
+[9.868183] (battery_state) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/battery_state__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/battery_state/srv/detail/battery_srv__type_support_c.cpp.o\x1b[0m\n'}
+[9.890291] (-) TimerEvent: {}
+[9.904129] (battery_state) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/battery_state__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/battery_state/msg/detail/battery_msg__type_support_c.cpp.o\x1b[0m\n'}
+[9.993441] (-) TimerEvent: {}
+[10.093913] (-) TimerEvent: {}
+[10.194436] (-) TimerEvent: {}
+[10.294930] (-) TimerEvent: {}
+[10.399634] (-) TimerEvent: {}
+[10.500088] (-) TimerEvent: {}
+[10.600530] (-) TimerEvent: {}
+[10.627573] (myFirst_cpp_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[10.627953] (myFirst_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27\x1b[m\x1b[K,\n'}
+[10.628181] (myFirst_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171\x1b[m\x1b[K,\n'}
+[10.633473] (myFirst_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/src/myFirst_cpp_pkg/src/number_sub.cpp:10\x1b[m\x1b[K:\n'}
+[10.633832] (myFirst_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/src/myFirst_cpp_pkg/src/number_sub.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid number_sub::\x1b[01;32m\x1b[Ksub_cb\x1b[m\x1b[K(std_msgs::msg::Int64_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.634034] (myFirst_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/src/myFirst_cpp_pkg/src/number_sub.cpp:25:35:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%lld\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Klong long int\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int64\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int64_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.634249] (myFirst_cpp_pkg) StderrLine: {'line': b'   25 |         RCLCPP_INFO(get_logger(), \x1b[01;35m\x1b[K"%lld"\x1b[m\x1b[K, \x1b[32m\x1b[Kthis->counter_\x1b[m\x1b[K);\n'}
+[10.634483] (myFirst_cpp_pkg) StderrLine: {'line': b'      |                                   \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K  \x1b[32m\x1b[K~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.634703] (myFirst_cpp_pkg) StderrLine: {'line': b'      |                                                 \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[10.634911] (myFirst_cpp_pkg) StderrLine: {'line': b'      |                                                 \x1b[32m\x1b[Kstd_msgs::msg::Int64 {aka std_msgs::msg::Int64_<std::allocator<void> >}\x1b[m\x1b[K\n'}
+[10.635122] (myFirst_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/src/myFirst_cpp_pkg/src/number_sub.cpp:25:39:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[10.635343] (myFirst_cpp_pkg) StderrLine: {'line': b'   25 |         RCLCPP_INFO(get_logger(), "\x1b[01;36m\x1b[K%lld\x1b[m\x1b[K", this->counter_);\n'}
+[10.635583] (myFirst_cpp_pkg) StderrLine: {'line': b'      |                                    \x1b[01;36m\x1b[K~~~^\x1b[m\x1b[K\n'}
+[10.635800] (myFirst_cpp_pkg) StderrLine: {'line': b'      |                                       \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[10.636008] (myFirst_cpp_pkg) StderrLine: {'line': b'      |                                       \x1b[01;36m\x1b[Klong long int\x1b[m\x1b[K\n'}
+[10.704860] (-) TimerEvent: {}
+[10.811444] (-) TimerEvent: {}
+[10.911922] (-) TimerEvent: {}
+[10.958976] (battery_state) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libbattery_state__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[11.013147] (-) TimerEvent: {}
+[11.113715] (-) TimerEvent: {}
+[11.217501] (-) TimerEvent: {}
+[11.269374] (battery_state) StdoutLine: {'line': b'[ 67%] Built target battery_state__rosidl_typesupport_cpp\n'}
+[11.317752] (-) TimerEvent: {}
+[11.432460] (-) TimerEvent: {}
+[11.467491] (battery_state) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/batteryClient.dir/src/battaryClient.cpp.o\x1b[0m\n'}
+[11.532587] (-) TimerEvent: {}
+[11.541438] (battery_state) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libbattery_state__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[11.632698] (-) TimerEvent: {}
+[11.733188] (-) TimerEvent: {}
+[11.791584] (battery_state) StdoutLine: {'line': b'[ 71%] Built target battery_state__rosidl_typesupport_introspection_cpp\n'}
+[11.834520] (-) TimerEvent: {}
+[11.882004] (battery_state) StdoutLine: {'line': b'[ 73%] \x1b[32m\x1b[1mLinking CXX shared library libbattery_state__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[11.937439] (-) TimerEvent: {}
+[12.038343] (-) TimerEvent: {}
+[12.138810] (-) TimerEvent: {}
+[12.174395] (battery_state) StdoutLine: {'line': b'[ 73%] Built target battery_state__rosidl_typesupport_fastrtps_c\n'}
+[12.241436] (-) TimerEvent: {}
+[12.342158] (-) TimerEvent: {}
+[12.442932] (-) TimerEvent: {}
+[12.535921] (battery_state) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libbattery_state__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[12.544448] (-) TimerEvent: {}
+[12.645456] (-) TimerEvent: {}
+[12.746670] (-) TimerEvent: {}
+[12.754596] (battery_state) StdoutLine: {'line': b'[ 76%] Built target battery_state__rosidl_typesupport_fastrtps_cpp\n'}
+[12.798623] (battery_state) StdoutLine: {'line': b'[ 76%] Built target battery_state\n'}
+[12.846798] (-) TimerEvent: {}
+[12.848467] (battery_state) StdoutLine: {'line': b'[ 78%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[12.946899] (-) TimerEvent: {}
+[13.047309] (-) TimerEvent: {}
+[13.147721] (-) TimerEvent: {}
+[13.248430] (-) TimerEvent: {}
+[13.350233] (-) TimerEvent: {}
+[13.451911] (-) TimerEvent: {}
+[13.552606] (-) TimerEvent: {}
+[13.653016] (-) TimerEvent: {}
+[13.753901] (-) TimerEvent: {}
+[13.855251] (-) TimerEvent: {}
+[13.956633] (-) TimerEvent: {}
+[14.058457] (-) TimerEvent: {}
+[14.108482] (battery_state) StdoutLine: {'line': b'[ 78%] Built target battery_state__py\n'}
+[14.158588] (-) TimerEvent: {}
+[14.168762] (battery_state) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/battery_state__rosidl_generator_py.dir/rosidl_generator_py/battery_state/msg/_battery_msg_s.c.o\x1b[0m\n'}
+[14.172288] (battery_state) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/battery_state__rosidl_generator_py.dir/rosidl_generator_py/battery_state/srv/_battery_srv_s.c.o\x1b[0m\n'}
+[14.258716] (-) TimerEvent: {}
+[14.360605] (-) TimerEvent: {}
+[14.461090] (-) TimerEvent: {}
+[14.561902] (-) TimerEvent: {}
+[14.644514] (battery_state) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library libbattery_state__rosidl_generator_py.so\x1b[0m\n'}
+[14.662034] (-) TimerEvent: {}
+[14.761953] (battery_state) StdoutLine: {'line': b'[ 84%] Built target battery_state__rosidl_generator_py\n'}
+[14.762278] (-) TimerEvent: {}
+[14.842562] (battery_state) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/battery_state_s__rosidl_typesupport_c.dir/rosidl_generator_py/battery_state/_battery_state_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[14.845464] (battery_state) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/battery_state_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/battery_state/_battery_state_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[14.862433] (-) TimerEvent: {}
+[14.879723] (battery_state) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/battery_state_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/battery_state/_battery_state_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[14.962578] (-) TimerEvent: {}
+[15.063030] (-) TimerEvent: {}
+[15.158266] (battery_state) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/battery_state/battery_state_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[15.164797] (-) TimerEvent: {}
+[15.264848] (battery_state) StdoutLine: {'line': b'[ 93%] Built target battery_state_s__rosidl_typesupport_c\n'}
+[15.265244] (-) TimerEvent: {}
+[15.271280] (battery_state) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/battery_state/battery_state_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[15.293447] (battery_state) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/battery_state/battery_state_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[15.364605] (battery_state) StdoutLine: {'line': b'[ 97%] Built target battery_state_s__rosidl_typesupport_introspection_c\n'}
+[15.365348] (-) TimerEvent: {}
+[15.393489] (battery_state) StdoutLine: {'line': b'[ 97%] Built target battery_state_s__rosidl_typesupport_fastrtps_c\n'}
+[15.465444] (-) TimerEvent: {}
+[15.574235] (-) TimerEvent: {}
+[15.675680] (-) TimerEvent: {}
+[15.776910] (-) TimerEvent: {}
+[15.846602] (myFirst_cpp_pkg) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable number_pub\x1b[0m\n'}
+[15.877039] (-) TimerEvent: {}
+[15.978191] (-) TimerEvent: {}
+[16.080043] (-) TimerEvent: {}
+[16.180505] (-) TimerEvent: {}
+[16.281734] (-) TimerEvent: {}
+[16.382145] (-) TimerEvent: {}
+[16.428511] (myFirst_cpp_pkg) StdoutLine: {'line': b'[ 75%] Built target number_pub\n'}
+[16.482316] (-) TimerEvent: {}
+[16.582694] (-) TimerEvent: {}
+[16.683157] (-) TimerEvent: {}
+[16.783730] (-) TimerEvent: {}
+[16.884170] (-) TimerEvent: {}
+[16.984572] (-) TimerEvent: {}
+[17.084977] (-) TimerEvent: {}
+[17.185374] (-) TimerEvent: {}
+[17.285775] (-) TimerEvent: {}
+[17.386153] (-) TimerEvent: {}
+[17.486557] (-) TimerEvent: {}
+[17.586991] (-) TimerEvent: {}
+[17.687383] (-) TimerEvent: {}
+[17.787763] (-) TimerEvent: {}
+[17.888100] (-) TimerEvent: {}
+[17.988455] (-) TimerEvent: {}
+[18.088769] (-) TimerEvent: {}
+[18.189094] (-) TimerEvent: {}
+[18.289417] (-) TimerEvent: {}
+[18.389732] (-) TimerEvent: {}
+[18.490070] (-) TimerEvent: {}
+[18.590968] (-) TimerEvent: {}
+[18.691385] (-) TimerEvent: {}
+[18.792105] (-) TimerEvent: {}
+[18.892458] (-) TimerEvent: {}
+[18.992927] (-) TimerEvent: {}
+[19.093306] (-) TimerEvent: {}
+[19.193971] (-) TimerEvent: {}
+[19.294428] (-) TimerEvent: {}
+[19.394778] (-) TimerEvent: {}
+[19.495135] (-) TimerEvent: {}
+[19.595522] (-) TimerEvent: {}
+[19.695857] (-) TimerEvent: {}
+[19.796164] (-) TimerEvent: {}
+[19.896475] (-) TimerEvent: {}
+[19.996821] (-) TimerEvent: {}
+[20.097301] (-) TimerEvent: {}
+[20.200603] (-) TimerEvent: {}
+[20.300988] (-) TimerEvent: {}
+[20.401353] (-) TimerEvent: {}
+[20.501766] (-) TimerEvent: {}
+[20.602197] (-) TimerEvent: {}
+[20.702568] (-) TimerEvent: {}
+[20.803141] (-) TimerEvent: {}
+[20.903769] (-) TimerEvent: {}
+[21.004134] (-) TimerEvent: {}
+[21.104507] (-) TimerEvent: {}
+[21.204898] (-) TimerEvent: {}
+[21.305248] (-) TimerEvent: {}
+[21.405672] (-) TimerEvent: {}
+[21.506050] (-) TimerEvent: {}
+[21.606432] (-) TimerEvent: {}
+[21.706792] (-) TimerEvent: {}
+[21.807200] (-) TimerEvent: {}
+[21.907578] (-) TimerEvent: {}
+[22.008255] (-) TimerEvent: {}
+[22.108702] (-) TimerEvent: {}
+[22.209075] (-) TimerEvent: {}
+[22.309474] (-) TimerEvent: {}
+[22.409885] (-) TimerEvent: {}
+[22.510293] (-) TimerEvent: {}
+[22.610686] (-) TimerEvent: {}
+[22.711180] (-) TimerEvent: {}
+[22.812068] (-) TimerEvent: {}
+[22.912498] (-) TimerEvent: {}
+[23.017443] (-) TimerEvent: {}
+[23.117857] (-) TimerEvent: {}
+[23.218773] (-) TimerEvent: {}
+[23.321896] (-) TimerEvent: {}
+[23.422264] (-) TimerEvent: {}
+[23.522800] (-) TimerEvent: {}
+[23.623418] (-) TimerEvent: {}
+[23.723978] (-) TimerEvent: {}
+[23.827512] (-) TimerEvent: {}
+[23.928069] (-) TimerEvent: {}
+[24.028612] (-) TimerEvent: {}
+[24.129010] (-) TimerEvent: {}
+[24.229444] (-) TimerEvent: {}
+[24.329802] (-) TimerEvent: {}
+[24.430157] (-) TimerEvent: {}
+[24.530525] (-) TimerEvent: {}
+[24.601660] (myFirst_cpp_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable number_sub\x1b[0m\n'}
+[24.630643] (-) TimerEvent: {}
+[24.731041] (-) TimerEvent: {}
+[24.831460] (-) TimerEvent: {}
+[24.931887] (-) TimerEvent: {}
+[25.032280] (-) TimerEvent: {}
+[25.132737] (-) TimerEvent: {}
+[25.233167] (-) TimerEvent: {}
+[25.308287] (myFirst_cpp_pkg) StdoutLine: {'line': b'[100%] Built target number_sub\n'}
+[25.326568] (myFirst_cpp_pkg) CommandEnded: {'returncode': 0}
+[25.327633] (myFirst_cpp_pkg) JobProgress: {'identifier': 'myFirst_cpp_pkg', 'progress': 'install'}
+[25.333307] (-) TimerEvent: {}
+[25.341608] (myFirst_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/myFirst_cpp_pkg'], 'cwd': '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/myFirst_cpp_pkg', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'newir529', 'LC_TIME': 'ar_EG.UTF-8', 'FONTCONFIG_PATH': '/etc/fonts', 'GIO_MODULE_DIR': '/home/newir529/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/snap/code/184/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/newir529/EMBEDDED_LINUX/Linux_Administration/Project/Part2/Application/out/lib', 'HOME': '/home/newir529', 'CHROME_DESKTOP': 'code.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'OLDPWD': '/home/newir529/ROS2_JAZZY_TUTORIAL', 'TERM_PROGRAM_VERSION': '1.97.2', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/184/usr/lib/x86_64-linux-gnu/gtk-3.0', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/newir529/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/184/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'ar_EG.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/184/usr/share/code/code', 'MANAGERPID': '2848', 'SYSTEMD_EXEC_PID': '3121', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'LIBVIRT_DEFAULT_URI': 'qemu:///system', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '19600', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'newir529', 'JOURNAL_STREAM': '8:24976', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'newir529', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/newir529/.config/Code/User/globalStorage/github.copilot-chat/debugCommand', 'SESSION_MANAGER': 'local/newir529:@/tmp/.ICE-unix/3077,unix/newir529:/tmp/.ICE-unix/3077', 'GTK_EXE_PREFIX': '/snap/code/184/usr', 'INVOCATION_ID': 'a1ec077f26104563b920abcafd0e6252', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ar_EG.UTF-8', 'BAMF_DESKTOP_FILE_HINT': '/var/lib/snapd/desktop/applications/code_code.desktop', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/184/usr/lib/locale', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'ar_EG.UTF-8', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XDG_DATA_HOME': '/home/newir529/snap/code/184/.local/share', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.SK5J32', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-faea15ce8d.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/newir529/snap/code/184/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'ar_EG.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'LC_MEASUREMENT': 'ar_EG.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'ar_EG.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/myFirst_cpp_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/home/newir529/snap/code/184/.local/share:/home/newir529/snap/code/184:/snap/code/184/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'ar_EG.UTF-8', 'LC_PAPER': 'ar_EG.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[25.354188] (myFirst_cpp_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[25.360310] (myFirst_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/myFirst_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/myFirst_cpp_pkg\n'}
+[25.360703] (myFirst_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/myFirst_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/myFirst_cpp_pkg\n'}
+[25.360988] (myFirst_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/myFirst_cpp_pkg/share/myFirst_cpp_pkg/environment/ament_prefix_path.sh\n'}
+[25.361233] (myFirst_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/myFirst_cpp_pkg/share/myFirst_cpp_pkg/environment/ament_prefix_path.dsv\n'}
+[25.361539] (myFirst_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/myFirst_cpp_pkg/share/myFirst_cpp_pkg/environment/path.sh\n'}
+[25.361825] (myFirst_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/myFirst_cpp_pkg/share/myFirst_cpp_pkg/environment/path.dsv\n'}
+[25.362124] (myFirst_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/myFirst_cpp_pkg/share/myFirst_cpp_pkg/local_setup.bash\n'}
+[25.362351] (myFirst_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/myFirst_cpp_pkg/share/myFirst_cpp_pkg/local_setup.sh\n'}
+[25.362807] (myFirst_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/myFirst_cpp_pkg/share/myFirst_cpp_pkg/local_setup.zsh\n'}
+[25.363038] (myFirst_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/myFirst_cpp_pkg/share/myFirst_cpp_pkg/local_setup.dsv\n'}
+[25.363264] (myFirst_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/myFirst_cpp_pkg/share/myFirst_cpp_pkg/package.dsv\n'}
+[25.363494] (myFirst_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/myFirst_cpp_pkg/share/ament_index/resource_index/packages/myFirst_cpp_pkg\n'}
+[25.363692] (myFirst_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/myFirst_cpp_pkg/share/myFirst_cpp_pkg/cmake/myFirst_cpp_pkgConfig.cmake\n'}
+[25.363901] (myFirst_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/myFirst_cpp_pkg/share/myFirst_cpp_pkg/cmake/myFirst_cpp_pkgConfig-version.cmake\n'}
+[25.364116] (myFirst_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/myFirst_cpp_pkg/share/myFirst_cpp_pkg/package.xml\n'}
+[25.364316] (myFirst_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/myFirst_cpp_pkg/lib/myFirst_cpp_pkg/number_pub\n'}
+[25.364543] (myFirst_cpp_pkg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/myFirst_cpp_pkg/lib/myFirst_cpp_pkg/number_pub" to ""\n'}
+[25.367758] (myFirst_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/myFirst_cpp_pkg/lib/myFirst_cpp_pkg/number_sub\n'}
+[25.377075] (myFirst_cpp_pkg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/myFirst_cpp_pkg/lib/myFirst_cpp_pkg/number_sub" to ""\n'}
+[25.383414] (myFirst_cpp_pkg) CommandEnded: {'returncode': 0}
+[25.408522] (myFirst_cpp_pkg) JobEnded: {'identifier': 'myFirst_cpp_pkg', 'rc': 0}
+[25.433437] (-) TimerEvent: {}
+[25.534377] (-) TimerEvent: {}
+[25.634741] (-) TimerEvent: {}
+[25.735118] (-) TimerEvent: {}
+[25.835540] (-) TimerEvent: {}
+[25.935915] (-) TimerEvent: {}
+[26.036269] (-) TimerEvent: {}
+[26.136626] (-) TimerEvent: {}
+[26.236985] (-) TimerEvent: {}
+[26.337322] (-) TimerEvent: {}
+[26.437685] (-) TimerEvent: {}
+[26.538052] (-) TimerEvent: {}
+[26.638409] (-) TimerEvent: {}
+[26.738772] (-) TimerEvent: {}
+[26.839104] (-) TimerEvent: {}
+[26.939449] (-) TimerEvent: {}
+[27.043436] (-) TimerEvent: {}
+[27.143822] (-) TimerEvent: {}
+[27.244167] (-) TimerEvent: {}
+[27.344515] (-) TimerEvent: {}
+[27.444862] (-) TimerEvent: {}
+[27.545205] (-) TimerEvent: {}
+[27.645583] (-) TimerEvent: {}
+[27.745927] (-) TimerEvent: {}
+[27.846288] (-) TimerEvent: {}
+[27.946638] (-) TimerEvent: {}
+[28.046990] (-) TimerEvent: {}
+[28.147277] (-) TimerEvent: {}
+[28.247615] (-) TimerEvent: {}
+[28.347991] (-) TimerEvent: {}
+[28.448494] (-) TimerEvent: {}
+[28.548961] (-) TimerEvent: {}
+[28.649351] (-) TimerEvent: {}
+[28.749775] (-) TimerEvent: {}
+[28.850135] (-) TimerEvent: {}
+[28.950442] (-) TimerEvent: {}
+[29.050735] (-) TimerEvent: {}
+[29.053009] (battery_state) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable batteryClient\x1b[0m\n'}
+[29.150862] (-) TimerEvent: {}
+[29.251293] (-) TimerEvent: {}
+[29.351724] (-) TimerEvent: {}
+[29.452083] (-) TimerEvent: {}
+[29.552462] (-) TimerEvent: {}
+[29.609173] (battery_state) StdoutLine: {'line': b'[100%] Built target batteryClient\n'}
+[29.628650] (battery_state) CommandEnded: {'returncode': 0}
+[29.630048] (battery_state) JobProgress: {'identifier': 'battery_state', 'progress': 'install'}
+[29.630863] (battery_state) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/battery_state'], 'cwd': '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/battery_state', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'newir529', 'LC_TIME': 'ar_EG.UTF-8', 'FONTCONFIG_PATH': '/etc/fonts', 'GIO_MODULE_DIR': '/home/newir529/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/snap/code/184/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/newir529/EMBEDDED_LINUX/Linux_Administration/Project/Part2/Application/out/lib', 'HOME': '/home/newir529', 'CHROME_DESKTOP': 'code.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'OLDPWD': '/home/newir529/ROS2_JAZZY_TUTORIAL', 'TERM_PROGRAM_VERSION': '1.97.2', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/184/usr/lib/x86_64-linux-gnu/gtk-3.0', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/newir529/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/184/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'ar_EG.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/184/usr/share/code/code', 'MANAGERPID': '2848', 'SYSTEMD_EXEC_PID': '3121', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'LIBVIRT_DEFAULT_URI': 'qemu:///system', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '19600', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'newir529', 'JOURNAL_STREAM': '8:24976', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'newir529', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/newir529/.config/Code/User/globalStorage/github.copilot-chat/debugCommand', 'SESSION_MANAGER': 'local/newir529:@/tmp/.ICE-unix/3077,unix/newir529:/tmp/.ICE-unix/3077', 'GTK_EXE_PREFIX': '/snap/code/184/usr', 'INVOCATION_ID': 'a1ec077f26104563b920abcafd0e6252', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ar_EG.UTF-8', 'BAMF_DESKTOP_FILE_HINT': '/var/lib/snapd/desktop/applications/code_code.desktop', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/184/usr/lib/locale', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'ar_EG.UTF-8', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XDG_DATA_HOME': '/home/newir529/snap/code/184/.local/share', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.SK5J32', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-faea15ce8d.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/newir529/snap/code/184/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'ar_EG.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'LC_MEASUREMENT': 'ar_EG.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'ar_EG.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/battery_state', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/home/newir529/snap/code/184/.local/share:/home/newir529/snap/code/184:/snap/code/184/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'ar_EG.UTF-8', 'LC_PAPER': 'ar_EG.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[29.643523] (battery_state) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[29.644015] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/ament_index/resource_index/rosidl_interfaces/battery_state\n'}
+[29.644290] (battery_state) StdoutLine: {'line': b'-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/srv/BatterySrv.json\n'}
+[29.644604] (battery_state) StdoutLine: {'line': b'-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/msg/BatteryMsg.json\n'}
+[29.644927] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state\n'}
+[29.645260] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg\n'}
+[29.645603] (battery_state) StdoutLine: {'line': b'-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/battery_msg.h\n'}
+[29.645869] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/detail\n'}
+[29.646189] (battery_state) StdoutLine: {'line': b'-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/detail/battery_msg__functions.c\n'}
+[29.646517] (battery_state) StdoutLine: {'line': b'-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/detail/battery_msg__type_support.h\n'}
+[29.646826] (battery_state) StdoutLine: {'line': b'-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/detail/battery_msg__type_support.c\n'}
+[29.647089] (battery_state) StdoutLine: {'line': b'-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/detail/battery_msg__functions.h\n'}
+[29.647438] (battery_state) StdoutLine: {'line': b'-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/detail/battery_msg__struct.h\n'}
+[29.647716] (battery_state) StdoutLine: {'line': b'-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/detail/battery_msg__description.c\n'}
+[29.648033] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/rosidl_generator_c__visibility_control.h\n'}
+[29.648301] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv\n'}
+[29.648645] (battery_state) StdoutLine: {'line': b'-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv/battery_srv.h\n'}
+[29.648954] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv/detail\n'}
+[29.649288] (battery_state) StdoutLine: {'line': b'-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv/detail/battery_srv__functions.h\n'}
+[29.649613] (battery_state) StdoutLine: {'line': b'-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv/detail/battery_srv__type_support.h\n'}
+[29.649928] (battery_state) StdoutLine: {'line': b'-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv/detail/battery_srv__functions.c\n'}
+[29.650195] (battery_state) StdoutLine: {'line': b'-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv/detail/battery_srv__description.c\n'}
+[29.650518] (battery_state) StdoutLine: {'line': b'-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv/detail/battery_srv__struct.h\n'}
+[29.650847] (battery_state) StdoutLine: {'line': b'-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv/detail/battery_srv__type_support.c\n'}
+[29.651143] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/environment/library_path.sh\n'}
+[29.651433] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/environment/library_path.dsv\n'}
+[29.652223] (battery_state) StdoutLine: {'line': b'-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/libbattery_state__rosidl_generator_c.so\n'}
+[29.652513] (-) TimerEvent: {}
+[29.653320] (battery_state) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/libbattery_state__rosidl_generator_c.so" to ""\n'}
+[29.653675] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state\n'}
+[29.654117] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg\n'}
+[29.654394] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[29.654722] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/detail\n'}
+[29.654982] (battery_state) StdoutLine: {'line': b'-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/detail/battery_msg__rosidl_typesupport_fastrtps_c.h\n'}
+[29.655200] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv\n'}
+[29.655432] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv/detail\n'}
+[29.655715] (battery_state) StdoutLine: {'line': b'-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv/detail/battery_srv__rosidl_typesupport_fastrtps_c.h\n'}
+[29.656113] (battery_state) StdoutLine: {'line': b'-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/libbattery_state__rosidl_typesupport_fastrtps_c.so\n'}
+[29.657034] (battery_state) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/libbattery_state__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[29.657414] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state\n'}
+[29.657657] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg\n'}
+[29.657882] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[29.658072] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/detail\n'}
+[29.658274] (battery_state) StdoutLine: {'line': b'-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/detail/battery_msg__rosidl_typesupport_introspection_c.h\n'}
+[29.658667] (battery_state) StdoutLine: {'line': b'-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/detail/battery_msg__type_support.c\n'}
+[29.658889] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv\n'}
+[29.659126] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv/detail\n'}
+[29.659301] (battery_state) StdoutLine: {'line': b'-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv/detail/battery_srv__rosidl_typesupport_introspection_c.h\n'}
+[29.659502] (battery_state) StdoutLine: {'line': b'-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv/detail/battery_srv__type_support.c\n'}
+[29.659767] (battery_state) StdoutLine: {'line': b'-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/libbattery_state__rosidl_typesupport_introspection_c.so\n'}
+[29.660542] (battery_state) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/libbattery_state__rosidl_typesupport_introspection_c.so" to ""\n'}
+[29.661199] (battery_state) StdoutLine: {'line': b'-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/libbattery_state__rosidl_typesupport_c.so\n'}
+[29.661865] (battery_state) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/libbattery_state__rosidl_typesupport_c.so" to ""\n'}
+[29.662143] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state\n'}
+[29.662335] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg\n'}
+[29.662560] (battery_state) StdoutLine: {'line': b'-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/battery_msg.hpp\n'}
+[29.662790] (battery_state) StdoutLine: {'line': b'-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[29.662963] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/detail\n'}
+[29.663147] (battery_state) StdoutLine: {'line': b'-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/detail/battery_msg__traits.hpp\n'}
+[29.663399] (battery_state) StdoutLine: {'line': b'-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/detail/battery_msg__builder.hpp\n'}
+[29.663603] (battery_state) StdoutLine: {'line': b'-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/detail/battery_msg__struct.hpp\n'}
+[29.663805] (battery_state) StdoutLine: {'line': b'-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/detail/battery_msg__type_support.hpp\n'}
+[29.664035] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv\n'}
+[29.664252] (battery_state) StdoutLine: {'line': b'-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv/battery_srv.hpp\n'}
+[29.664497] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv/detail\n'}
+[29.664738] (battery_state) StdoutLine: {'line': b'-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv/detail/battery_srv__traits.hpp\n'}
+[29.664979] (battery_state) StdoutLine: {'line': b'-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv/detail/battery_srv__type_support.hpp\n'}
+[29.665209] (battery_state) StdoutLine: {'line': b'-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv/detail/battery_srv__struct.hpp\n'}
+[29.665489] (battery_state) StdoutLine: {'line': b'-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv/detail/battery_srv__builder.hpp\n'}
+[29.665732] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state\n'}
+[29.665973] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg\n'}
+[29.666206] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[29.666471] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/detail\n'}
+[29.666695] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/detail/dds_fastrtps\n'}
+[29.666880] (battery_state) StdoutLine: {'line': b'-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/detail/battery_msg__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[29.667067] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv\n'}
+[29.667293] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv/detail\n'}
+[29.667548] (battery_state) StdoutLine: {'line': b'-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv/detail/battery_srv__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[29.667724] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv/detail/dds_fastrtps\n'}
+[29.668016] (battery_state) StdoutLine: {'line': b'-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/libbattery_state__rosidl_typesupport_fastrtps_cpp.so\n'}
+[29.668943] (battery_state) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/libbattery_state__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[29.669209] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state\n'}
+[29.669493] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg\n'}
+[29.669687] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/detail\n'}
+[29.669872] (battery_state) StdoutLine: {'line': b'-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/detail/battery_msg__rosidl_typesupport_introspection_cpp.hpp\n'}
+[29.670117] (battery_state) StdoutLine: {'line': b'-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/msg/detail/battery_msg__type_support.cpp\n'}
+[29.670384] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv\n'}
+[29.670596] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv/detail\n'}
+[29.670845] (battery_state) StdoutLine: {'line': b'-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv/detail/battery_srv__rosidl_typesupport_introspection_cpp.hpp\n'}
+[29.671031] (battery_state) StdoutLine: {'line': b'-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/include/battery_state/battery_state/srv/detail/battery_srv__type_support.cpp\n'}
+[29.671768] (battery_state) StdoutLine: {'line': b'-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/libbattery_state__rosidl_typesupport_introspection_cpp.so\n'}
+[29.677357] (battery_state) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/libbattery_state__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[29.677690] (battery_state) StdoutLine: {'line': b'-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/libbattery_state__rosidl_typesupport_cpp.so\n'}
+[29.678089] (battery_state) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/libbattery_state__rosidl_typesupport_cpp.so" to ""\n'}
+[29.678457] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/environment/pythonpath.sh\n'}
+[29.678690] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/environment/pythonpath.dsv\n'}
+[29.679017] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state-0.0.0-py3.12.egg-info\n'}
+[29.679230] (battery_state) StdoutLine: {'line': b'-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[29.679465] (battery_state) StdoutLine: {'line': b'-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[29.683699] (battery_state) StdoutLine: {'line': b'-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[29.684021] (battery_state) StdoutLine: {'line': b'-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[29.684243] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state\n'}
+[29.684510] (battery_state) StdoutLine: {'line': b'-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state/_battery_state_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[29.684989] (battery_state) StdoutLine: {'line': b'-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state/_battery_state_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[29.685313] (battery_state) StdoutLine: {'line': b'-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state/battery_state_s__rosidl_typesupport_fastrtps_c.so\n'}
+[29.685763] (battery_state) StdoutLine: {'line': b'-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state/battery_state_s__rosidl_typesupport_introspection_c.so\n'}
+[29.685981] (battery_state) StdoutLine: {'line': b'-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state/_battery_state_s.ep.rosidl_typesupport_c.c\n'}
+[29.686197] (battery_state) StdoutLine: {'line': b'-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state/battery_state_s__rosidl_typesupport_c.so\n'}
+[29.686419] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state/msg\n'}
+[29.686623] (battery_state) StdoutLine: {'line': b'-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state/msg/_battery_msg.py\n'}
+[29.686805] (battery_state) StdoutLine: {'line': b'-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state/msg/_battery_msg_s.c\n'}
+[29.686987] (battery_state) StdoutLine: {'line': b'-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state/msg/__init__.py\n'}
+[29.687219] (battery_state) StdoutLine: {'line': b'-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state/__init__.py\n'}
+[29.687451] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state/srv\n'}
+[29.687678] (battery_state) StdoutLine: {'line': b'-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state/srv/_battery_srv_s.c\n'}
+[29.687891] (battery_state) StdoutLine: {'line': b'-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state/srv/_battery_srv.py\n'}
+[29.689015] (battery_state) StdoutLine: {'line': b'-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state/srv/__init__.py\n'}
+[29.752623] (-) TimerEvent: {}
+[29.771138] (battery_state) StdoutLine: {'line': b"Listing '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state'...\n"}
+[29.771557] (battery_state) StdoutLine: {'line': b"Compiling '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state/__init__.py'...\n"}
+[29.771817] (battery_state) StdoutLine: {'line': b"Listing '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state/msg'...\n"}
+[29.772053] (battery_state) StdoutLine: {'line': b"Compiling '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state/msg/__init__.py'...\n"}
+[29.772296] (battery_state) StdoutLine: {'line': b"Compiling '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state/msg/_battery_msg.py'...\n"}
+[29.772545] (battery_state) StdoutLine: {'line': b"Listing '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state/srv'...\n"}
+[29.772741] (battery_state) StdoutLine: {'line': b"Compiling '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state/srv/__init__.py'...\n"}
+[29.772921] (battery_state) StdoutLine: {'line': b"Compiling '/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state/srv/_battery_srv.py'...\n"}
+[29.789911] (battery_state) StdoutLine: {'line': b'-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state/battery_state_s__rosidl_typesupport_fastrtps_c.so\n'}
+[29.790248] (battery_state) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state/battery_state_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[29.790539] (battery_state) StdoutLine: {'line': b'-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state/battery_state_s__rosidl_typesupport_introspection_c.so\n'}
+[29.790774] (battery_state) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state/battery_state_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[29.791014] (battery_state) StdoutLine: {'line': b'-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state/battery_state_s__rosidl_typesupport_c.so\n'}
+[29.791734] (battery_state) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/python3.12/site-packages/battery_state/battery_state_s__rosidl_typesupport_c.so" to ""\n'}
+[29.793206] (battery_state) StdoutLine: {'line': b'-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/libbattery_state__rosidl_generator_py.so\n'}
+[29.794939] (battery_state) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/libbattery_state__rosidl_generator_py.so" to ""\n'}
+[29.795552] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/srv/BatterySrv.idl\n'}
+[29.796126] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/msg/BatteryMsg.idl\n'}
+[29.796691] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/srv/BatterySrv.srv\n'}
+[29.797261] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/msg/BatteryMsg.msg\n'}
+[29.798686] (battery_state) StdoutLine: {'line': b'-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/battery_state/batteryClient\n'}
+[29.809010] (battery_state) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/battery_state/batteryClient" to ""\n'}
+[29.809419] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/lib/battery_state/batteryServer.py\n'}
+[29.809705] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/launch\n'}
+[29.810106] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/launch/battery.launch.xml\n'}
+[29.810377] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/ament_index/resource_index/package_run_dependencies/battery_state\n'}
+[29.810706] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/ament_index/resource_index/parent_prefix_path/battery_state\n'}
+[29.810941] (battery_state) StdoutLine: {'line': b'-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/environment/ament_prefix_path.sh\n'}
+[29.811184] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/environment/ament_prefix_path.dsv\n'}
+[29.811575] (battery_state) StdoutLine: {'line': b'-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/environment/path.sh\n'}
+[29.811823] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/environment/path.dsv\n'}
+[29.812080] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/local_setup.bash\n'}
+[29.812385] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/local_setup.sh\n'}
+[29.812718] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/local_setup.zsh\n'}
+[29.812982] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/local_setup.dsv\n'}
+[29.813215] (battery_state) StdoutLine: {'line': b'-- Installing: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/package.dsv\n'}
+[29.813423] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/ament_index/resource_index/packages/battery_state\n'}
+[29.813635] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/cmake/export_battery_state__rosidl_generator_cExport.cmake\n'}
+[29.813880] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/cmake/export_battery_state__rosidl_generator_cExport-noconfig.cmake\n'}
+[29.814062] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/cmake/export_battery_state__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[29.814181] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/cmake/export_battery_state__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[29.814335] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/cmake/battery_state__rosidl_typesupport_introspection_cExport.cmake\n'}
+[29.814479] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/cmake/battery_state__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[29.814609] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/cmake/battery_state__rosidl_typesupport_cExport.cmake\n'}
+[29.814810] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/cmake/battery_state__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[29.815029] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/cmake/export_battery_state__rosidl_generator_cppExport.cmake\n'}
+[29.815298] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/cmake/export_battery_state__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[29.815632] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/cmake/export_battery_state__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[29.815889] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/cmake/battery_state__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[29.816045] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/cmake/battery_state__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[29.816211] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/cmake/battery_state__rosidl_typesupport_cppExport.cmake\n'}
+[29.816322] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/cmake/battery_state__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[29.816603] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/cmake/export_battery_state__rosidl_generator_pyExport.cmake\n'}
+[29.816865] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/cmake/export_battery_state__rosidl_generator_pyExport-noconfig.cmake\n'}
+[29.817143] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/cmake/rosidl_cmake-extras.cmake\n'}
+[29.817436] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[29.817684] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[29.817957] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[29.818171] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[29.818394] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[29.818613] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[29.818813] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/cmake/battery_stateConfig.cmake\n'}
+[29.819009] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/cmake/battery_stateConfig-version.cmake\n'}
+[29.819202] (battery_state) StdoutLine: {'line': b'-- Up-to-date: /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/install/battery_state/share/battery_state/package.xml\n'}
+[29.820913] (battery_state) CommandEnded: {'returncode': 0}
+[29.851851] (battery_state) JobEnded: {'identifier': 'battery_state', 'rc': 0}
+[29.853031] (-) TimerEvent: {}
+[29.853151] (-) EventReactorShutdown: {}

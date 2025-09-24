@@ -15,3 +15,4 @@ test/test_pep257.py
 turtlesim_manipulation/__init__.py
 turtlesim_manipulation/draw_circle.py
 turtlesim_manipulation/traveler_turtle.py
+turtlesim_manipulation/turtle_killer.py

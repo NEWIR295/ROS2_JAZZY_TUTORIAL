@@ -1,0 +1,251 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-ae1781aa6667f5cda21d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "battery_state__py",
+					"jsonFile" : "directory-battery_state__py-8b2b61e17512d2a8e79a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/battery_state/battery_state__py",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "battery_state",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_battery_state_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_battery_state_egg-fd22bf9c22c856c3d06a.json",
+					"name" : "ament_cmake_python_build_battery_state_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_battery_state::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_battery_state-72fb0d7c60ce6ccf014c.json",
+					"name" : "ament_cmake_python_copy_battery_state",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "batteryClient::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-batteryClient-9895f1270ac6a2c5712b.json",
+					"name" : "batteryClient",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "battery_state::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-battery_state-a59bcdfa6965dc778472.json",
+					"name" : "battery_state",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "battery_state__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-battery_state__cpp-d8ad2558d3d63bf06ef3.json",
+					"name" : "battery_state__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "battery_state__py::@2ae85b6902a54d399767",
+					"jsonFile" : "target-battery_state__py-2d642c662cefa3f2a345.json",
+					"name" : "battery_state__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "battery_state__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-battery_state__rosidl_generator_c-067f3014b19a008b64be.json",
+					"name" : "battery_state__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "battery_state__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-battery_state__rosidl_generator_py-38a86ea747ffc1d3814a.json",
+					"name" : "battery_state__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "battery_state__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-battery_state__rosidl_generator_type_description-6f1c6d83214ac415186d.json",
+					"name" : "battery_state__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "battery_state__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-battery_state__rosidl_typesupport_c-7d02e00612f91a25e7bf.json",
+					"name" : "battery_state__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "battery_state__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-battery_state__rosidl_typesupport_cpp-231f7899158d83079753.json",
+					"name" : "battery_state__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "battery_state__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-battery_state__rosidl_typesupport_fastrtps_c-cfff00709af6c2394ada.json",
+					"name" : "battery_state__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "battery_state__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-battery_state__rosidl_typesupport_fastrtps_cpp-f455d62a1f7f27b1201a.json",
+					"name" : "battery_state__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "battery_state__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-battery_state__rosidl_typesupport_introspection_c-ef8b89f54a4fb7e188e8.json",
+					"name" : "battery_state__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "battery_state__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-battery_state__rosidl_typesupport_introspection_cpp-2f292590c63e1b5a7fd7.json",
+					"name" : "battery_state__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "battery_state_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-battery_state_s__rosidl_typesupport_c-3e867db4eeebb523404b.json",
+					"name" : "battery_state_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "battery_state_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-battery_state_s__rosidl_typesupport_fastrtps_c-dd26edcac40b309149a9.json",
+					"name" : "battery_state_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "battery_state_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-battery_state_s__rosidl_typesupport_introspection_c-4c370fbfbd16d54d1134.json",
+					"name" : "battery_state_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "battery_state_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-battery_state_uninstall-03a4c72519cf3a6f0061.json",
+					"name" : "battery_state_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-431ca81261afd9aea72d.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/battery_state",
+		"source" : "/home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/src/battery_state"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

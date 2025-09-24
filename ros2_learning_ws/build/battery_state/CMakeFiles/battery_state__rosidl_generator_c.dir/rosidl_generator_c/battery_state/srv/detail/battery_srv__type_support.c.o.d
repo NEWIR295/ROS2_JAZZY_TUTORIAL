@@ -13,8 +13,8 @@ CMakeFiles/battery_state__rosidl_generator_c.dir/rosidl_generator_c/battery_stat
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
  /usr/include/strings.h \
- /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/battery_state/rosidl_generator_c/battery_state/srv/detail/battery_srv__type_support.h \
  /opt/ros/jazzy/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
+ /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/battery_state/rosidl_generator_c/battery_state/srv/detail/battery_srv__type_support.h \
  /home/newir529/ROS2_JAZZY_TUTORIAL/ros2_learning_ws/build/battery_state/rosidl_generator_c/battery_state/msg/rosidl_generator_c__visibility_control.h \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/type_description__struct.h \
